@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/whitetrans"
+    android:layout_marginBottom="2dp">
+
+    <LinearLayout
+        android:id="@+id/expandmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:background="@color/whitetrans"
+        android:layout_marginBottom="2dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/app_logo"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical">
+
+
+            <TextView
+                android:id="@+id/inboxmailDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/20/2003"
+                android:fontFamily="@font/roboto_reg"
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/msglinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whitetrans"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/inboxmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:fontFamily="@font/roboto_reg"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

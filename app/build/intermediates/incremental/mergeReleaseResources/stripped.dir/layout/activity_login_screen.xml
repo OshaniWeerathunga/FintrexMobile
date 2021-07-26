@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.LoginScreen">
+
+    <ImageView
+        android:id="@+id/backgroundImg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/aboutback"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/welcome_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/digital_logo_2"
+            app:layout_constraintBottom_toTopOf="@+id/signin_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".13"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95"
+            app:layout_constraintWidth_percent=".7" />
+
+        <TextView
+            android:id="@+id/signin_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:text="@string/sign_msg"
+            android:textColor="@color/purple"
+            android:fontFamily="@font/roboto_reg"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/name_et"
+            app:layout_constraintWidth_percent=".8"
+            app:layout_constraintHorizontal_bias=".5"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/name_et"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_bg"
+            android:drawableLeft="@drawable/usernames"
+            android:drawablePadding="18dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:fontFamily="@font/roboto_reg"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/nic_et"
+            app:layout_constraintWidth_percent=".8" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/nic_et"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/edit_bg"
+            android:drawableLeft="@drawable/nic"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="20dp"
+            android:hint="NIC"
+            android:inputType="text"
+            android:fontFamily="@font/roboto_reg"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/phone_et"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent=".8" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/phone_et"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/edit_bg"
+            android:drawableLeft="@drawable/mobile"
+            android:drawablePadding="20dp"
+            android:hint="Mobile Number (eg: 0771234567)"
+            android:fontFamily="@font/roboto_reg"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/requestOtp_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent=".8" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/requestOtp_btn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_bg"
+            android:text="Sign In"
+            android:fontFamily="@font/roboto_reg"
+            android:textAllCaps="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".07"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintWidth_percent=".8" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

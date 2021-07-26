@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fintrex.fintrexfinance">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FintrexFinance"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".Payments.Ezcash"/>
+        <activity android:name=".Payments.Online" />
+        <activity android:name=".Payments.Cdm" />
+        <activity android:name=".Payments.Cargills" />
+        <activity android:name=".QuickLinks.TermsConditions" />
+        <activity android:name=".QuickLinks.Contacts" />
+        <activity android:name=".QuickLinks.About" />
+        <activity android:name=".Details.MailScreen" />
+        <activity android:name=".Details.NewMailSend" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_key" />
+
+        <activity android:name=".QuickLinks.Branches" />
+        <activity android:name=".QuickLinks.ExternalRequest" />
+        <activity android:name=".Navigation.Profile" />
+        <activity android:name=".Navigation.TermsCondition" />
+        <activity android:name=".Otp" />
+        <activity android:name=".Details.LcScreen" />
+        <activity android:name=".Details.LoanScreen" />
+        <activity android:name=".Details.SavingScreen" />
+        <activity android:name=".Details.FixedScreen" />
+        <activity android:name=".Details.LeasingScreen" />
+        <activity android:name=".Details.HomeScreen" />
+        <activity android:name=".Common.DashboardScreen" />
+        <activity android:name=".Common.LoginScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

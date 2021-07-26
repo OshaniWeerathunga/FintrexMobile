@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Otp">
+
+    <ImageView
+        android:id="@+id/backgroundImg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/welcome_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/digital_logo_2"
+            app:layout_constraintBottom_toTopOf="@+id/otp_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias=".98"
+            app:layout_constraintWidth_percent=".7" />
+
+        <TextView
+            android:id="@+id/otp_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="left"
+            android:text="Please type the OTP code"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/purple"
+            android:fontFamily="@font/roboto_reg"
+            app:layout_constraintBottom_toTopOf="@+id/pin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent=".8" />
+
+        <!--button for verifying user OTP-->
+        <com.chaos.view.PinView
+            android:id="@+id/pin"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
+            android:width="60dp"
+            android:height="60dp"
+            android:cursorVisible="true"
+            android:inputType="number"
+            android:itemBackground="@color/white"
+            app:cursorColor="@color/black"
+            app:hideLineWhenFilled="true"
+            app:itemCount="4"
+            app:itemRadius="5dp"
+            app:itemSpacing="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/timer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:lineColor="@color/light_grey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/timer"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/idBtnVerify"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:drawableTop="@drawable/ic_timer"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/idBtnVerify"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/button_bg"
+            android:text="Confirm"
+            android:textAllCaps="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_reg"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".07"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent=".8" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
