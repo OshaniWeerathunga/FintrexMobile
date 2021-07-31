@@ -49,7 +49,7 @@ public class LoginScreen extends AppCompatActivity {
     HashMap<String,String> hashMap = new HashMap<>();
     URL url;
     String ServerLoginURL = "http://202.124.175.29/Fintrex_Mobile/loginControl/login?";
-    String TermsAcceptURL = "http://202.124.175.29/Fintrex_Mobile/loginControl/checkTermsConditons?";
+    String TermsAcceptURL = "http://202.124.175.29/Fintrex_Mobile/loginControl/checkTermsConditions?";
     public final static String Nic = "nic";
     public final static String Name = "name";
     public final static String Phone = "phone";
@@ -137,8 +137,6 @@ public class LoginScreen extends AppCompatActivity {
 
                 progressDialog.dismiss();
 
-                Toast.makeText(LoginScreen.this, httpResponseMsg, Toast.LENGTH_LONG).show();
-
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
                     if (jsonObject.getString("status").equals("user_not_agreed")) {
@@ -151,7 +149,7 @@ public class LoginScreen extends AppCompatActivity {
                     }
                 }catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(LoginScreen.this, httpResponseMsg, Toast.LENGTH_LONG).show();
+
                 }
 
             }
@@ -239,7 +237,7 @@ public class LoginScreen extends AppCompatActivity {
 
                 hashMap.put("user_name",params[2]);
 
-                hashMap.put("terms_condtion_check",params[3]);
+                hashMap.put("terms_condition_check",params[3]);
 
                 hashMap.put("device",params[4]);
 

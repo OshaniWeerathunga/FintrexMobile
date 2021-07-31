@@ -108,13 +108,6 @@ public class FixedScreen extends BaseActivity {
 
                 progressDialog.dismiss();
 
-                //timeout riderect to the dashboard
-                if (httpResponseMsg.equals("Something Went Wrong")){
-                    Intent intent=new Intent(FixedScreen.this, DashboardScreen.class);
-                    startActivity(intent);
-                    finish();
-                }
-
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
                     JSONArray array = jsonObject.getJSONArray("result");
@@ -137,7 +130,7 @@ public class FixedScreen extends BaseActivity {
 
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(FixedScreen.this,"Cannot Load Data", Toast.LENGTH_LONG).show();
+                    Toast.makeText(FixedScreen.this,"Please Check Your Connection", Toast.LENGTH_LONG).show();
 
                 }
 
@@ -161,4 +154,5 @@ public class FixedScreen extends BaseActivity {
         FixedFunctionClass fixedFunctionClass = new FixedFunctionClass();
         fixedFunctionClass.execute();
     }
+
 }

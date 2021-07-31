@@ -41,7 +41,7 @@ public class Contacts extends AppCompatActivity {
         back = findViewById(R.id.cback);
 
         Uri fbUri = Uri.parse("https://www.facebook.com/fintrexfinancelimited/");
-        Uri instaUri = Uri.parse("https://www.instagram.com/fintrexfinanace/");
+        Uri youtubeUri = Uri.parse("https://youtube.com/c/FintrexFinance");
         Uri linkdinUri = Uri.parse("https://lk.linkedin.com/company/melsta-regal-finance-ltd");
         Uri tweeterUri = Uri.parse("https://twitter.com/fintrexfinance");
 
@@ -56,7 +56,7 @@ public class Contacts extends AppCompatActivity {
         insta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Intent.ACTION_VIEW,instaUri);
+                Intent intent=new Intent(Intent.ACTION_VIEW,youtubeUri);
                 startActivity(intent);
             }
         });

@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -30,7 +30,7 @@ public final class ActivityEzcashBinding implements ViewBinding {
   public final MaterialToolbar eztoolbar;
 
   @NonNull
-  public final LinearLayout general;
+  public final TextView general;
 
   @NonNull
   public final ConstraintLayout linearLayout;
@@ -39,7 +39,7 @@ public final class ActivityEzcashBinding implements ViewBinding {
   public final ImageView menu;
 
   private ActivityEzcashBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView address,
-      @NonNull ImageView ezback, @NonNull MaterialToolbar eztoolbar, @NonNull LinearLayout general,
+      @NonNull ImageView ezback, @NonNull MaterialToolbar eztoolbar, @NonNull TextView general,
       @NonNull ConstraintLayout linearLayout, @NonNull ImageView menu) {
     this.rootView = rootView;
     this.address = address;
@@ -96,7 +96,7 @@ public final class ActivityEzcashBinding implements ViewBinding {
       }
 
       id = R.id.general;
-      LinearLayout general = rootView.findViewById(id);
+      TextView general = rootView.findViewById(id);
       if (general == null) {
         break missingId;
       }

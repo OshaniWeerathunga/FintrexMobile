@@ -252,13 +252,6 @@ public class HomeScreen extends BaseActivity implements NavigationView.OnNavigat
 
                 super.onPostExecute(httpResponseMsg);
 
-                //timeout riderect to the dashboard
-                if (httpResponseMsg.equals("Something Went Wrong")){
-                    Intent intent=new Intent(HomeScreen.this,DashboardScreen.class);
-                    startActivity(intent);
-                    finish();
-                }
-
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
                     JSONArray array = jsonObject.getJSONArray("result");
@@ -296,7 +289,6 @@ public class HomeScreen extends BaseActivity implements NavigationView.OnNavigat
 
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(HomeScreen.this,"Cannot Load Data. Please Check your Connection", Toast.LENGTH_LONG).show();
 
                 }
 
@@ -371,7 +363,6 @@ public class HomeScreen extends BaseActivity implements NavigationView.OnNavigat
             protected void onPreExecute() {
                 super.onPreExecute();
 
-                //progressDialog = ProgressDialog.show(Otp.this,"Processing.....",null,true,true);
             }
 
             @Override
@@ -379,7 +370,6 @@ public class HomeScreen extends BaseActivity implements NavigationView.OnNavigat
 
                 super.onPostExecute(httpResponseMsg);
 
-                //progressDialog.dismiss();
                 if(httpResponseMsg=="auth_fail"){
                     Toast.makeText(HomeScreen.this, "Successfully Logout", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(getApplicationContext(), DashboardScreen.class);
@@ -436,13 +426,6 @@ public class HomeScreen extends BaseActivity implements NavigationView.OnNavigat
                 super.onPostExecute(httpResponseMsg);
 
                 progressDialog.dismiss();
-
-                //when time out direct to logout
-                if (httpResponseMsg.equals("Something Went Wrong")){
-                    Intent intent=new Intent(HomeScreen.this,DashboardScreen.class);
-                    startActivity(intent);
-                    finish();
-                }
 
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);

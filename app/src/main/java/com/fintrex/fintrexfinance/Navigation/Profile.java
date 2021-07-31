@@ -66,7 +66,6 @@ public class Profile extends AppCompatActivity {
     Bitmap bitmap;
     String encodeImage,chooseimg;
     Uri filepath,uri;
-    private final int CHOOSE_PDF_FROM_DEVICE = 1001;
 
     CircleImageView profile_img;
     ImageView pedit1,psave1,pedit2,psave2,pedit3,psave3,pedit4,psave4,pback;
@@ -82,22 +81,6 @@ public class Profile extends AppCompatActivity {
     URL url;
     String ServerLoginURL = "http://202.124.175.29/Fintrex_Mobile/customerControl/updateCustomerDetails?";
     String ServerProImageSave = "http://202.124.175.29/Fintrex_Mobile/customerControl/uploadProfilePhoto?";
-    String FinalHttpData = "";
-    BufferedWriter bufferedWriter ;
-    BufferedReader bufferedReader ;
-    OutputStream outputStream ;
-    StringBuilder stringBuilder = new StringBuilder();
-    String Result;
-
-    TextView messageText;
-    Button uploadButton;
-    int serverResponseCode = 0;
-
-    String upLoadServerUri = null;
-
-    /**********  File Path *************/
-    final String uploadFilePath = "SD card/Download/F";
-    final String uploadFileName = "service_lifecycle.png";
 
 
     @Override

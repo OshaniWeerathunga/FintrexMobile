@@ -328,7 +328,7 @@ android:background="@drawable/home_bg">
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:padding="5dp"
-                android:src="@drawable/insta" />
+                android:src="@drawable/youtube" />
 
             <ImageView
                 android:id="@+id/linkdinlink"

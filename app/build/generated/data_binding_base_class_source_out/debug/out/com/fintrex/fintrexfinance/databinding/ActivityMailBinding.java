@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.Spinner;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
@@ -48,10 +48,10 @@ public final class ActivityMailBinding implements ViewBinding {
   public final AppCompatEditText message;
 
   @NonNull
-  public final Spinner messageto;
+  public final TextView messageto;
 
   @NonNull
-  public final Spinner messagetype;
+  public final AppCompatEditText messagetype;
 
   @NonNull
   public final AppCompatButton sendMail;
@@ -62,8 +62,9 @@ public final class ActivityMailBinding implements ViewBinding {
   private ActivityMailBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
       @NonNull LinearLayout linear1, @NonNull LinearLayout linear2, @NonNull LinearLayout linear3,
       @NonNull ConstraintLayout linearLayout, @NonNull ImageView mailback, @NonNull ImageView menu,
-      @NonNull AppCompatEditText message, @NonNull Spinner messageto, @NonNull Spinner messagetype,
-      @NonNull AppCompatButton sendMail, @NonNull MaterialToolbar toolbar) {
+      @NonNull AppCompatEditText message, @NonNull TextView messageto,
+      @NonNull AppCompatEditText messagetype, @NonNull AppCompatButton sendMail,
+      @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
     this.imageView2 = imageView2;
     this.linear1 = linear1;
@@ -155,13 +156,13 @@ public final class ActivityMailBinding implements ViewBinding {
       }
 
       id = R.id.messageto;
-      Spinner messageto = rootView.findViewById(id);
+      TextView messageto = rootView.findViewById(id);
       if (messageto == null) {
         break missingId;
       }
 
       id = R.id.messagetype;
-      Spinner messagetype = rootView.findViewById(id);
+      AppCompatEditText messagetype = rootView.findViewById(id);
       if (messagetype == null) {
         break missingId;
       }

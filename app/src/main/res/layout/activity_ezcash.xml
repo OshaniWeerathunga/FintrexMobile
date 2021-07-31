@@ -71,8 +71,8 @@
 
             <ImageView
                 android:id="@+id/address"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_marginBottom="5dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/dialog"
@@ -80,19 +80,21 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
-            <LinearLayout
+            <TextView
                 android:id="@+id/general"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/home_card"
+                android:fontFamily="@font/roboto_reg"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="@string/ezcash_payment"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                android:orientation="vertical">
-
-            </LinearLayout>
-
+                app:layout_constraintStart_toStartOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

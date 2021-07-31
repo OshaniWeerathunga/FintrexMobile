@@ -46,6 +46,9 @@ public final class ActivityLoginScreenBinding implements ViewBinding {
   public final TextView signinTv;
 
   @NonNull
+  public final TextView slogomsg;
+
+  @NonNull
   public final ImageView welcomeTv;
 
   private ActivityLoginScreenBinding(@NonNull ConstraintLayout rootView,
@@ -53,7 +56,7 @@ public final class ActivityLoginScreenBinding implements ViewBinding {
       @NonNull ConstraintLayout constraintLayout, @NonNull AppCompatEditText nameEt,
       @NonNull AppCompatEditText nicEt, @NonNull AppCompatEditText phoneEt,
       @NonNull AppCompatButton requestOtpBtn, @NonNull TextView signinTv,
-      @NonNull ImageView welcomeTv) {
+      @NonNull TextView slogomsg, @NonNull ImageView welcomeTv) {
     this.rootView = rootView;
     this.aboutback = aboutback;
     this.backgroundImg = backgroundImg;
@@ -63,6 +66,7 @@ public final class ActivityLoginScreenBinding implements ViewBinding {
     this.phoneEt = phoneEt;
     this.requestOtpBtn = requestOtpBtn;
     this.signinTv = signinTv;
+    this.slogomsg = slogomsg;
     this.welcomeTv = welcomeTv;
   }
 
@@ -141,6 +145,12 @@ public final class ActivityLoginScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.slogomsg;
+      TextView slogomsg = rootView.findViewById(id);
+      if (slogomsg == null) {
+        break missingId;
+      }
+
       id = R.id.welcome_tv;
       ImageView welcomeTv = rootView.findViewById(id);
       if (welcomeTv == null) {
@@ -148,7 +158,7 @@ public final class ActivityLoginScreenBinding implements ViewBinding {
       }
 
       return new ActivityLoginScreenBinding((ConstraintLayout) rootView, aboutback, backgroundImg,
-          constraintLayout, nameEt, nicEt, phoneEt, requestOtpBtn, signinTv, welcomeTv);
+          constraintLayout, nameEt, nicEt, phoneEt, requestOtpBtn, signinTv, slogomsg, welcomeTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

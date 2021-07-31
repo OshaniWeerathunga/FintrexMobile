@@ -95,13 +95,6 @@ public class SavingScreen extends BaseActivity {
 
                 progressDialog.dismiss();
 
-                //timeout riderect to the dashboard
-                if (httpResponseMsg.equals("Something Went Wrong")){
-                    Intent intent=new Intent(getApplicationContext(), DashboardScreen.class);
-                    startActivity(intent);
-                    finish();
-                }
-
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
                     JSONArray array = jsonObject.getJSONArray("result");
@@ -121,7 +114,7 @@ public class SavingScreen extends BaseActivity {
 
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(SavingScreen.this,httpResponseMsg, Toast.LENGTH_LONG).show();
+                    Toast.makeText(SavingScreen.this,"Please Check Your Connection", Toast.LENGTH_LONG).show();
 
                 }
 

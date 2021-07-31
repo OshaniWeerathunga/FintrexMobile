@@ -73,12 +73,6 @@ public class OutboxFragment extends Fragment {
 
                 super.onPostExecute(httpResponseMsg);
 
-                //timeout riderect to the dashboard
-                if (httpResponseMsg.equals("Something Went Wrong")){
-                    Intent intent=new Intent(getActivity(), DashboardScreen.class);
-                    startActivity(intent);
-                }
-
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
                     JSONArray array = jsonObject.getJSONArray("result");
@@ -86,7 +80,7 @@ public class OutboxFragment extends Fragment {
                     for(int i=0; i<array.length();i++){
                         JSONObject lcObject = array.getJSONObject(i);
 
-                        String msgType = lcObject.getString("message_type");
+                        String msgType = lcObject.getString("subject");
                         String msg = lcObject.getString("message");
                         String msgdate = lcObject.getString("sent_on");
 
@@ -100,7 +94,6 @@ public class OutboxFragment extends Fragment {
 
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(getActivity(),httpResponseMsg,Toast.LENGTH_SHORT).show();
                 }
             }
 

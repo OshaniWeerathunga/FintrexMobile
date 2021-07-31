@@ -78,12 +78,9 @@ com/fintrex/fintrexfinance/databinding/ActivityCdmBinding.java
 com/fintrex/fintrexfinance/Details/NewMailSend.java
  com.fintrex.fintrexfinance.Details.NewMailSend
  com.fintrex.fintrexfinance.Details.NewMailSend$1
- com.fintrex.fintrexfinance.Details.NewMailSend$1LoadSpinnerDataFunctionClass
  com.fintrex.fintrexfinance.Details.NewMailSend$1SendMessageFunctionClass
  com.fintrex.fintrexfinance.Details.NewMailSend$2
  com.fintrex.fintrexfinance.Details.NewMailSend$3
- com.fintrex.fintrexfinance.Details.NewMailSend$4
- com.fintrex.fintrexfinance.Details.NewMailSend$5
 com/fintrex/fintrexfinance/databinding/ActivityLoginScreenBinding.java
  com.fintrex.fintrexfinance.databinding.ActivityLoginScreenBinding
 com/fintrex/fintrexfinance/databinding/LoanListBinding.java
@@ -163,8 +160,6 @@ com/fintrex/fintrexfinance/QuickLinks/Branches.java
  com.fintrex.fintrexfinance.QuickLinks.Branches
  com.fintrex.fintrexfinance.QuickLinks.Branches$1
  com.fintrex.fintrexfinance.QuickLinks.Branches$2
-com/fintrex/fintrexfinance/databinding/ActivityLcScreenBinding.java
- com.fintrex.fintrexfinance.databinding.ActivityLcScreenBinding
 com/fintrex/fintrexfinance/BuildConfig.java
  com.fintrex.fintrexfinance.BuildConfig
 com/fintrex/fintrexfinance/databinding/ActivityAboutBinding.java
@@ -256,10 +251,6 @@ com/fintrex/fintrexfinance/databinding/TermsAcceptAlertBinding.java
  com.fintrex.fintrexfinance.databinding.TermsAcceptAlertBinding
 com/fintrex/fintrexfinance/HelperClass/Fd.java
  com.fintrex.fintrexfinance.HelperClass.Fd
-com/fintrex/fintrexfinance/Details/LcScreen.java
- com.fintrex.fintrexfinance.Details.LcScreen
- com.fintrex.fintrexfinance.Details.LcScreen$1
- com.fintrex.fintrexfinance.Details.LcScreen$1LcFunctionClass
 com/fintrex/fintrexfinance/databinding/CustomizeSpinnerBinding.java
  com.fintrex.fintrexfinance.databinding.CustomizeSpinnerBinding
 com/fintrex/fintrexfinance/HelperClass/InboxMail.java

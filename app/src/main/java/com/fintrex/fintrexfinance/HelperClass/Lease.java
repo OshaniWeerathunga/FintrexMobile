@@ -2,7 +2,7 @@ package com.fintrex.fintrexfinance.HelperClass;
 
 public class Lease {
 
-    private String leaseNo, totalOutstanding,nextPayDate,maturityDate,rental,lastPayAmount,lastPayDate,vehicleNo,insuranceExpire;
+    private String leaseNo, totalOutstanding,nextPayDate,maturityDate,rental,lastPayAmount,lastPayDate,vehicleNo,insuranceBy,insuranceExpire;
 
     private boolean expanded;
 
@@ -14,7 +14,7 @@ public class Lease {
         this.expanded = expanded;
     }
 
-    public Lease(String leaseNo, String totalOutstanding, String nextPayDate, String maturityDate,String rental, String lastPayAmount, String lastPayDate, String vehicleNo, String insuranceExpire) {
+    public Lease(String leaseNo, String totalOutstanding, String nextPayDate, String maturityDate,String rental, String lastPayAmount, String lastPayDate, String vehicleNo,String insuranceBy, String insuranceExpire) {
         this.leaseNo = leaseNo;
         this.totalOutstanding = totalOutstanding;
         this.nextPayDate = nextPayDate;
@@ -23,6 +23,7 @@ public class Lease {
         this.lastPayAmount = lastPayAmount;
         this.lastPayDate = lastPayDate;
         this.vehicleNo = vehicleNo;
+        this.insuranceBy = insuranceBy;
         this.insuranceExpire = insuranceExpire;
         this.expanded = expanded;
     }
@@ -89,6 +90,14 @@ public class Lease {
 
     public void setVehicleNo(String vehicleNo) {
         this.vehicleNo = vehicleNo;
+    }
+
+    public String getInsuranceBy() {
+        return insuranceBy;
+    }
+
+    public void setInsuranceBy(String insuranceBy) {
+        this.insuranceBy = insuranceBy;
     }
 
     public String getInsuranceExpire() {

@@ -38,7 +38,7 @@ public class BaseActivity extends AppCompatActivity implements LogoutListner {
 
     @Override
     public void onSessionLogout() {
-        finish();
+        //finish();
         Logout();
     }
 
@@ -49,7 +49,6 @@ public class BaseActivity extends AppCompatActivity implements LogoutListner {
             protected void onPreExecute() {
                 super.onPreExecute();
 
-                //progressDialog = ProgressDialog.show(Otp.this,"Processing.....",null,true,true);
             }
 
             @Override
@@ -57,9 +56,8 @@ public class BaseActivity extends AppCompatActivity implements LogoutListner {
 
                 super.onPostExecute(httpResponseMsg);
 
-                //progressDialog.dismiss();
                 if(httpResponseMsg=="auth_fail"){
-                    Toast.makeText(BaseActivity.this, "Successfully Logout", Toast.LENGTH_LONG).show();
+                    Toast.makeText(BaseActivity.this, "Your Session has expired.Please login again", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(getApplicationContext(), DashboardScreen.class);
                     startActivity(intent);
                     finish();

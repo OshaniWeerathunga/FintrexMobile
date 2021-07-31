@@ -49,7 +49,7 @@
     <string name="enter_otp">Enter OTP</string>
     <string name="verify_sign_in">Verify and Sign In</string>
     <string name="sign_out">sign out</string>
-    <string name="sign_msg"><b>Welcome ! </b> \nFinancing Made Simple</string>
+    <string name="sign_msg"><b>Welcome ! </b></string>
     <string name="address"><b>Address (Head Office) :</b>\nNo 851,Dr.Danister De Silva Mawatha (Baseline Road),Colombo 14</string>
     <string name="generalcall"><b>General : </b>\n0117 977 977</string>
     <string name="callcenter"><b>Call Center : </b>\n0117 200 100</string>
@@ -90,6 +90,30 @@
         •   If the payment was transferred to a Bank, it is mandatory to send the payment receipt  <font color = '#ff0000'>WhatsApp</font> on <font color = '#ff0000'>0766 200 100</font>
     </string>
 
+    <string name="ezcash_payment"><b><b><u>Transaction steps in eZ Cash :</u></b></b>\n\n\n
+        <b>•	Dial #111# and select the option</b> \n\n
+        \t\t    1.	Customer Account Recharge \n
+        \t\t    2.	Cash Withdrawal \n
+        \t\t    3.	Dialog payment \n
+        \t\t    4.	Utility Payment \n
+        \t\t    5.	Receive Payment \n
+        \t\t    6.	<font color = '#ff0000'>Institute Payment</font> (Short code -<font color = '#ff0000'> #111*6#</font>) \n
+        \t\t    7.	Frequently Used Numbers \n
+        \t\t    8.	Balance Check \n
+        \t\t    9.	Mini Statement \n
+        \t\t    10.	Change PIN \n\n\n
+
+        <b>•   Institutional Payments</b> \n\n
+
+        \t\t    Step 1: Enter eZ Cash PIN \n
+        \t\t    Step 2: Select ‘Enter Institute Code’ \n
+        \t\t    Step 3: Enter Institute code \n
+        \t\t    Step 4: Enter the account no. (leasing ref no) \n
+        \t\t    Step 5: Enter the amount and confirm \n\n
+        \t\t<font color = '#0000ff'>    Pay [institute code] Rs [amount] to [Account number] Mobile No: [mobile no] (Service charge is applicable)</font>\n\n
+        \t\t    Step 6: You will receive a confirmation SMS \n
+
+    </string>
 
     <string-array name="messageType">
         <item>---Choose Message Type---</item>

@@ -95,13 +95,6 @@ public class LoanScreen extends BaseActivity {
 
                 progressDialog.dismiss();
 
-                //timeout riderect to the dashboard
-                if (httpResponseMsg.equals("Something Went Wrong")){
-                    Intent intent=new Intent(getApplicationContext(), DashboardScreen.class);
-                    startActivity(intent);
-                    finish();
-                }
-
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
                     JSONArray array = jsonObject.getJSONArray("result");
@@ -126,7 +119,7 @@ public class LoanScreen extends BaseActivity {
 
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(LoanScreen.this,"Cannot Load Data.Please Check your connection", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoanScreen.this,"Please Check Your Connection", Toast.LENGTH_LONG).show();
 
                 }
 

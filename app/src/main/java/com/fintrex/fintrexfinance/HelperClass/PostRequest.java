@@ -94,10 +94,10 @@ public class PostRequest {
                 if (redir!=null && redir.equals("login")){
                     return "auth_fail";
                 }
-                return "not respond";
+                return null;
             }
             else {
-                return "Something Went Wrong";
+                return null;
             }
 
         } catch (Exception e) {
@@ -179,10 +179,10 @@ public class PostRequest {
                 if (redir!=null && redir.equals("login")){
                     return "auth_fail";
                 }
-                return "not redirect";
+                return null;
             }
             else {
-                return "Something Went Wrong";
+                return null;
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -236,8 +236,7 @@ public class PostRequest {
                     System.out.printf("cookie received");
                     System.out.println(cookies);
                 }
-
-
+                
                 BufferedReader bufferedReader = new BufferedReader(
                         new InputStreamReader(
                                 httpURLConnection.getInputStream()
@@ -250,10 +249,10 @@ public class PostRequest {
                 if (redir!=null && redir.equals("login")){
                     return "auth_fail";
                 }
-                return "Something Went Wrong";
+                return null;
             }
             else {
-                return "Something Went Wrong";
+                return null;
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -261,68 +260,6 @@ public class PostRequest {
         }
 
     }
-
-    public static String getProImages(URL url, HashMap<String, String> Data) {
-
-        try {
-            URL posturl= url;
-
-            HttpURLConnection httpURLConnection = (HttpURLConnection) posturl.openConnection();
-            httpURLConnection.setInstanceFollowRedirects(false);
-
-            if(cookies!=null && cookies.size()>0){
-                httpURLConnection.setRequestProperty("Cookie", TextUtils.join(";",cookies));
-
-                System.out.printf("cookie sent");
-                System.out.println(cookies);
-            }
-
-            httpURLConnection.setReadTimeout(60000);
-
-            httpURLConnection.setConnectTimeout(60000);
-
-            httpURLConnection.setRequestMethod("GET");
-
-            httpURLConnection.setDoInput(true);
-
-            httpURLConnection.setDoOutput(true);
-
-            OutputStream  outputStream = httpURLConnection.getOutputStream();
-
-            BufferedWriter bufferedWriter = new BufferedWriter(
-
-                    new OutputStreamWriter(outputStream, "UTF-8"));
-
-            bufferedWriter.write(FinalDataParse(Data));
-
-            bufferedWriter.flush();
-
-            bufferedWriter.close();
-
-            outputStream.close();
-
-            System.out.printf("output stream ----- ");
-            System.out.println(outputStream);
-
-            HttpURLConnection con = (HttpsURLConnection)url.openConnection();
-            StringBuilder sb = new StringBuilder();
-
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(con.getInputStream()));
-
-            String json;
-            while((json = bufferedReader.readLine())!=null){
-                sb.append(json+"\n");
-            }
-
-            return sb.toString().trim();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return  "exception part";
-        }
-
-    }
-
 
 
 }

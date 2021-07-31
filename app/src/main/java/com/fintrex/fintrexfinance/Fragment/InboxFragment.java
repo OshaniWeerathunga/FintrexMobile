@@ -14,13 +14,9 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.fintrex.fintrexfinance.Common.DashboardScreen;
-import com.fintrex.fintrexfinance.Details.LcScreen;
 import com.fintrex.fintrexfinance.HelperClass.InboxMail;
 import com.fintrex.fintrexfinance.HelperClass.InboxMailAdapter;
-import com.fintrex.fintrexfinance.HelperClass.Lc;
-import com.fintrex.fintrexfinance.HelperClass.LcAdapter;
 import com.fintrex.fintrexfinance.HelperClass.PostRequest;
-import com.fintrex.fintrexfinance.MyApp;
 import com.fintrex.fintrexfinance.R;
 
 import org.json.JSONArray;
@@ -76,12 +72,6 @@ public class InboxFragment extends Fragment {
 
                 super.onPostExecute(httpResponseMsg);
 
-                //timeout riderect to the dashboard
-                if (httpResponseMsg.equals("Something Went Wrong")){
-                    Intent intent=new Intent(getActivity(), DashboardScreen.class);
-                    startActivity(intent);
-                }
-
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
                     JSONArray array = jsonObject.getJSONArray("result");
@@ -98,12 +88,9 @@ public class InboxFragment extends Fragment {
 
                     recyclerView.setAdapter(new InboxMailAdapter(list,getContext()));
 
-
-
                 }
                 catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(getActivity(),httpResponseMsg,Toast.LENGTH_SHORT).show();
 
                 }
 

@@ -95,13 +95,6 @@ public class LeasingScreen extends BaseActivity {
 
                 progressDialog.dismiss();
 
-                //timeout riderect to the dashboard
-                if (httpResponseMsg.equals("Something Went Wrong")){
-                    Intent intent=new Intent(getApplicationContext(), DashboardScreen.class);
-                    startActivity(intent);
-                    finish();
-                }
-
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
                     JSONArray array = jsonObject.getJSONArray("result");
@@ -117,9 +110,10 @@ public class LeasingScreen extends BaseActivity {
                         String lastPayAmount = leaseObject.getString("last_pay_amt");
                         String lastPayDate = leaseObject.getString("last_pay_date");
                         String vehicleNo = leaseObject.getString("vehicle_no");
+                        String insuranceBy = leaseObject.getString("insurance_by");
                         String insuranceExpire = leaseObject.getString("insurance_date");
 
-                        Lease lease = new Lease(leaseNo,totalOutstanding,nextPayDate,maturityDate,rental,lastPayAmount,lastPayDate,vehicleNo,insuranceExpire);
+                        Lease lease = new Lease(leaseNo,totalOutstanding,nextPayDate,maturityDate,rental,lastPayAmount,lastPayDate,vehicleNo,insuranceBy,insuranceExpire);
                         leaseList.add(lease);
                     }
                     adapter = new LeaseAdapter(LeasingScreen.this,leaseList);
@@ -127,8 +121,7 @@ public class LeasingScreen extends BaseActivity {
 
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(LeasingScreen.this,"Cannot Load Data. Please Check your Connection", Toast.LENGTH_LONG).show();
-
+                    Toast.makeText(LeasingScreen.this,"Please Check your Connection", Toast.LENGTH_LONG).show();
                 }
 
             }

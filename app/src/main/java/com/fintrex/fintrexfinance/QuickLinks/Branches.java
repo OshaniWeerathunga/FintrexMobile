@@ -168,57 +168,57 @@ public class Branches extends AppCompatActivity implements OnMapReadyCallback {
                 switch (marker.getTitle()) {
                     case "CityBranch":
                         branch = "City Branch";
-                        address = "101,Darmapala Mawatha,Colombo 07";
+                        address = "101,Darmapala Mawatha,Colombo 07\n+94 115 977 700";
                         alert(branch,address);
                         break;
                     case "Gampaha":
                         branch = "Gampaha Branch";
-                        address = "1st Floor,No.369/1/1,Colombo Road,Gampaha";
+                        address = "1st Floor,No.369/1/1,Colombo Road,Gampaha\n+94 337 977 977";
                         alert(branch,address);
                         break;
                     case "Kalutara":
                         branch = "Kalutara Branch";
-                        address = "398A,Galle Road,Kalutara North,Kalutara";
+                        address = "398A,Galle Road,Kalutara North,Kalutara\n+94 347 977 977";
                         alert(branch,address);
                         break;
                     case "Negombo":
                         branch = "Negombo Branch";
-                        address = "No.600A 1/1,Chilaw Road,Kattuwa,Negombo";
+                        address = "No.600A 1/1,Chilaw Road,Kattuwa,Negombo\n+94 317 977 977";
                         alert(branch,address);
                         break;
                     case "Kegalle":
                         branch = "Kegalle Branch";
-                        address = "No.440B,Kandy Road,Meepitiya,Kegalle";
+                        address = "No.440B,Kandy Road,Meepitiya,Kegalle\n+94 357 977 977";
                         alert(branch,address);
                         break;
                     case "Kandy":
                         branch = "Kandy Branch";
-                        address = "No.206,Katugastota Road,Kandy";
+                        address = "No.206,Katugastota Road,Kandy\n+94 815 200 100";
                         alert(branch,address);
                         break;
                     case "Dambulla":
                         branch = "Dambulla Branch";
-                        address = "No.318,Sangeetha Building,Kandy Road,Dambulla";
+                        address = "No.318,Sangeetha Building,Kandy Road,Dambulla\n+94 667 977 977";
                         alert(branch,address);
                         break;
                     case "Kuliyapitiya":
                         branch = "Kuliyapitiya Branch";
-                        address = "1st Floor,No.369/1/1,Colombo Road,Gampaha";
+                        address = "1st Floor,No.369/1/1,Colombo Road,Gampaha\n+94 377 977 966";
                         alert(branch,address);
                         break;
                     case "Kurunegala":
                         branch = "Kurunegala Branch";
-                        address = "No.1st Floor,No.252,Negombo Road,Kurunegala";
+                        address = "No.1st Floor,No.252,Negombo Road,Kurunegala\n+94 377 977 977";
                         alert(branch,address);
                         break;
                     case "HeadOffice":
                         branch = "Head Office";
-                        address = "No.851,Dr.Danister De Silva Mawatha,Colombo 14";
+                        address = "No.851,Dr.Danister De Silva Mawatha,Colombo 14\n+94 117 977 977";
                         alert(branch,address);
                         break;
                     case "Kiribathgoda":
                         branch = "Kiribathgoda Branch";
-                        address = "No.63/3/B,Kandy Road,Kiribathgoda";
+                        address = "No.63/3/B,Kandy Road,Kiribathgoda\n+94 117 977 400";
                         alert(branch,address);
                         break;
                 }
@@ -231,15 +231,6 @@ public class Branches extends AppCompatActivity implements OnMapReadyCallback {
         AlertDialog dlg = new AlertDialog.Builder(Branches.this,AlertDialog.THEME_TRADITIONAL)
                 .setTitle(branch)
                 .setMessage(address)
-                /*
-                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                })
-
-                 */
                 .create();
         dlg.show();
     }

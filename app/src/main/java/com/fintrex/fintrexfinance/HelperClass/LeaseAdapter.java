@@ -57,6 +57,7 @@ public class LeaseAdapter extends RecyclerView.Adapter<LeaseAdapter.LeaseViewHol
         holder.lastPayDate.setText(lease.getLastPayDate());
         holder.lastPayAmount.setText(lease.getLastPayAmount());
         holder.vehicleNo.setText(lease.getVehicleNo());
+        holder.insuranceBy.setText(lease.getInsuranceBy());
         holder.insuranceExpire.setText(lease.getInsuranceExpire());
 
         boolean isExpanded = leaseList.get(position).isExpanded();
@@ -70,7 +71,7 @@ public class LeaseAdapter extends RecyclerView.Adapter<LeaseAdapter.LeaseViewHol
 
     class LeaseViewHolder extends RecyclerView.ViewHolder {
 
-        TextView leaseNo, totalOutstanding,nextPayDate,maturityDate,rental,lastPayAmount,lastPayDate,vehicleNo,insuranceExpire;
+        TextView leaseNo, totalOutstanding,nextPayDate,maturityDate,rental,lastPayAmount,lastPayDate,vehicleNo,insuranceBy,insuranceExpire;
         RelativeLayout leasebtn;
         ConstraintLayout expandableLayout;
 
@@ -85,6 +86,7 @@ public class LeaseAdapter extends RecyclerView.Adapter<LeaseAdapter.LeaseViewHol
             lastPayAmount = itemView.findViewById(R.id.valueLeaseLastPay);
             lastPayDate = itemView.findViewById(R.id.valueLeaseLastPayDate);
             vehicleNo = itemView.findViewById(R.id.valueLeaseVehicle);
+            insuranceBy = itemView.findViewById(R.id.valueLeaseInsuranceCompany);
             insuranceExpire = itemView.findViewById(R.id.valueLeaseInsurance);
 
             leasebtn = itemView.findViewById(R.id.leasemore);

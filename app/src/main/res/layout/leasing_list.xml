@@ -248,7 +248,6 @@
 
                 </LinearLayout>
 
-
                 <LinearLayout
                     android:id="@+id/linear10"
                     android:layout_width="match_parent"
@@ -324,7 +323,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linear12"
+                    android:id="@+id/linear14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -332,6 +331,43 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/linear11">
+
+                    <TextView
+                        android:id="@+id/topicLeaseInsuranceCompany"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Insurance Company : "
+                        android:fontFamily="@font/roboto_reg"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/valueLeaseInsuranceCompany"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:padding="10dp"
+                        android:text="300"
+                        android:fontFamily="@font/roboto_reg"
+                        android:textAlignment="viewEnd"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/linear14">
 
                     <TextView
                         android:id="@+id/topicLeaseInsurance"

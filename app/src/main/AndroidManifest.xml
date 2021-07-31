@@ -43,7 +43,6 @@
         <activity android:name=".Navigation.Profile" />
         <activity android:name=".Navigation.TermsCondition" />
         <activity android:name=".Otp" />
-        <activity android:name=".Details.LcScreen" />
         <activity android:name=".Details.LoanScreen" />
         <activity android:name=".Details.SavingScreen" />
         <activity android:name=".Details.FixedScreen" />

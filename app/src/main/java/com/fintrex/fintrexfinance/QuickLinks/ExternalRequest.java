@@ -66,18 +66,23 @@ public class ExternalRequest extends AppCompatActivity  {
                 nameHolder = sendername.getText().toString();
                 msgHolder = msg.getText().toString();
 
-                if(msgHolder.isEmpty()&&mobileHolder.isEmpty()&&nameHolder.isEmpty()) {
-                    msg.setError("Field cannot be empty");
-                    sendermobile.setError("Field cannot be empty");
-                    sendername.setError("Field cannot be empty");
+                if(msgHolder.isEmpty()) {
+                    msg.setError("Please Enter Your Message");
                 }
-                else {
-                    if (PhoneValidation(mobileHolder)){
-                        Toast.makeText(ExternalRequest.this, "Invalid Mobile number", Toast.LENGTH_LONG).show();
-                        sendermobile.setError("Invalid Mobile number");
+                if (mobileHolder.isEmpty()) {
+                    sendermobile.setError("Please Enter Your Mobile Number");
+                }
+                if (nameHolder.isEmpty()) {
+                    sendername.setError("Please Enter Your Name");
+                }
+                if (!msgHolder.isEmpty()&& !mobileHolder.isEmpty()&& !nameHolder.isEmpty()) {
+                    if (!(PhoneValidation(mobileHolder))) {
+                        Toast.makeText(ExternalRequest.this, "Please Enter the Valid Mobile Number", Toast.LENGTH_LONG).show();
+                        sendermobile.setError("Please Enter the Valid Mobile Number");
 
+                    } else {
+                        SendMsgFunction(nameHolder, mobileHolder, msgHolder);
                     }
-                    SendMsgFunction(nameHolder, mobileHolder, msgHolder);
                 }
             }
         });
@@ -104,10 +109,10 @@ public class ExternalRequest extends AppCompatActivity  {
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dialog.dismiss();
                 Intent godash = new Intent(ExternalRequest.this, DashboardScreen.class);
                 startActivity(godash);
                 finish();
+                dialog.dismiss();
             }
         });
 
@@ -181,6 +186,9 @@ public class ExternalRequest extends AppCompatActivity  {
         SendMessageFunctionClass msgFunctionClass = new SendMessageFunctionClass();
         msgFunctionClass.execute(name,mobile,msg);
     }
+
+
+
 
     public boolean PhoneValidation(String usermobile){
         String mobilepattern = "[0-9]{10}";

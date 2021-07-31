@@ -16,10 +16,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
 import com.fintrex.fintrexfinance.HelperClass.PostRequest;
+import com.fintrex.fintrexfinance.QuickLinks.ExternalRequest;
 import com.fintrex.fintrexfinance.R;
 
 import org.json.JSONException;
@@ -33,10 +35,11 @@ import java.util.List;
 
 public class NewMailSend extends BaseActivity {
 
-    String nicHolder,mobileHolder,msgHolder,typeHolder="1",toHolder="1";
+    String nicHolder,mobileHolder,msgHolder,typeHolder,toHolder="1";
     Button send;
     ImageView back;
-    private Spinner spinnerto,spinnertype;
+    EditText type;
+    TextView to;
     Dialog dialog;
 
     ProgressDialog progressDialog;
@@ -44,7 +47,6 @@ public class NewMailSend extends BaseActivity {
     HashMap<String,String> hashMap = new HashMap<>();
     URL url;
     String ServerMessageURL = "http://202.124.175.29/Fintrex_Mobile/indexControl/saveMsg?";
-    String SpinnerDataURL = "http://202.124.175.29/Fintrex_Mobile/indexControl/loadData?";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,11 +54,12 @@ public class NewMailSend extends BaseActivity {
         setContentView(R.layout.activity_mail);
 
         EditText msg = (EditText) findViewById(R.id.message);
-        spinnertype = findViewById(R.id.messagetype);
-        spinnerto = findViewById(R.id.messageto);
+        type = findViewById(R.id.messagetype);
+        to = findViewById(R.id.messageto);
         send = findViewById(R.id.sendMail);
         back = findViewById(R.id.mailback);
 
+        /*
         //loadSpinnerData
         LoadSpinnerDataFunction();
 
@@ -144,6 +147,8 @@ public class NewMailSend extends BaseActivity {
         });
 
 
+         */
+
         //init dialogbox
         dialog = new Dialog(NewMailSend.this);
         dialog.setContentView(R.layout.alert_layout);
@@ -173,11 +178,15 @@ public class NewMailSend extends BaseActivity {
 
                 //get a value of user's msg
                 msgHolder = msg.getText().toString();
+                typeHolder = type.getText().toString();
                 //check msg is empty or not
                 if(msgHolder.isEmpty()) {
-                    msg.setError("Field cannot be empty");
+                    msg.setError("Please Type Your Message");
                 }
-                else {
+                if (typeHolder.isEmpty()){
+                    type.setError("Please Enter the Message Subject");
+                }
+                if (!msgHolder.isEmpty()&&!typeHolder.isEmpty()){
                     //call send msg function
                     SendMsgFunction(typeHolder, msgHolder, toHolder);
                 }
@@ -195,55 +204,8 @@ public class NewMailSend extends BaseActivity {
         });
     }
 
-    //load spinner to and spinner type data
-    public void LoadSpinnerDataFunction(){
-
-        class LoadSpinnerDataFunctionClass extends AsyncTask<String,Void,String> {
-
-            @Override
-            protected void onPreExecute() {
-                super.onPreExecute();
-            }
-            @Override
-            protected void onPostExecute(String httpResponseMsg) {
-
-                super.onPostExecute(httpResponseMsg);
-
-                try {
-                    JSONObject jsonObject = new JSONObject(httpResponseMsg);
-                    if (jsonObject.getString("status").equals("saved")) {
-
-                        dialog.show();
-
-                    } else {
-
-                        Toast.makeText(NewMailSend.this, httpResponseMsg, Toast.LENGTH_LONG).show();
-                    }
-                }catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
-
-            @Override
-            protected String doInBackground(String... params) {
-
-                try {
-                    url = new URL(SpinnerDataURL);
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
-                }
-                finalResult = PostRequest.getData(url);
-
-                return finalResult;
-            }
-        }
-
-        LoadSpinnerDataFunctionClass loadSpinnerDataFunctionClass = new LoadSpinnerDataFunctionClass();
-        loadSpinnerDataFunctionClass.execute();
-    }
-
     //send new message
-    public void SendMsgFunction(final String type,final String msg,final String to){
+    public void SendMsgFunction(final String subject,final String msg, final String to){
 
         class SendMessageFunctionClass extends AsyncTask<String,Void,String> {
 
@@ -274,9 +236,10 @@ public class NewMailSend extends BaseActivity {
 
                     } else {
 
-                        Toast.makeText(NewMailSend.this, httpResponseMsg, Toast.LENGTH_LONG).show();
+                        Toast.makeText(NewMailSend.this, "Message not sent", Toast.LENGTH_LONG).show();
                     }
                 }catch (JSONException e) {
+                    Toast.makeText(NewMailSend.this, "Please try again.Message not sent", Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
             }
@@ -290,7 +253,7 @@ public class NewMailSend extends BaseActivity {
                     e.printStackTrace();
                 }
 
-                hashMap.put("msg_type",params[0]);
+                hashMap.put("subject",params[0]);
 
                 hashMap.put("msg_txt",params[1]);
 
@@ -306,7 +269,7 @@ public class NewMailSend extends BaseActivity {
         }
 
         SendMessageFunctionClass msgFunctionClass = new SendMessageFunctionClass();
-        msgFunctionClass.execute(type,msg,to);
+        msgFunctionClass.execute(subject,msg,to);
     }
 
 }

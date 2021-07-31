@@ -1820,7 +1820,6 @@ drawable avd_show_password
 drawable back
 drawable backpurple
 drawable bghome
-drawable bottombtn
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1870,14 +1869,10 @@ drawable digital_logo_1
 drawable digital_logo_2
 drawable digital_logo_purple
 drawable digital_logo_white
-drawable dropdown
-drawable dropup
 drawable edit_bg
 drawable error
-drawable face
 drawable fb
 drawable findcard
-drawable fintrexlogo
 drawable fixed_icons
 drawable gold_icon
 drawable googleg_disabled_color_18
@@ -1902,7 +1897,6 @@ drawable ic_phone
 drawable ic_profile
 drawable ic_save
 drawable ic_timer
-drawable image_slider
 drawable image_slider1
 drawable insta
 drawable lease_icon
@@ -1925,8 +1919,6 @@ drawable menu_icon
 drawable messagecard
 drawable mobile
 drawable more
-drawable more_details
-drawable mored
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1938,7 +1930,6 @@ drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
 drawable new_msg_btn
-drawable newlogo
 drawable next_icon
 drawable nic
 drawable notification_action_background
@@ -1954,9 +1945,6 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable online
-drawable payment_methods
-drawable paymentnew
-drawable payments
 drawable placeholder
 drawable promotioncard
 drawable pv_invisible_image
@@ -1964,7 +1952,6 @@ drawable rate
 drawable saving_icon
 drawable send
 drawable servicecard
-drawable share
 drawable slide1
 drawable slide2
 drawable slide3
@@ -1977,6 +1964,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable tweeter
 drawable usernames
+drawable youtube
 font roboto_reg
 id ALT
 id BOTTOM_END
@@ -2254,7 +2242,6 @@ id labelGroup
 id labeled
 id largeLabel
 id layout
-id lcback
 id leaseImage
 id leaseLinear
 id lease_amount
@@ -2273,6 +2260,7 @@ id linear10
 id linear11
 id linear12
 id linear13
+id linear14
 id linear1name
 id linear2
 id linear2nic
@@ -2503,6 +2491,7 @@ id sin
 id skipCollapsed
 id slide
 id slider
+id slogomsg
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -2614,6 +2603,7 @@ id topicLeaseAmount
 id topicLeaseAssest
 id topicLeaseCharges
 id topicLeaseInsurance
+id topicLeaseInsuranceCompany
 id topicLeaseLastPay
 id topicLeaseLastPayDate
 id topicLeaseMaturity
@@ -2663,6 +2653,7 @@ id valueFdRate
 id valueFdRenewal
 id valueFdValue
 id valueLeaseInsurance
+id valueLeaseInsuranceCompany
 id valueLeaseLastPay
 id valueLeaseLastPayDate
 id valueLeaseMaturity
@@ -2770,7 +2761,6 @@ layout activity_dashboard_screen
 layout activity_ezcash
 layout activity_fixed_screen
 layout activity_home_screen
-layout activity_lc_screen
 layout activity_leasing_screen
 layout activity_loan_screen
 layout activity_login_screen
@@ -2968,6 +2958,7 @@ string default_web_client_id
 string enter_otp
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
+string ezcash_payment
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string gampaha
