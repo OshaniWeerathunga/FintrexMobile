@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".QuickLinks.Contacts"
+android:background="@color/white">
+
+<com.google.android.material.appbar.MaterialToolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@color/purpletop"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHeight_percent=".075"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0">
+
+    <ImageView
+        android:id="@+id/cback"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Contact"
+        android:fontFamily="@font/regular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:paddingRight="10dp"
+        android:layout_gravity="right"
+        android:src="@drawable/logowhite" />
+
+</com.google.android.material.appbar.MaterialToolbar>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar"
+    android:layout_margin="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_purple"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/general"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/generalcall"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/callcenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/callcenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/callcenter"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/mail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/mail"
+            android:padding="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@id/wtsap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/wtsap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/cardbg"
+            android:backgroundTint="@color/light_purple"
+            android:padding="10dp"
+            app:layout_constraintBottom_toTopOf="@id/working"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/cityBranch"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/kurunegala"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kurunagala"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/kandy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kandy"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/negombo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/negombo"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/kiribathgoda"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kiribathgoda"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/matara"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/matara"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/kaluatara"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kalutara"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/kegalle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kegalle"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/kuliyapitiya"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kuliyapitiya"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/gampaha"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/gampaha"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/dambulla"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/dambulla"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/working"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@id/social"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/social"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/fblink"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/fb"/>
+
+            <ImageView
+                android:id="@+id/youtubelink"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/linkdinlink"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/linkdin" />
+
+            <ImageView
+                android:id="@+id/instalink"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/insta" />
+
+            <ImageView
+                android:id="@+id/tweeterlink"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/tweeter" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
