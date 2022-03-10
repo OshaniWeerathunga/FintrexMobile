@@ -4,7 +4,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -14,9 +13,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.fintrex.fintrexfinance.R;
 
-import java.text.NumberFormat;
 import java.util.List;
 import java.util.Locale;
+
 
 public class FdAdapter extends RecyclerView.Adapter<FdAdapter.FdViewHolder> {
 
@@ -49,6 +48,7 @@ public class FdAdapter extends RecyclerView.Adapter<FdAdapter.FdViewHolder> {
 
         boolean isExpanded = fdList.get(position).isExpanded();
         holder.expandableLayout.setVisibility(isExpanded ? View.VISIBLE : View.GONE);
+
     }
 
     @Override
@@ -74,7 +74,6 @@ public class FdAdapter extends RecyclerView.Adapter<FdAdapter.FdViewHolder> {
             fdbtn = itemView.findViewById(R.id.fdmore);
             expandableLayout = itemView.findViewById(R.id.fdexpandableLayout);
 
-
             fdbtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -83,6 +82,7 @@ public class FdAdapter extends RecyclerView.Adapter<FdAdapter.FdViewHolder> {
                     notifyItemChanged(getAdapterPosition());
                 }
             });
+
 
         }
     }

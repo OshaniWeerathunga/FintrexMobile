@@ -1,6 +1,6 @@
 package com.fintrex.fintrexfinance.Details;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -9,10 +9,10 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.fintrex.fintrexfinance.Common.DashboardScreen;
 import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
 import com.fintrex.fintrexfinance.HelperClass.Loan;
 import com.fintrex.fintrexfinance.HelperClass.LoanAdapter;
@@ -30,10 +30,11 @@ import java.util.List;
 
 public class LoanScreen extends BaseActivity {
 
-    String nic;
+    String nic,userLoan;
     ImageView loanback;
+    CardView nodata;
 
-    String ServerLoginURL = "http://202.124.175.29/Fintrex_Mobile/indexControl/getLoanData?";
+    String ServerLoginURL = "https://online.fintrexfinance.com/indexControl/getLoanData?";
     URL url;
     String finalResult ;
 
@@ -48,27 +49,39 @@ public class LoanScreen extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loan_screen);
 
-        loanList = new ArrayList<>();
+        //screenshots not allowed
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,WindowManager.LayoutParams.FLAG_SECURE);
 
-        recyclerView = (RecyclerView) findViewById(R.id.loanrecyclerview);
-        recyclerView.setHasFixedSize(true);
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
+        //get values from Home class
         Intent intent = getIntent();
         nic=intent.getStringExtra(HomeScreen.Nic);
+        userLoan=intent.getStringExtra(HomeScreen.Loan);
+        nodata=findViewById(R.id.loanNoDataCard);
+
+        if (userLoan.equals("-")){
+            nodata.setVisibility(View.VISIBLE);
+        }
+        else {
+            loanList = new ArrayList<>();
+
+            recyclerView = (RecyclerView) findViewById(R.id.loanrecyclerview);
+            recyclerView.setHasFixedSize(true);
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+            //call method to get loan data
+            GetLoanData();
+        }
 
         //back to the home
-        loanback=findViewById(R.id.loanback);
+        loanback = findViewById(R.id.loanback);
         loanback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
-
-        //call method to get loan data
-        GetLoanData();
     }
 
 

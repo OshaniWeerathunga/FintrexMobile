@@ -1,17 +1,14 @@
 package com.fintrex.fintrexfinance.QuickLinks;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Base64;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -19,22 +16,20 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.fintrex.fintrexfinance.Common.DashboardScreen;
-import com.fintrex.fintrexfinance.Details.MailScreen;
-import com.fintrex.fintrexfinance.Details.NewMailSend;
+import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
 import com.fintrex.fintrexfinance.HelperClass.PostRequest;
 import com.fintrex.fintrexfinance.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.regex.Pattern;
 
-public class ExternalRequest extends AppCompatActivity  {
+public class ExternalRequest extends BaseActivity {
 
     String mobileHolder,msgHolder,nameHolder;
     Button send;
@@ -46,16 +41,17 @@ public class ExternalRequest extends AppCompatActivity  {
     String finalResult ;
     HashMap<String,String> hashMap = new HashMap<>();
     URL url;
-    String ServerMessageURL = "http://202.124.175.29/Fintrex_Mobile/loginControl/saveExternalRequest?";
+    String ServerMessageURL = "https://online.fintrexfinance.com/loginControl/saveExternalRequest?";
+    EditText sendermobile,sendername,msg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_messages);
 
-        EditText sendermobile = (EditText) findViewById(R.id.senderMobile);
-        EditText sendername = (EditText) findViewById(R.id.senderName);
-        EditText msg = (EditText) findViewById(R.id.msg);
+        sendermobile = (EditText) findViewById(R.id.senderMobile);
+        sendername = (EditText) findViewById(R.id.senderName);
+        msg = (EditText) findViewById(R.id.msg);
         send = findViewById(R.id.sendButton);
         back = findViewById(R.id.messageback);
 
@@ -63,8 +59,20 @@ public class ExternalRequest extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 mobileHolder = sendermobile.getText().toString().trim();
-                nameHolder = sendername.getText().toString();
+                nameHolder = sendername.getText().toString().trim();
                 msgHolder = msg.getText().toString();
+
+
+                //get user entered msg by encoding
+                try {
+                    byte[] msgdata = (msg.getText().toString()).getBytes("UTF-8");
+                    msgHolder = Base64.encodeToString(msgdata, Base64.DEFAULT);
+
+                }catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+
+
 
                 if(msgHolder.isEmpty()) {
                     msg.setError("Please Enter Your Message");
@@ -76,10 +84,8 @@ public class ExternalRequest extends AppCompatActivity  {
                     sendername.setError("Please Enter Your Name");
                 }
                 if (!msgHolder.isEmpty()&& !mobileHolder.isEmpty()&& !nameHolder.isEmpty()) {
-                    if (!(PhoneValidation(mobileHolder))) {
-                        Toast.makeText(ExternalRequest.this, "Please Enter the Valid Mobile Number", Toast.LENGTH_LONG).show();
-                        sendermobile.setError("Please Enter the Valid Mobile Number");
-
+                    if (!(validateName()) || !(PhoneValidation(mobileHolder))) {
+                        Toast.makeText(ExternalRequest.this, "Please Enter the Valid Information", Toast.LENGTH_LONG).show();
                     } else {
                         SendMsgFunction(nameHolder, mobileHolder, msgHolder);
                     }
@@ -100,7 +106,7 @@ public class ExternalRequest extends AppCompatActivity  {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
             dialog.getWindow().setBackgroundDrawable(getDrawable(R.drawable.contactcard_bg));
         }
-        dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);
+        dialog.getWindow().setLayout(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT);
         dialog.setCancelable(false);
 
         //init alert box ok button
@@ -115,8 +121,6 @@ public class ExternalRequest extends AppCompatActivity  {
                 dialog.dismiss();
             }
         });
-
-
 
     }
 
@@ -154,7 +158,7 @@ public class ExternalRequest extends AppCompatActivity  {
                         Toast.makeText(ExternalRequest.this, "Message not sent successfully", Toast.LENGTH_LONG).show();
                     }
                 }catch (JSONException e) {
-                    Toast.makeText(ExternalRequest.this, httpResponseMsg, Toast.LENGTH_LONG).show();
+                    Toast.makeText(ExternalRequest.this, "Please try again. Message not sent.", Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
             }
@@ -188,11 +192,40 @@ public class ExternalRequest extends AppCompatActivity  {
     }
 
 
-
-
     public boolean PhoneValidation(String usermobile){
+        Boolean patternok = false;
+        sendermobile.setError(null);
         String mobilepattern = "[0-9]{10}";
-        return Pattern.compile(mobilepattern).matcher(usermobile).matches();
+        patternok = Pattern.compile(mobilepattern).matcher(usermobile).matches();
+
+        if (!patternok){
+            sendermobile.setError("Your Phone no is not valid");
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    public boolean validateName(){
+        String val = sendername.getText().toString().trim();
+        val = val.replace(" ","");
+        System.out.println(val);
+
+        Boolean patternnok = false;
+        sendername.setError(null);
+        String oldpattern = "[A-Za-z]{2,}";
+        patternnok = Pattern.compile(oldpattern).matcher(val).matches();
+
+            if (!patternnok){
+                sendername.setError("Your Name is not valid");
+                return false;
+            }
+            else {
+                return true;
+            }
+
+
     }
 
 }

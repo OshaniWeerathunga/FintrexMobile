@@ -5,11 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.borjabravo.readmoretextview.ReadMoreTextView;
 import com.fintrex.fintrexfinance.R;
 import com.google.android.material.appbar.MaterialToolbar;
 import java.lang.NullPointerException;
@@ -24,13 +25,10 @@ public final class ActivityAboutBinding implements ViewBinding {
   public final ImageView aboutback;
 
   @NonNull
-  public final ImageView address;
+  public final ReadMoreTextView abouttxt;
 
   @NonNull
-  public final TextView general;
-
-  @NonNull
-  public final ConstraintLayout linearLayout;
+  public final LinearLayout linearLayout2;
 
   @NonNull
   public final ImageView menu;
@@ -38,16 +36,19 @@ public final class ActivityAboutBinding implements ViewBinding {
   @NonNull
   public final MaterialToolbar toolbar;
 
+  @NonNull
+  public final ImageView topbanner;
+
   private ActivityAboutBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView aboutback,
-      @NonNull ImageView address, @NonNull TextView general, @NonNull ConstraintLayout linearLayout,
-      @NonNull ImageView menu, @NonNull MaterialToolbar toolbar) {
+      @NonNull ReadMoreTextView abouttxt, @NonNull LinearLayout linearLayout2,
+      @NonNull ImageView menu, @NonNull MaterialToolbar toolbar, @NonNull ImageView topbanner) {
     this.rootView = rootView;
     this.aboutback = aboutback;
-    this.address = address;
-    this.general = general;
-    this.linearLayout = linearLayout;
+    this.abouttxt = abouttxt;
+    this.linearLayout2 = linearLayout2;
     this.menu = menu;
     this.toolbar = toolbar;
+    this.topbanner = topbanner;
   }
 
   @Override
@@ -83,21 +84,15 @@ public final class ActivityAboutBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.address;
-      ImageView address = rootView.findViewById(id);
-      if (address == null) {
+      id = R.id.abouttxt;
+      ReadMoreTextView abouttxt = rootView.findViewById(id);
+      if (abouttxt == null) {
         break missingId;
       }
 
-      id = R.id.general;
-      TextView general = rootView.findViewById(id);
-      if (general == null) {
-        break missingId;
-      }
-
-      id = R.id.linearLayout;
-      ConstraintLayout linearLayout = rootView.findViewById(id);
-      if (linearLayout == null) {
+      id = R.id.linearLayout2;
+      LinearLayout linearLayout2 = rootView.findViewById(id);
+      if (linearLayout2 == null) {
         break missingId;
       }
 
@@ -113,8 +108,14 @@ public final class ActivityAboutBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityAboutBinding((ConstraintLayout) rootView, aboutback, address, general,
-          linearLayout, menu, toolbar);
+      id = R.id.topbanner;
+      ImageView topbanner = rootView.findViewById(id);
+      if (topbanner == null) {
+        break missingId;
+      }
+
+      return new ActivityAboutBinding((ConstraintLayout) rootView, aboutback, abouttxt,
+          linearLayout2, menu, toolbar, topbanner);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

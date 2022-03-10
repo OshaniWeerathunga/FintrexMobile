@@ -5,9 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.fintrex.fintrexfinance.R;
 import java.lang.NullPointerException;
@@ -16,54 +19,46 @@ import java.lang.String;
 
 public final class LcListBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final LinearLayout linear1;
+  public final LinearLayout linearLayout;
 
   @NonNull
-  public final LinearLayout linear2;
+  public final Spinner savAccountTypeSpinner;
 
   @NonNull
-  public final LinearLayout linear3;
+  public final AppCompatButton savSubmit;
 
   @NonNull
-  public final TextView textLcAmount;
+  public final AppCompatEditText savingFullname;
 
   @NonNull
-  public final TextView textLcMaturity;
+  public final AppCompatEditText savingNic;
 
   @NonNull
-  public final TextView textLcNo;
+  public final AppCompatEditText savingaddress;
 
   @NonNull
-  public final TextView topicLcAmount;
+  public final AppCompatEditText savingmobile;
 
-  @NonNull
-  public final TextView topicLcMaturity;
-
-  @NonNull
-  public final TextView topicLcNo;
-
-  private LcListBinding(@NonNull LinearLayout rootView, @NonNull LinearLayout linear1,
-      @NonNull LinearLayout linear2, @NonNull LinearLayout linear3, @NonNull TextView textLcAmount,
-      @NonNull TextView textLcMaturity, @NonNull TextView textLcNo, @NonNull TextView topicLcAmount,
-      @NonNull TextView topicLcMaturity, @NonNull TextView topicLcNo) {
+  private LcListBinding(@NonNull ConstraintLayout rootView, @NonNull LinearLayout linearLayout,
+      @NonNull Spinner savAccountTypeSpinner, @NonNull AppCompatButton savSubmit,
+      @NonNull AppCompatEditText savingFullname, @NonNull AppCompatEditText savingNic,
+      @NonNull AppCompatEditText savingaddress, @NonNull AppCompatEditText savingmobile) {
     this.rootView = rootView;
-    this.linear1 = linear1;
-    this.linear2 = linear2;
-    this.linear3 = linear3;
-    this.textLcAmount = textLcAmount;
-    this.textLcMaturity = textLcMaturity;
-    this.textLcNo = textLcNo;
-    this.topicLcAmount = topicLcAmount;
-    this.topicLcMaturity = topicLcMaturity;
-    this.topicLcNo = topicLcNo;
+    this.linearLayout = linearLayout;
+    this.savAccountTypeSpinner = savAccountTypeSpinner;
+    this.savSubmit = savSubmit;
+    this.savingFullname = savingFullname;
+    this.savingNic = savingNic;
+    this.savingaddress = savingaddress;
+    this.savingmobile = savingmobile;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -88,62 +83,50 @@ public final class LcListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.linear1;
-      LinearLayout linear1 = rootView.findViewById(id);
-      if (linear1 == null) {
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = rootView.findViewById(id);
+      if (linearLayout == null) {
         break missingId;
       }
 
-      id = R.id.linear2;
-      LinearLayout linear2 = rootView.findViewById(id);
-      if (linear2 == null) {
+      id = R.id.savAccountTypeSpinner;
+      Spinner savAccountTypeSpinner = rootView.findViewById(id);
+      if (savAccountTypeSpinner == null) {
         break missingId;
       }
 
-      id = R.id.linear3;
-      LinearLayout linear3 = rootView.findViewById(id);
-      if (linear3 == null) {
+      id = R.id.savSubmit;
+      AppCompatButton savSubmit = rootView.findViewById(id);
+      if (savSubmit == null) {
         break missingId;
       }
 
-      id = R.id.textLcAmount;
-      TextView textLcAmount = rootView.findViewById(id);
-      if (textLcAmount == null) {
+      id = R.id.savingFullname;
+      AppCompatEditText savingFullname = rootView.findViewById(id);
+      if (savingFullname == null) {
         break missingId;
       }
 
-      id = R.id.textLcMaturity;
-      TextView textLcMaturity = rootView.findViewById(id);
-      if (textLcMaturity == null) {
+      id = R.id.savingNic;
+      AppCompatEditText savingNic = rootView.findViewById(id);
+      if (savingNic == null) {
         break missingId;
       }
 
-      id = R.id.textLcNo;
-      TextView textLcNo = rootView.findViewById(id);
-      if (textLcNo == null) {
+      id = R.id.savingaddress;
+      AppCompatEditText savingaddress = rootView.findViewById(id);
+      if (savingaddress == null) {
         break missingId;
       }
 
-      id = R.id.topicLcAmount;
-      TextView topicLcAmount = rootView.findViewById(id);
-      if (topicLcAmount == null) {
+      id = R.id.savingmobile;
+      AppCompatEditText savingmobile = rootView.findViewById(id);
+      if (savingmobile == null) {
         break missingId;
       }
 
-      id = R.id.topicLcMaturity;
-      TextView topicLcMaturity = rootView.findViewById(id);
-      if (topicLcMaturity == null) {
-        break missingId;
-      }
-
-      id = R.id.topicLcNo;
-      TextView topicLcNo = rootView.findViewById(id);
-      if (topicLcNo == null) {
-        break missingId;
-      }
-
-      return new LcListBinding((LinearLayout) rootView, linear1, linear2, linear3, textLcAmount,
-          textLcMaturity, textLcNo, topicLcAmount, topicLcMaturity, topicLcNo);
+      return new LcListBinding((ConstraintLayout) rootView, linearLayout, savAccountTypeSpinner,
+          savSubmit, savingFullname, savingNic, savingaddress, savingmobile);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

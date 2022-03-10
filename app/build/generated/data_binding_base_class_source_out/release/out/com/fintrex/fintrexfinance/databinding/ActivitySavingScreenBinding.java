@@ -7,11 +7,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.fintrex.fintrexfinance.R;
+import com.google.android.material.appbar.MaterialToolbar;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -30,18 +31,23 @@ public final class ActivitySavingScreenBinding implements ViewBinding {
   public final RecyclerView recyclerview;
 
   @NonNull
+  public final CardView savNoDataCard;
+
+  @NonNull
   public final ImageView savback;
 
   @NonNull
-  public final Toolbar toolbar;
+  public final MaterialToolbar toolbar;
 
   private ActivitySavingScreenBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView2, @NonNull ImageView menu, @NonNull RecyclerView recyclerview,
-      @NonNull ImageView savback, @NonNull Toolbar toolbar) {
+      @NonNull CardView savNoDataCard, @NonNull ImageView savback,
+      @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
     this.imageView2 = imageView2;
     this.menu = menu;
     this.recyclerview = recyclerview;
+    this.savNoDataCard = savNoDataCard;
     this.savback = savback;
     this.toolbar = toolbar;
   }
@@ -91,6 +97,12 @@ public final class ActivitySavingScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.savNoDataCard;
+      CardView savNoDataCard = rootView.findViewById(id);
+      if (savNoDataCard == null) {
+        break missingId;
+      }
+
       id = R.id.savback;
       ImageView savback = rootView.findViewById(id);
       if (savback == null) {
@@ -98,13 +110,13 @@ public final class ActivitySavingScreenBinding implements ViewBinding {
       }
 
       id = R.id.toolbar;
-      Toolbar toolbar = rootView.findViewById(id);
+      MaterialToolbar toolbar = rootView.findViewById(id);
       if (toolbar == null) {
         break missingId;
       }
 
       return new ActivitySavingScreenBinding((ConstraintLayout) rootView, imageView2, menu,
-          recyclerview, savback, toolbar);
+          recyclerview, savNoDataCard, savback, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

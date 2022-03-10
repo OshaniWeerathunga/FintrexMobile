@@ -22,19 +22,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_reg"
             android:gravity="center_horizontal"
             android:text="Please Accept the Terms and Conditions To Proceed"
             android:textAlignment="center"
+            android:padding="5dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/black"
             android:textStyle="bold" />
 
         <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="330dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_height="200dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp">
@@ -42,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:padding="10dp"
                 android:text="@string/loginterms"
                 android:justificationMode="inter_word"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
@@ -54,7 +52,6 @@
             android:id="@+id/accepted"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:text="Accepted"
             android:textColor="@color/black"/>
 
@@ -63,16 +60,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="5dp"
             android:layout_marginRight="50dp"
-            android:background="@drawable/button_bg"
-            android:backgroundTint="@color/dark_grey"
-            android:fontFamily="@font/roboto_reg"
+            android:background="@color/dark_grey"
             android:text="OK"
             android:textAllCaps="true"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
     </LinearLayout>
 

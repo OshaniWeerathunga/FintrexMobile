@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fintrex.fintrexfinance"
-    android:versionCode="2"
-    android:versionName="1.1" >
+    android:versionCode="9"
+    android:versionName="1.8" >
 
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="30" />
 
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -42,6 +41,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.FintrexFinance"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.fintrex.fintrexfinance.Navigation.Promotion" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Rates" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.NewSavingCreate" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.NewFdCreate" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.FdAndSavings" />
         <activity android:name="com.fintrex.fintrexfinance.Payments.Ezcash" />
         <activity android:name="com.fintrex.fintrexfinance.Payments.Online" />
         <activity android:name="com.fintrex.fintrexfinance.Payments.Cdm" />
@@ -59,7 +63,6 @@
         <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Branches" />
         <activity android:name="com.fintrex.fintrexfinance.QuickLinks.ExternalRequest" />
         <activity android:name="com.fintrex.fintrexfinance.Navigation.Profile" />
-        <activity android:name="com.fintrex.fintrexfinance.Navigation.TermsCondition" />
         <activity android:name="com.fintrex.fintrexfinance.Otp" />
         <activity android:name="com.fintrex.fintrexfinance.Details.LoanScreen" />
         <activity android:name="com.fintrex.fintrexfinance.Details.SavingScreen" />

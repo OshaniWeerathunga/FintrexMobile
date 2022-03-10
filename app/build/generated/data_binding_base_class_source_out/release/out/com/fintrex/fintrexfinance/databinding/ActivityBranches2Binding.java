@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,20 +22,41 @@ public final class ActivityBranches2Binding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final LinearLayout bottomSheetBranches;
+
+  @NonNull
+  public final TextView branchAddress;
+
+  @NonNull
+  public final TextView branchName;
+
+  @NonNull
+  public final TextView branchOpen;
+
+  @NonNull
   public final ImageView branchback;
 
   @NonNull
   public final MaterialToolbar branchtoolbar;
 
   @NonNull
+  public final ImageView close;
+
+  @NonNull
   public final ImageView menu;
 
   private ActivityBranches2Binding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView branchback, @NonNull MaterialToolbar branchtoolbar,
-      @NonNull ImageView menu) {
+      @NonNull LinearLayout bottomSheetBranches, @NonNull TextView branchAddress,
+      @NonNull TextView branchName, @NonNull TextView branchOpen, @NonNull ImageView branchback,
+      @NonNull MaterialToolbar branchtoolbar, @NonNull ImageView close, @NonNull ImageView menu) {
     this.rootView = rootView;
+    this.bottomSheetBranches = bottomSheetBranches;
+    this.branchAddress = branchAddress;
+    this.branchName = branchName;
+    this.branchOpen = branchOpen;
     this.branchback = branchback;
     this.branchtoolbar = branchtoolbar;
+    this.close = close;
     this.menu = menu;
   }
 
@@ -64,6 +87,30 @@ public final class ActivityBranches2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bottomSheetBranches;
+      LinearLayout bottomSheetBranches = rootView.findViewById(id);
+      if (bottomSheetBranches == null) {
+        break missingId;
+      }
+
+      id = R.id.branchAddress;
+      TextView branchAddress = rootView.findViewById(id);
+      if (branchAddress == null) {
+        break missingId;
+      }
+
+      id = R.id.branchName;
+      TextView branchName = rootView.findViewById(id);
+      if (branchName == null) {
+        break missingId;
+      }
+
+      id = R.id.branchOpen;
+      TextView branchOpen = rootView.findViewById(id);
+      if (branchOpen == null) {
+        break missingId;
+      }
+
       id = R.id.branchback;
       ImageView branchback = rootView.findViewById(id);
       if (branchback == null) {
@@ -76,14 +123,20 @@ public final class ActivityBranches2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.close;
+      ImageView close = rootView.findViewById(id);
+      if (close == null) {
+        break missingId;
+      }
+
       id = R.id.menu;
       ImageView menu = rootView.findViewById(id);
       if (menu == null) {
         break missingId;
       }
 
-      return new ActivityBranches2Binding((ConstraintLayout) rootView, branchback, branchtoolbar,
-          menu);
+      return new ActivityBranches2Binding((ConstraintLayout) rootView, bottomSheetBranches,
+          branchAddress, branchName, branchOpen, branchback, branchtoolbar, close, menu);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

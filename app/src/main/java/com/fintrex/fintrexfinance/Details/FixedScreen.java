@@ -1,34 +1,21 @@
 package com.fintrex.fintrexfinance.Details;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.widget.TextViewCompat;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.media.Image;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.TypedValue;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-import com.fintrex.fintrexfinance.Common.DashboardScreen;
-import com.fintrex.fintrexfinance.Common.LoginScreen;
 import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
-import com.fintrex.fintrexfinance.HelperClass.Config;
 import com.fintrex.fintrexfinance.HelperClass.Fd;
 import com.fintrex.fintrexfinance.HelperClass.FdAdapter;
-import com.fintrex.fintrexfinance.HelperClass.Lease;
-import com.fintrex.fintrexfinance.HelperClass.LeaseAdapter;
 import com.fintrex.fintrexfinance.HelperClass.PostRequest;
 import com.fintrex.fintrexfinance.R;
 
@@ -43,11 +30,12 @@ import java.util.List;
 
 public class FixedScreen extends BaseActivity {
 
-    String nic;
+    String nic,userFd;
     ImageView fdback;
     ProgressDialog progressDialog;
+    CardView nodata;
 
-    String ServerLoginURL = "http://202.124.175.29/Fintrex_Mobile/indexControl/getFixedAmtData?";
+    String ServerLoginURL = "https://online.fintrexfinance.com/indexControl/getFixedAmtData?";
     URL url;
     String finalResult ;
 
@@ -61,27 +49,39 @@ public class FixedScreen extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fixed_screen);
 
-        fdList = new ArrayList<>();
+        //screenshots not allowed
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,WindowManager.LayoutParams.FLAG_SECURE);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
-        recyclerView.setHasFixedSize(true);
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
+        //get values from Home class
         Intent intent = getIntent();
         nic=intent.getStringExtra(HomeScreen.Nic);
+        userFd=intent.getStringExtra(HomeScreen.Fixed);
+        nodata=findViewById(R.id.fdNoDataCard);
+
+        if (userFd.equals("-")){
+            nodata.setVisibility(View.VISIBLE);
+        }
+        else {
+            fdList = new ArrayList<>();
+
+            recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
+            recyclerView.setHasFixedSize(true);
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+            //call method to get fd data
+            GetFdData();
+        }
 
         //back to home
-        fdback=findViewById(R.id.fdback);
+        fdback = findViewById(R.id.fdback);
         fdback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
-
-        //call method to get fd data
-        GetFdData();
     }
 
 

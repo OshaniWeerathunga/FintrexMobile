@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:padding="10dp"
     android:orientation="vertical"
-    android:background="@color/whitetrans"
+    android:background="@color/light_purple"
     android:layout_marginBottom="2dp">
 
     <LinearLayout
@@ -33,7 +33,6 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="Message Type"
-                android:fontFamily="@font/roboto_reg"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
@@ -43,7 +42,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="12/20/2003"
-                android:fontFamily="@font/roboto_reg"
                 android:textColor="@color/black"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
 
@@ -64,14 +62,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Message"
-            android:fontFamily="@font/roboto_reg"
             android:layout_marginLeft="10dp"
             android:textColor="@color/black"
             android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>

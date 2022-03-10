@@ -5,36 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Navigation.Profile"
-    android:background="@color/card">
+    android:background="@color/light_purple">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/profiletoolbar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHeight_percent=".075"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@color/purple">
+        android:background="@color/purpletop">
 
         <ImageView
             android:id="@+id/pback"
             android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:padding="5dp"
             android:src="@drawable/back"
             android:layout_gravity="center_vertical"/>
 
         <TextView
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
             android:textStyle="bold"
             android:text="My Profile"
-            android:fontFamily="@font/roboto_reg"
+            android:fontFamily="@font/regular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"/>
 
         <ImageView
@@ -43,7 +44,7 @@
             android:layout_height="match_parent"
             android:paddingRight="10dp"
             android:layout_gravity="right"
-            android:src="@drawable/digital_logo_2" />
+            android:src="@drawable/logowhite" />
 
 
     </com.google.android.material.appbar.MaterialToolbar>
@@ -94,7 +95,6 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/button_bg"
                 android:text="Upload Image"
-                    android:fontFamily="@font/roboto_reg"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                     android:layout_weight="1"
@@ -110,7 +110,6 @@
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_bg"
                     android:text="Save"
-                    android:fontFamily="@font/roboto_reg"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:layout_weight="1"
@@ -151,7 +150,6 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:hint="Fullname"
-                    android:fontFamily="@font/roboto_reg"
                     android:background="@color/white"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                     android:textColor="@color/black"
@@ -214,7 +212,6 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:hint="NIC"
-                    android:fontFamily="@font/roboto_reg"
                     android:background="@color/white"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                     android:textColor="@color/black"
@@ -278,7 +275,6 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:hint="Address"
-                    android:fontFamily="@font/roboto_reg"
                     android:background="@color/white"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                     android:textColor="@color/black"
@@ -342,7 +338,6 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:hint="Mobile"
-                    android:fontFamily="@font/roboto_reg"
                     android:background="@color/white"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                     android:textColor="@color/black"

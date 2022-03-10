@@ -1,6 +1,6 @@
 package com.fintrex.fintrexfinance.Details;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -9,10 +9,10 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.fintrex.fintrexfinance.Common.DashboardScreen;
 import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
 import com.fintrex.fintrexfinance.HelperClass.PostRequest;
 import com.fintrex.fintrexfinance.HelperClass.Saving;
@@ -30,10 +30,11 @@ import java.util.List;
 
 public class SavingScreen extends BaseActivity {
 
-    String nic;
+    String nic,userSav;
     ImageView savback;
+    CardView nodata;
 
-    String ServerLoginURL = "http://202.124.175.29/Fintrex_Mobile/indexControl/getSavingData?";
+    String ServerLoginURL = "https://online.fintrexfinance.com/indexControl/getSavingData?";
     URL url;
     String finalResult ;
 
@@ -48,18 +49,33 @@ public class SavingScreen extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saving_screen);
 
-        savingList = new ArrayList<>();
+        //screenshots not allowed
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,WindowManager.LayoutParams.FLAG_SECURE);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
-        recyclerView.setHasFixedSize(true);
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
+        //get values from Home class
         Intent intent = getIntent();
         nic=intent.getStringExtra(HomeScreen.Nic);
+        userSav=intent.getStringExtra(HomeScreen.Saving);
+        nodata=findViewById(R.id.savNoDataCard);
+
+        if (userSav.equals("-")){
+            nodata.setVisibility(View.VISIBLE);
+        }
+        else {
+            savingList = new ArrayList<>();
+
+            recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
+            recyclerView.setHasFixedSize(true);
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+            //call method to get saving values
+            GetSavingData();
+        }
 
         //back to home
-        savback=findViewById(R.id.savback);
+        savback = findViewById(R.id.savback);
         savback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,8 +83,6 @@ public class SavingScreen extends BaseActivity {
             }
         });
 
-        //call method to get saving values
-        GetSavingData();
     }
 
 

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
@@ -24,6 +25,9 @@ public final class ActivityLoanScreenBinding implements ViewBinding {
   public final ImageView imageView2;
 
   @NonNull
+  public final CardView loanNoDataCard;
+
+  @NonNull
   public final ImageView loanback;
 
   @NonNull
@@ -36,11 +40,12 @@ public final class ActivityLoanScreenBinding implements ViewBinding {
   public final ImageView menu;
 
   private ActivityLoanScreenBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView2, @NonNull ImageView loanback,
+      @NonNull ImageView imageView2, @NonNull CardView loanNoDataCard, @NonNull ImageView loanback,
       @NonNull RecyclerView loanrecyclerview, @NonNull MaterialToolbar loantoolbar,
       @NonNull ImageView menu) {
     this.rootView = rootView;
     this.imageView2 = imageView2;
+    this.loanNoDataCard = loanNoDataCard;
     this.loanback = loanback;
     this.loanrecyclerview = loanrecyclerview;
     this.loantoolbar = loantoolbar;
@@ -80,6 +85,12 @@ public final class ActivityLoanScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loanNoDataCard;
+      CardView loanNoDataCard = rootView.findViewById(id);
+      if (loanNoDataCard == null) {
+        break missingId;
+      }
+
       id = R.id.loanback;
       ImageView loanback = rootView.findViewById(id);
       if (loanback == null) {
@@ -104,8 +115,8 @@ public final class ActivityLoanScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoanScreenBinding((ConstraintLayout) rootView, imageView2, loanback,
-          loanrecyclerview, loantoolbar, menu);
+      return new ActivityLoanScreenBinding((ConstraintLayout) rootView, imageView2, loanNoDataCard,
+          loanback, loanrecyclerview, loantoolbar, menu);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

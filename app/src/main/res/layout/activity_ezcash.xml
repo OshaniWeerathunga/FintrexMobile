@@ -5,24 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Payments.Ezcash"
-    android:background="@color/card">
+    android:background="@color/light_purple">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/eztoolbar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHeight_percent=".075"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@color/purple">
+        android:background="@color/purpletop">
 
         <ImageView
             android:id="@+id/ezback"
             android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:padding="5dp"
             android:src="@drawable/back"
             android:layout_gravity="center_vertical"/>
@@ -34,7 +34,8 @@
             android:gravity="center"
             android:textStyle="bold"
             android:text="eZ Cash"
-            android:fontFamily="@font/roboto_reg"
+            android:fontFamily="@font/regular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"/>
 
         <ImageView
@@ -43,62 +44,19 @@
             android:layout_height="match_parent"
             android:paddingRight="10dp"
             android:layout_gravity="right"
-            android:src="@drawable/digital_logo_2" />
+            android:src="@drawable/logowhite" />
 
     </com.google.android.material.appbar.MaterialToolbar>
 
-    <ScrollView
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="5dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eztoolbar">
+        android:src="@drawable/ezcashdata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eztoolbar"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:orientation="vertical"
-            android:paddingLeft="5dp"
-            android:paddingTop="5dp"
-            android:paddingRight="5dp"
-            android:paddingBottom="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
-
-
-            <ImageView
-                android:id="@+id/address"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginBottom="5dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/dialog"
-                app:layout_constraintBottom_toTopOf="@+id/general"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/general"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/home_card"
-                android:fontFamily="@font/roboto_reg"
-                android:justificationMode="inter_word"
-                android:padding="10dp"
-                android:text="@string/ezcash_payment"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

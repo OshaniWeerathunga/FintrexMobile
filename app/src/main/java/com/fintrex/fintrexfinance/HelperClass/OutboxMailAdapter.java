@@ -11,7 +11,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.fintrex.fintrexfinance.R;
-import com.google.android.gms.common.annotation.NonNullApi;
 
 import java.util.List;
 

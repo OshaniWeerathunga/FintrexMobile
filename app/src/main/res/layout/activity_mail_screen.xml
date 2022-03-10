@@ -13,7 +13,7 @@
         android:id="@+id/mailScreentoolbar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/purple">
+        android:background="@color/purpletop">
 
         <ImageView
             android:id="@+id/mailScreenback"
@@ -30,7 +30,8 @@
             android:gravity="center"
             android:textStyle="bold"
             android:text="Messages"
-            android:fontFamily="@font/roboto_reg"
+            android:fontFamily="@font/regular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"/>
 
         <ImageView
@@ -39,7 +40,7 @@
             android:layout_height="match_parent"
             android:paddingRight="10dp"
             android:layout_gravity="right"
-            android:src="@drawable/digital_logo_2" />
+            android:src="@drawable/logowhite" />
 
     </com.google.android.material.appbar.MaterialToolbar>
 
@@ -48,7 +49,7 @@
         android:layout_below="@id/mailScreentoolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple"
+        android:background="@color/purpletop"
         app:tabGravity="fill"
         app:tabIndicator="@color/purple"
         app:tabIndicatorHeight="3dp"
@@ -64,8 +65,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/tab_layout"
         android:id="@+id/view_pager"
-        android:visibility="visible"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        android:visibility="visible"/>
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/newmsg_floatbtn"

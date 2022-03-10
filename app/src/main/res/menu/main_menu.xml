@@ -5,24 +5,39 @@
 
         <item
             android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
             android:title="Home" />
 
         <item
-            android:id="@+id/nav_profile"
-            android:title="My Profile"/>
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="About Us"/>
 
         <item
             android:id="@+id/nav_contact"
+            android:icon="@drawable/nav_contact"
             android:title="Contact Us"/>
 
         <item
             android:id="@+id/nav_branches"
+            android:icon="@drawable/nav_branch"
             android:title="Branches"/>
+
+        <item
+            android:id="@+id/nav_fdrates"
+            android:icon="@drawable/nav_rates"
+            android:title="FD Rates"/>
+
+        <item
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/nav_promotion"
+            android:title="Promotions"/>
 
 
         <item
             android:id="@+id/nav_logout"
-            android:title="Logout"/>
+            android:icon="@drawable/nav_logout"
+            android:title="Sign Out"/>
 
 
     </group>

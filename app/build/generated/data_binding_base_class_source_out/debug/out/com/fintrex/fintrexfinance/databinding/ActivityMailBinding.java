@@ -24,7 +24,10 @@ public final class ActivityMailBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageView2;
+  public final AppCompatButton addImage;
+
+  @NonNull
+  public final ImageView imageattach;
 
   @NonNull
   public final LinearLayout linear1;
@@ -34,6 +37,9 @@ public final class ActivityMailBinding implements ViewBinding {
 
   @NonNull
   public final LinearLayout linear3;
+
+  @NonNull
+  public final LinearLayout linear4;
 
   @NonNull
   public final ConstraintLayout linearLayout;
@@ -59,17 +65,20 @@ public final class ActivityMailBinding implements ViewBinding {
   @NonNull
   public final MaterialToolbar toolbar;
 
-  private ActivityMailBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
-      @NonNull LinearLayout linear1, @NonNull LinearLayout linear2, @NonNull LinearLayout linear3,
+  private ActivityMailBinding(@NonNull ConstraintLayout rootView, @NonNull AppCompatButton addImage,
+      @NonNull ImageView imageattach, @NonNull LinearLayout linear1, @NonNull LinearLayout linear2,
+      @NonNull LinearLayout linear3, @NonNull LinearLayout linear4,
       @NonNull ConstraintLayout linearLayout, @NonNull ImageView mailback, @NonNull ImageView menu,
       @NonNull AppCompatEditText message, @NonNull TextView messageto,
       @NonNull AppCompatEditText messagetype, @NonNull AppCompatButton sendMail,
       @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
-    this.imageView2 = imageView2;
+    this.addImage = addImage;
+    this.imageattach = imageattach;
     this.linear1 = linear1;
     this.linear2 = linear2;
     this.linear3 = linear3;
+    this.linear4 = linear4;
     this.linearLayout = linearLayout;
     this.mailback = mailback;
     this.menu = menu;
@@ -107,9 +116,15 @@ public final class ActivityMailBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView2;
-      ImageView imageView2 = rootView.findViewById(id);
-      if (imageView2 == null) {
+      id = R.id.addImage;
+      AppCompatButton addImage = rootView.findViewById(id);
+      if (addImage == null) {
+        break missingId;
+      }
+
+      id = R.id.imageattach;
+      ImageView imageattach = rootView.findViewById(id);
+      if (imageattach == null) {
         break missingId;
       }
 
@@ -128,6 +143,12 @@ public final class ActivityMailBinding implements ViewBinding {
       id = R.id.linear3;
       LinearLayout linear3 = rootView.findViewById(id);
       if (linear3 == null) {
+        break missingId;
+      }
+
+      id = R.id.linear4;
+      LinearLayout linear4 = rootView.findViewById(id);
+      if (linear4 == null) {
         break missingId;
       }
 
@@ -179,9 +200,9 @@ public final class ActivityMailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMailBinding((ConstraintLayout) rootView, imageView2, linear1, linear2,
-          linear3, linearLayout, mailback, menu, message, messageto, messagetype, sendMail,
-          toolbar);
+      return new ActivityMailBinding((ConstraintLayout) rootView, addImage, imageattach, linear1,
+          linear2, linear3, linear4, linearLayout, mailback, menu, message, messageto, messagetype,
+          sendMail, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

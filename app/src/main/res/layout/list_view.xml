@@ -31,7 +31,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="Lease No : "
-                    android:fontFamily="@font/roboto_reg"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000"
                     android:textStyle="bold" />
@@ -44,7 +43,6 @@
                     android:gravity="end"
                     android:padding="10dp"
                     android:text="L001"
-                    android:fontFamily="@font/roboto_reg"
                     android:textAlignment="viewEnd"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000" />
@@ -65,7 +63,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="Lease Amount : "
-                    android:fontFamily="@font/roboto_reg"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000"
                     android:textStyle="bold" />
@@ -78,7 +75,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="3800000"
-                    android:fontFamily="@font/roboto_reg"
                     android:textAlignment="viewEnd"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000" />
@@ -109,7 +105,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Rental Amount : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -118,7 +113,6 @@
                         android:id="@+id/textRentalAmount"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto_reg"
                         android:layout_weight="1"
                         android:gravity="end"
                         android:padding="10dp"
@@ -146,7 +140,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Period : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -154,8 +147,7 @@
                     <TextView
                         android:id="@+id/textPeriod"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto_reg"
+                        android:layout_height="54dp"
                         android:layout_weight="1"
                         android:gravity="end"
                         android:padding="10dp"
@@ -183,7 +175,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Due Date : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -193,7 +184,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/roboto_reg"
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="31"
@@ -220,7 +210,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Maturity Date : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -230,7 +219,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/roboto_reg"
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="2023-03-03"
@@ -257,7 +245,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Assest Details : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -267,7 +254,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/roboto_reg"
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="Honda Civic 2015"
@@ -295,7 +281,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Rental Outstanding : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -304,7 +289,6 @@
                         android:id="@+id/textrentOut"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto_reg"
                         android:layout_marginTop="20dp"
                         android:layout_weight="1"
                         android:gravity="end"
@@ -333,7 +317,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Charges : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -343,7 +326,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/roboto_reg"
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="500"
@@ -370,7 +352,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="ODI : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -380,7 +361,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/roboto_reg"
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="300"
@@ -407,7 +387,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Total Outstanding : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -417,7 +396,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/roboto_reg"
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="12800"

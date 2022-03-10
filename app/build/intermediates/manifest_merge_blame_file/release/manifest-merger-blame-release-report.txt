@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.fintrex.fintrexfinance"
-4    android:versionCode="2"
-5    android:versionName="1.1" >
+4    android:versionCode="9"
+5    android:versionName="1.8" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
@@ -13,349 +13,355 @@
 11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 11-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:6:5-81
 11-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:6:22-78
-12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:6:5-81
-12-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:6:22-78
-13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:8:5-79
-13-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:8:22-76
-14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:9:5-67
-14-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:9:22-64
-15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:10:5-79
-15-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:10:22-76
-16    <uses-permission android:name="android.permission.CALL_PHONE" />
-16-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:11:5-69
-16-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:11:22-66
-17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:12:5-80
-17-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:12:22-77
-18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-18-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:13:5-15:40
-18-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:14:9-65
-19
-20    <uses-feature
-20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
-21        android:glEsVersion="0x00020000"
-21-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
-22        android:required="true" />
-22-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
-23
-24    <queries>
-24-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
-25
-26        <!-- Needs to be explicitly declared on Android R+ -->
-27        <package android:name="com.google.android.apps.maps" />
-27-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
-27-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
-28    </queries>
-29
-30    <uses-permission android:name="android.permission.WAKE_LOCK" />
-30-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6b36c8d7536638b941c16f90ef3dcdfc\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:24:5-68
-30-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6b36c8d7536638b941c16f90ef3dcdfc\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:24:22-65
-31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-31-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
-31-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
-32
-33    <application
-33-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:17:5-61:19
-34        android:name="com.fintrex.fintrexfinance.MyApp"
-34-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:18:9-30
-35        android:allowBackup="true"
-35-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:19:9-35
-36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c0a28789b3c563a6f198ce365d70ea1e\core-1.5.0\AndroidManifest.xml:24:18-86
-37        android:icon="@mipmap/ic_launcher"
-37-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:20:9-43
-38        android:label="@string/app_name"
-38-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:21:9-41
-39        android:roundIcon="@mipmap/ic_launcher_round"
-39-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:22:9-54
-40        android:supportsRtl="true"
-40-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:23:9-35
-41        android:theme="@style/Theme.FintrexFinance"
-41-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:24:9-52
-42        android:usesCleartextTraffic="true" >
-42-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:25:9-44
-43        <activity android:name="com.fintrex.fintrexfinance.Payments.Ezcash" />
-43-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:27:9-52
-43-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:27:19-50
-44        <activity android:name="com.fintrex.fintrexfinance.Payments.Online" />
-44-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:28:9-53
-44-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:28:19-50
-45        <activity android:name="com.fintrex.fintrexfinance.Payments.Cdm" />
-45-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:29:9-50
-45-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:29:19-47
-46        <activity android:name="com.fintrex.fintrexfinance.Payments.Cargills" />
-46-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:30:9-55
-46-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:30:19-52
-47        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.TermsConditions" />
-47-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:31:9-64
-47-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:31:19-61
-48        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Contacts" />
-48-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:32:9-57
-48-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:32:19-54
-49        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.About" />
-49-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:33:9-54
-49-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:33:19-51
-50        <activity android:name="com.fintrex.fintrexfinance.Details.MailScreen" />
-50-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:34:9-56
-50-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:34:19-53
-51        <activity android:name="com.fintrex.fintrexfinance.Details.NewMailSend" />
-51-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:35:9-57
-51-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:35:19-54
-52
-53        <meta-data
-53-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:37:9-39:54
-54            android:name="com.google.android.geo.API_KEY"
-54-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:38:13-58
-55            android:value="@string/google_map_key" />
-55-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:39:13-51
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:8:5-67
+13-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:9:5-79
+14-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:10:5-69
+15-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:10:22-66
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:11:5-80
+16-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:12:5-14:40
+17-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:13:9-65
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c1b8a6d7fa3b519ce4d17918dae7fad4\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:24:5-68
+29-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c1b8a6d7fa3b519ce4d17918dae7fad4\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:5-110
+30-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:22-107
+31
+32    <application
+32-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:16:5-63:19
+33        android:name="com.fintrex.fintrexfinance.MyApp"
+33-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:17:9-56
+34        android:allowBackup="true"
+34-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:18:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c0a28789b3c563a6f198ce365d70ea1e\core-1.5.0\AndroidManifest.xml:24:18-86
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:19:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:20:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:21:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:22:9-35
+40        android:theme="@style/Theme.FintrexFinance"
+40-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:23:9-52
+41        android:usesCleartextTraffic="true" >
+41-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:24:9-44
+42        <activity android:name="com.fintrex.fintrexfinance.Navigation.Promotion" />
+42-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:26:9-93
+42-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:26:19-81
+43        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Rates" />
+43-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:27:9-80
+43-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:27:19-77
+44        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.NewSavingCreate" />
+44-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:28:9-90
+44-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:28:19-87
+45        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.NewFdCreate" />
+45-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:29:9-86
+45-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:29:19-83
+46        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.FdAndSavings" />
+46-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:30:9-87
+46-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:30:19-84
+47        <activity android:name="com.fintrex.fintrexfinance.Payments.Ezcash" />
+47-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:31:9-79
+47-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:31:19-76
+48        <activity android:name="com.fintrex.fintrexfinance.Payments.Online" />
+48-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:32:9-79
+48-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:32:19-76
+49        <activity android:name="com.fintrex.fintrexfinance.Payments.Cdm" />
+49-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:33:9-76
+49-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:33:19-73
+50        <activity android:name="com.fintrex.fintrexfinance.Payments.Cargills" />
+50-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:34:9-81
+50-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:34:19-78
+51        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.TermsConditions" />
+51-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:35:9-90
+51-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:35:19-87
+52        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Contacts" />
+52-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:36:9-83
+52-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:36:19-80
+53        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.About" />
+53-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:37:9-80
+53-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:37:19-77
+54        <activity android:name="com.fintrex.fintrexfinance.Details.MailScreen" />
+54-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:38:9-82
+54-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:38:19-79
+55        <activity android:name="com.fintrex.fintrexfinance.Details.NewMailSend" />
+55-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:39:9-83
+55-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:39:19-80
 56
-57        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Branches" />
-57-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:41:9-57
-57-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:41:19-54
-58        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.ExternalRequest" />
-58-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:42:9-64
-58-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:42:19-61
-59        <activity android:name="com.fintrex.fintrexfinance.Navigation.Profile" />
-59-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:43:9-56
-59-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:43:19-53
-60        <activity android:name="com.fintrex.fintrexfinance.Navigation.TermsCondition" />
-60-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:44:9-63
-60-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:44:19-60
-61        <activity android:name="com.fintrex.fintrexfinance.Otp" />
-61-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:45:9-41
-61-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:45:19-38
-62        <activity android:name="com.fintrex.fintrexfinance.Details.LcScreen" />
-62-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:46:9-54
-62-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:46:19-51
-63        <activity android:name="com.fintrex.fintrexfinance.Details.LoanScreen" />
-63-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:47:9-56
-63-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:47:19-53
-64        <activity android:name="com.fintrex.fintrexfinance.Details.SavingScreen" />
-64-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:48:9-58
-64-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:48:19-55
-65        <activity android:name="com.fintrex.fintrexfinance.Details.FixedScreen" />
-65-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:49:9-57
-65-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:49:19-54
-66        <activity android:name="com.fintrex.fintrexfinance.Details.LeasingScreen" />
-66-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:50:9-59
-66-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:50:19-56
-67        <activity android:name="com.fintrex.fintrexfinance.Details.HomeScreen" />
-67-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:51:9-56
-67-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:51:19-53
-68        <activity android:name="com.fintrex.fintrexfinance.Common.DashboardScreen" />
-68-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:52:9-60
-68-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:52:19-57
-69        <activity android:name="com.fintrex.fintrexfinance.Common.LoginScreen" />
-69-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:53:9-56
-69-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:53:19-53
-70        <activity android:name="com.fintrex.fintrexfinance.MainActivity" >
-70-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:54:9-60:20
-70-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:54:19-47
-71            <intent-filter>
-71-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:55:13-59:29
-72                <action android:name="android.intent.action.MAIN" />
-72-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:56:17-69
-72-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:56:25-66
-73
-74                <category android:name="android.intent.category.LAUNCHER" />
-74-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:58:17-77
-74-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:58:27-74
-75            </intent-filter>
-76        </activity>
-77        <activity
-77-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:27:9-44:20
-78            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-78-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:28:13-80
-79            android:excludeFromRecents="true"
-79-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:29:13-46
-80            android:exported="true"
-80-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:30:13-36
-81            android:launchMode="singleTask"
-81-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:31:13-44
-82            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-82-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:32:13-72
-83            <intent-filter>
-83-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:33:13-43:29
-84                <action android:name="android.intent.action.VIEW" />
-84-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
-84-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
-85
-86                <category android:name="android.intent.category.DEFAULT" />
-86-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
-86-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
-87                <category android:name="android.intent.category.BROWSABLE" />
-87-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
-87-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
-88
-89                <data
-89-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
-90                    android:host="firebase.auth"
-90-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
-91                    android:path="/"
-91-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
-92                    android:scheme="genericidp" />
-92-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
-93            </intent-filter>
-94        </activity>
-95        <activity
-95-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:45:9-62:20
-96            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-96-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:46:13-79
-97            android:excludeFromRecents="true"
-97-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:47:13-46
-98            android:exported="true"
-98-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:48:13-36
-99            android:launchMode="singleTask"
-99-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:49:13-44
-100            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-100-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:50:13-72
-101            <intent-filter>
-101-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:51:13-61:29
-102                <action android:name="android.intent.action.VIEW" />
-102-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
-102-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
-103
-104                <category android:name="android.intent.category.DEFAULT" />
-104-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
-104-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
-105                <category android:name="android.intent.category.BROWSABLE" />
-105-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
-105-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
-106
-107                <data
-107-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
-108                    android:host="firebase.auth"
-108-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
-109                    android:path="/"
-109-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
-110                    android:scheme="recaptcha" />
-110-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
-111            </intent-filter>
-112        </activity>
-113
-114        <service
-114-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:64:9-73:19
-115            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-115-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:65:13-101
-116            android:enabled="true"
-116-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:66:13-35
-117            android:exported="false" >
-117-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:67:13-37
-118            <intent-filter>
-118-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:68:13-72:29
-119                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-119-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:17-89
-119-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:25-86
-120
-121                <category android:name="android.intent.category.DEFAULT" />
-121-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
-121-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
-122            </intent-filter>
-123        </service>
-124        <service
-124-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:74:9-80:19
-125            android:name="com.google.firebase.components.ComponentDiscoveryService"
-125-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:75:13-84
-126            android:directBootAware="true"
-126-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
-127            android:exported="false" >
-127-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:76:13-37
-128            <meta-data
-128-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:77:13-79:85
-129                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-129-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:78:17-109
-130                android:value="com.google.firebase.components.ComponentRegistrar" />
-130-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e055f7f8704538bcc788a6b8707c41d1\jetified-firebase-auth-20.0.3\AndroidManifest.xml:79:17-82
-131            <meta-data
-131-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6b36c8d7536638b941c16f90ef3dcdfc\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
-132                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-132-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6b36c8d7536638b941c16f90ef3dcdfc\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
-133                android:value="com.google.firebase.components.ComponentRegistrar" />
-133-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6b36c8d7536638b941c16f90ef3dcdfc\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
-134            <meta-data
-134-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c324646d0ddf8eb4ab30f3b6bd1343aa\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
-135                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-135-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c324646d0ddf8eb4ab30f3b6bd1343aa\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
-136                android:value="com.google.firebase.components.ComponentRegistrar" />
-136-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c324646d0ddf8eb4ab30f3b6bd1343aa\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
-137        </service> <!-- Needs to be explicitly declared on P+ -->
-138        <uses-library
-138-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
-139            android:name="org.apache.http.legacy"
-139-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
-140            android:required="false" />
-140-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
-141
-142        <provider
-142-->[com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9aba3e2e699fbcba3c7516698ba0333b\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-143            android:name="com.squareup.picasso.PicassoProvider"
-143-->[com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9aba3e2e699fbcba3c7516698ba0333b\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-144            android:authorities="com.fintrex.fintrexfinance.com.squareup.picasso"
-144-->[com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9aba3e2e699fbcba3c7516698ba0333b\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-145            android:exported="false" />
-145-->[com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9aba3e2e699fbcba3c7516698ba0333b\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-146
-147        <activity
-147-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
-148            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-148-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-149            android:exported="false"
-149-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-150            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-150-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
-151
-152        <provider
-152-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
-153            android:name="com.google.firebase.provider.FirebaseInitProvider"
-153-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
-154            android:authorities="com.fintrex.fintrexfinance.firebaseinitprovider"
-154-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
-155            android:directBootAware="true"
-155-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
-156            android:exported="false"
-156-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
-157            android:initOrder="100" />
-157-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5500978cd02395a8bf5bbed55985b128\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
-158
-159        <receiver
-159-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
-160            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-160-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
-161            android:enabled="true"
-161-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
-162            android:exported="false" >
-162-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
-163        </receiver>
-164
-165        <service
-165-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
-166            android:name="com.google.android.gms.measurement.AppMeasurementService"
-166-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
-167            android:enabled="true"
-167-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
-168            android:exported="false" />
-168-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
-169        <service
-169-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
-170            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-170-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
-171            android:enabled="true"
-171-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
-172            android:exported="false"
-172-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
-173            android:permission="android.permission.BIND_JOB_SERVICE" />
-173-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\72c92b5438b722870ed02fa46b87ce8e\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
-174
-175        <meta-data
-175-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
-176            android:name="com.google.android.gms.version"
-176-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
-177            android:value="@integer/google_play_services_version" />
-177-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
-178    </application>
-179
-180</manifest>
+57        <meta-data
+57-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:41:9-43:54
+58            android:name="com.google.android.geo.API_KEY"
+58-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:42:13-58
+59            android:value="@string/google_map_key" />
+59-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:43:13-51
+60
+61        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Branches" />
+61-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:45:9-83
+61-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:45:19-80
+62        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.ExternalRequest" />
+62-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:46:9-90
+62-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:46:19-87
+63        <activity android:name="com.fintrex.fintrexfinance.Navigation.Profile" />
+63-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:47:9-82
+63-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:47:19-79
+64        <activity android:name="com.fintrex.fintrexfinance.Otp" />
+64-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:48:9-67
+64-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:48:19-64
+65        <activity android:name="com.fintrex.fintrexfinance.Details.LoanScreen" />
+65-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:49:9-82
+65-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:49:19-79
+66        <activity android:name="com.fintrex.fintrexfinance.Details.SavingScreen" />
+66-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:50:9-84
+66-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:50:19-81
+67        <activity android:name="com.fintrex.fintrexfinance.Details.FixedScreen" />
+67-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:51:9-83
+67-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:51:19-80
+68        <activity android:name="com.fintrex.fintrexfinance.Details.LeasingScreen" />
+68-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:52:9-85
+68-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:52:19-82
+69        <activity android:name="com.fintrex.fintrexfinance.Details.HomeScreen" />
+69-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:53:9-82
+69-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:53:19-79
+70        <activity android:name="com.fintrex.fintrexfinance.Common.DashboardScreen" />
+70-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:54:9-86
+70-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:54:19-83
+71        <activity android:name="com.fintrex.fintrexfinance.Common.LoginScreen" />
+71-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:55:9-82
+71-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:55:19-79
+72        <activity android:name="com.fintrex.fintrexfinance.MainActivity" >
+72-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:56:9-62:20
+72-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:56:19-73
+73            <intent-filter>
+73-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:57:13-61:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:58:17-69
+74-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:58:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:60:17-77
+76-->C:\Users\User\Desktop\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:60:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+80            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+81            android:excludeFromRecents="true"
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+82            android:exported="true"
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+83            android:launchMode="singleTask"
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+85            <intent-filter>
+85-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+90
+91                <data
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+92                    android:host="firebase.auth"
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+93                    android:path="/"
+93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+94                    android:scheme="genericidp" />
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+95            </intent-filter>
+96        </activity>
+97        <activity
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+98            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+99            android:excludeFromRecents="true"
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+100            android:exported="true"
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+101            android:launchMode="singleTask"
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+103            <intent-filter>
+103-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+104                <action android:name="android.intent.action.VIEW" />
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+107                <category android:name="android.intent.category.BROWSABLE" />
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+108
+109                <data
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+110                    android:host="firebase.auth"
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+111                    android:path="/"
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+112                    android:scheme="recaptcha" />
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+113            </intent-filter>
+114        </activity>
+115
+116        <service
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+117            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+118            android:enabled="true"
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+119            android:exported="false" >
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+120            <intent-filter>
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+121                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+124            </intent-filter>
+125        </service>
+126        <service
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+127            android:name="com.google.firebase.components.ComponentDiscoveryService"
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+128            android:directBootAware="true"
+128-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fadffbde0efb8c47bf5a06104b2bb9a2\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+129            android:exported="false" >
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+130            <meta-data
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+131                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+133            <meta-data
+133-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c1b8a6d7fa3b519ce4d17918dae7fad4\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:30:13-32:85
+134                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+134-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c1b8a6d7fa3b519ce4d17918dae7fad4\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:31:17-139
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c1b8a6d7fa3b519ce4d17918dae7fad4\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:32:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d4a4ef3498136b7062bae935e0b0a845\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+137                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+137-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d4a4ef3498136b7062bae935e0b0a845\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d4a4ef3498136b7062bae935e0b0a845\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+139        </service> <!-- Needs to be explicitly declared on P+ -->
+140        <uses-library
+140-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+141            android:name="org.apache.http.legacy"
+141-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+142            android:required="false" />
+142-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+143
+144        <provider
+144-->[com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9aba3e2e699fbcba3c7516698ba0333b\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+145            android:name="com.squareup.picasso.PicassoProvider"
+145-->[com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9aba3e2e699fbcba3c7516698ba0333b\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+146            android:authorities="com.fintrex.fintrexfinance.com.squareup.picasso"
+146-->[com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9aba3e2e699fbcba3c7516698ba0333b\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+147            android:exported="false" />
+147-->[com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9aba3e2e699fbcba3c7516698ba0333b\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+148
+149        <activity
+149-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+150            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+150-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+153
+154        <provider
+154-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fadffbde0efb8c47bf5a06104b2bb9a2\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+155            android:name="com.google.firebase.provider.FirebaseInitProvider"
+155-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fadffbde0efb8c47bf5a06104b2bb9a2\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+156            android:authorities="com.fintrex.fintrexfinance.firebaseinitprovider"
+156-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fadffbde0efb8c47bf5a06104b2bb9a2\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+157            android:directBootAware="true"
+157-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fadffbde0efb8c47bf5a06104b2bb9a2\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+158            android:exported="false"
+158-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fadffbde0efb8c47bf5a06104b2bb9a2\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+159            android:initOrder="100" />
+159-->[com.google.firebase:firebase-common:20.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fadffbde0efb8c47bf5a06104b2bb9a2\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+160
+161        <receiver
+161-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:29:9-33:20
+162            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+162-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:30:13-85
+163            android:enabled="true"
+163-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:31:13-35
+164            android:exported="false" >
+164-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:32:13-37
+165        </receiver>
+166
+167        <service
+167-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:35:9-38:40
+168            android:name="com.google.android.gms.measurement.AppMeasurementService"
+168-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:36:13-84
+169            android:enabled="true"
+169-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:37:13-35
+170            android:exported="false" />
+170-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:38:13-37
+171        <service
+171-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:39:9-43:72
+172            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+172-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:40:13-87
+173            android:enabled="true"
+173-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:41:13-35
+174            android:exported="false"
+174-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:42:13-37
+175            android:permission="android.permission.BIND_JOB_SERVICE" />
+175-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7e3e6638fc59e7f29a2116a766e4979a\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:43:13-69
+176
+177        <meta-data
+177-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+178            android:name="com.google.android.gms.version"
+178-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+179            android:value="@integer/google_play_services_version" />
+179-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+180    </application>
+181
+182</manifest>

@@ -2,17 +2,17 @@ package com.fintrex.fintrexfinance.HelperClass;
 
 public class Promotion {
 
-    private String imageUrl;
+    private String promotionUrl;
 
-    public Promotion(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public Promotion(String promotionUrl) {
+        this.promotionUrl = promotionUrl;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public String getPromotionUrl() {
+        return promotionUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setPromotionUrl(String promotionUrl) {
+        this.promotionUrl = promotionUrl;
     }
 }

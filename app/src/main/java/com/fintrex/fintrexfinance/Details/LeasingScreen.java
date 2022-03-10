@@ -1,6 +1,6 @@
 package com.fintrex.fintrexfinance.Details;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -9,10 +9,10 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.fintrex.fintrexfinance.Common.DashboardScreen;
 import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
 import com.fintrex.fintrexfinance.HelperClass.Lease;
 import com.fintrex.fintrexfinance.HelperClass.LeaseAdapter;
@@ -30,11 +30,12 @@ import java.util.List;
 
 public class LeasingScreen extends BaseActivity {
 
-    String nic;
+    String nic,userlease;
     ImageView leaseback;
     ProgressDialog progressDialog;
+    CardView nodata;
 
-    String ServerLoginURL = "http://202.124.175.29/Fintrex_Mobile/indexControl/getLeasingData?";
+    String ServerLoginURL = "https://online.fintrexfinance.com/indexControl/getLeasingData?";
     URL url;
     String finalResult ;
 
@@ -48,28 +49,42 @@ public class LeasingScreen extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leasing_screen);
 
-        leaseList = new ArrayList<>();
+        //screenshots not allowed
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,WindowManager.LayoutParams.FLAG_SECURE);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
-        recyclerView.setHasFixedSize(true);
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
+        //get values from Home class
         Intent intent = getIntent();
         nic=intent.getStringExtra(HomeScreen.Nic);
+        userlease=intent.getStringExtra(HomeScreen.Leasing);
+        nodata=findViewById(R.id.leaseNoDataCard);
+
+
+        if (userlease.equals("-")){
+            nodata.setVisibility(View.VISIBLE);
+        }
+        else {
+
+            leaseList = new ArrayList<>();
+
+            recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
+            recyclerView.setHasFixedSize(true);
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+            //call method to get lease data
+            GetLeaseData();
+
+        }
 
         //back to the home
-        leaseback=findViewById(R.id.leaseback);
+        leaseback = findViewById(R.id.leaseback);
         leaseback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
-
-        //call method to get lease data
-        GetLeaseData();
-
     }
 
     public void GetLeaseData(){
@@ -95,34 +110,35 @@ public class LeasingScreen extends BaseActivity {
 
                 progressDialog.dismiss();
 
-                try {
-                    JSONObject jsonObject = new JSONObject(httpResponseMsg);
-                    JSONArray array = jsonObject.getJSONArray("result");
+                    try {
+                        JSONObject jsonObject = new JSONObject(httpResponseMsg);
+                        JSONArray array = jsonObject.getJSONArray("result");
 
-                    for(int i=0; i<array.length();i++){
-                        JSONObject leaseObject = array.getJSONObject(i);
+                        for (int i = 0; i < array.length(); i++) {
+                            JSONObject leaseObject = array.getJSONObject(i);
 
-                        String leaseNo = leaseObject.getString("leasingNo");
-                        String totalOutstanding = leaseObject.getString("tot_outstanding");
-                        String nextPayDate = leaseObject.getString("duedate");
-                        String maturityDate = leaseObject.getString("maturity_date");
-                        String rental = leaseObject.getString("rental_amt");
-                        String lastPayAmount = leaseObject.getString("last_pay_amt");
-                        String lastPayDate = leaseObject.getString("last_pay_date");
-                        String vehicleNo = leaseObject.getString("vehicle_no");
-                        String insuranceBy = leaseObject.getString("insurance_by");
-                        String insuranceExpire = leaseObject.getString("insurance_date");
+                            String leaseNo = leaseObject.getString("leasingNo");
+                            String totalOutstanding = leaseObject.getString("tot_outstanding");
+                            String nextPayDate = leaseObject.getString("duedate");
+                            String maturityDate = leaseObject.getString("maturity_date");
+                            String rental = leaseObject.getString("rental_amt");
+                            String lastPayAmount = leaseObject.getString("last_pay_amt");
+                            String lastPayDate = leaseObject.getString("last_pay_date");
+                            String vehicleNo = leaseObject.getString("vehicle_no");
+                            String insuranceBy = leaseObject.getString("insurance_by");
+                            String insuranceExpire = leaseObject.getString("insurance_date");
 
-                        Lease lease = new Lease(leaseNo,totalOutstanding,nextPayDate,maturityDate,rental,lastPayAmount,lastPayDate,vehicleNo,insuranceBy,insuranceExpire);
-                        leaseList.add(lease);
+                            Lease lease = new Lease(leaseNo, totalOutstanding, nextPayDate, maturityDate, rental, lastPayAmount, lastPayDate, vehicleNo, insuranceBy, insuranceExpire);
+                            leaseList.add(lease);
+
+                        }
+                        adapter = new LeaseAdapter(LeasingScreen.this, leaseList);
+                        recyclerView.setAdapter(adapter);
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                        Toast.makeText(LeasingScreen.this, "Please Check your Connection", Toast.LENGTH_LONG).show();
                     }
-                    adapter = new LeaseAdapter(LeasingScreen.this,leaseList);
-                    recyclerView.setAdapter(adapter);
-
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                    Toast.makeText(LeasingScreen.this,"Please Check your Connection", Toast.LENGTH_LONG).show();
-                }
 
             }
 

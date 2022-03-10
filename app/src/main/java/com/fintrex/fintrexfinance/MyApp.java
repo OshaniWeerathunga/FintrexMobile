@@ -2,10 +2,8 @@ package com.fintrex.fintrexfinance;
 
 import android.app.Application;
 
-import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
 import com.fintrex.fintrexfinance.HelperClass.LogoutListner;
 
-import java.sql.Time;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -38,4 +36,6 @@ public class MyApp extends Application {
     public void onUserInteracted() {
         startUserSession();
     }
+
+
 }

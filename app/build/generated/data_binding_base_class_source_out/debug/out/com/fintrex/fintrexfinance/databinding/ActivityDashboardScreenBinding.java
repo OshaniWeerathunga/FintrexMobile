@@ -22,61 +22,60 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final LinearLayout aboutlink;
+  public final ImageView aboutlink;
 
   @NonNull
-  public final ImageView backgroundImg;
+  public final ImageView branchlink;
 
   @NonNull
-  public final LinearLayout bottom;
+  public final ImageView contactlink;
 
   @NonNull
-  public final LinearLayout branchlink;
+  public final ImageView dashlogo;
 
   @NonNull
-  public final LinearLayout contactlink;
+  public final TextView dashmsg;
+
+  @NonNull
+  public final LinearLayout linear1dash;
+
+  @NonNull
+  public final LinearLayout linear2dash;
 
   @NonNull
   public final AppCompatButton loginbutton;
 
   @NonNull
-  public final LinearLayout promotionlink;
+  public final ImageView promotionlink;
 
   @NonNull
-  public final LinearLayout rateslink;
+  public final ImageView rateslink;
 
   @NonNull
-  public final LinearLayout requestlink;
-
-  @NonNull
-  public final TextView secondmsg;
+  public final ImageView requestlink;
 
   @NonNull
   public final TextView terms;
 
-  @NonNull
-  public final ImageView welcometext;
-
   private ActivityDashboardScreenBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout aboutlink, @NonNull ImageView backgroundImg,
-      @NonNull LinearLayout bottom, @NonNull LinearLayout branchlink,
-      @NonNull LinearLayout contactlink, @NonNull AppCompatButton loginbutton,
-      @NonNull LinearLayout promotionlink, @NonNull LinearLayout rateslink,
-      @NonNull LinearLayout requestlink, @NonNull TextView secondmsg, @NonNull TextView terms,
-      @NonNull ImageView welcometext) {
+      @NonNull ImageView aboutlink, @NonNull ImageView branchlink, @NonNull ImageView contactlink,
+      @NonNull ImageView dashlogo, @NonNull TextView dashmsg, @NonNull LinearLayout linear1dash,
+      @NonNull LinearLayout linear2dash, @NonNull AppCompatButton loginbutton,
+      @NonNull ImageView promotionlink, @NonNull ImageView rateslink,
+      @NonNull ImageView requestlink, @NonNull TextView terms) {
     this.rootView = rootView;
     this.aboutlink = aboutlink;
-    this.backgroundImg = backgroundImg;
-    this.bottom = bottom;
     this.branchlink = branchlink;
     this.contactlink = contactlink;
+    this.dashlogo = dashlogo;
+    this.dashmsg = dashmsg;
+    this.linear1dash = linear1dash;
+    this.linear2dash = linear2dash;
     this.loginbutton = loginbutton;
     this.promotionlink = promotionlink;
     this.rateslink = rateslink;
     this.requestlink = requestlink;
-    this.secondmsg = secondmsg;
     this.terms = terms;
-    this.welcometext = welcometext;
   }
 
   @Override
@@ -107,32 +106,44 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.aboutlink;
-      LinearLayout aboutlink = rootView.findViewById(id);
+      ImageView aboutlink = rootView.findViewById(id);
       if (aboutlink == null) {
         break missingId;
       }
 
-      id = R.id.backgroundImg;
-      ImageView backgroundImg = rootView.findViewById(id);
-      if (backgroundImg == null) {
-        break missingId;
-      }
-
-      id = R.id.bottom;
-      LinearLayout bottom = rootView.findViewById(id);
-      if (bottom == null) {
-        break missingId;
-      }
-
       id = R.id.branchlink;
-      LinearLayout branchlink = rootView.findViewById(id);
+      ImageView branchlink = rootView.findViewById(id);
       if (branchlink == null) {
         break missingId;
       }
 
       id = R.id.contactlink;
-      LinearLayout contactlink = rootView.findViewById(id);
+      ImageView contactlink = rootView.findViewById(id);
       if (contactlink == null) {
+        break missingId;
+      }
+
+      id = R.id.dashlogo;
+      ImageView dashlogo = rootView.findViewById(id);
+      if (dashlogo == null) {
+        break missingId;
+      }
+
+      id = R.id.dashmsg;
+      TextView dashmsg = rootView.findViewById(id);
+      if (dashmsg == null) {
+        break missingId;
+      }
+
+      id = R.id.linear1dash;
+      LinearLayout linear1dash = rootView.findViewById(id);
+      if (linear1dash == null) {
+        break missingId;
+      }
+
+      id = R.id.linear2dash;
+      LinearLayout linear2dash = rootView.findViewById(id);
+      if (linear2dash == null) {
         break missingId;
       }
 
@@ -143,26 +154,20 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
       }
 
       id = R.id.promotionlink;
-      LinearLayout promotionlink = rootView.findViewById(id);
+      ImageView promotionlink = rootView.findViewById(id);
       if (promotionlink == null) {
         break missingId;
       }
 
       id = R.id.rateslink;
-      LinearLayout rateslink = rootView.findViewById(id);
+      ImageView rateslink = rootView.findViewById(id);
       if (rateslink == null) {
         break missingId;
       }
 
       id = R.id.requestlink;
-      LinearLayout requestlink = rootView.findViewById(id);
+      ImageView requestlink = rootView.findViewById(id);
       if (requestlink == null) {
-        break missingId;
-      }
-
-      id = R.id.secondmsg;
-      TextView secondmsg = rootView.findViewById(id);
-      if (secondmsg == null) {
         break missingId;
       }
 
@@ -172,15 +177,9 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.welcometext;
-      ImageView welcometext = rootView.findViewById(id);
-      if (welcometext == null) {
-        break missingId;
-      }
-
-      return new ActivityDashboardScreenBinding((ConstraintLayout) rootView, aboutlink,
-          backgroundImg, bottom, branchlink, contactlink, loginbutton, promotionlink, rateslink,
-          requestlink, secondmsg, terms, welcometext);
+      return new ActivityDashboardScreenBinding((ConstraintLayout) rootView, aboutlink, branchlink,
+          contactlink, dashlogo, dashmsg, linear1dash, linear2dash, loginbutton, promotionlink,
+          rateslink, requestlink, terms);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

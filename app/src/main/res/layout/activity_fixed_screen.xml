@@ -10,30 +10,31 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHeight_percent=".075"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@color/purple">
+        android:background="@color/purpletop">
 
         <ImageView
             android:id="@+id/fdback"
             android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:padding="5dp"
             android:src="@drawable/back"
             android:layout_gravity="center_vertical"/>
 
         <TextView
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
             android:textStyle="bold"
             android:text="Fixed Deposit"
-            android:fontFamily="@font/roboto_reg"
+            android:fontFamily="@font/regular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"/>
 
         <ImageView
@@ -42,7 +43,7 @@
             android:layout_height="match_parent"
             android:paddingRight="10dp"
             android:layout_gravity="right"
-            android:src="@drawable/digital_logo_2" />
+            android:src="@drawable/logowhite" />
 
     </com.google.android.material.appbar.MaterialToolbar>
 
@@ -51,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/home_bg"
+        android:src="@drawable/homebg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent=".93"
@@ -72,6 +73,33 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fdNoDataCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="671dp"
+        app:cardBackgroundColor="@color/whitetrans"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="No Records Found ! "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

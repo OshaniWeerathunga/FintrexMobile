@@ -7,13 +7,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.fintrex.fintrexfinance.QuickLinks.About;
 import com.fintrex.fintrexfinance.QuickLinks.Branches;
 import com.fintrex.fintrexfinance.QuickLinks.Contacts;
 import com.fintrex.fintrexfinance.QuickLinks.ExternalRequest;
+import com.fintrex.fintrexfinance.QuickLinks.FdAndSavings;
+import com.fintrex.fintrexfinance.QuickLinks.Rates;
 import com.fintrex.fintrexfinance.QuickLinks.TermsConditions;
 import com.fintrex.fintrexfinance.R;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
@@ -24,7 +26,7 @@ public class DashboardScreen extends AppCompatActivity {
     boolean expandbottom=false;
     Button login;
     TextView terms;
-    LinearLayout branch,about,contact,rates,request,promotion;
+    ImageView branch,about,contact,rates,request,openaccount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +38,7 @@ public class DashboardScreen extends AppCompatActivity {
         about=findViewById(R.id.aboutlink);
         contact=findViewById(R.id.contactlink);
         request=findViewById(R.id.requestlink);
-        promotion=findViewById(R.id.promotionlink);
+        openaccount=findViewById(R.id.promotionlink);
         terms=findViewById(R.id.terms);
         rates=findViewById(R.id.rateslink);
 
@@ -60,7 +62,7 @@ public class DashboardScreen extends AppCompatActivity {
         rates.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Intent.ACTION_VIEW,ratesUri);
+                Intent intent=new Intent(DashboardScreen.this, Rates.class);
                 startActivity(intent);
             }
         });
@@ -111,10 +113,10 @@ public class DashboardScreen extends AppCompatActivity {
         });
 
         //direct to the promotion site through the url
-        promotion.setOnClickListener(new View.OnClickListener() {
+        openaccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Intent.ACTION_VIEW,promoUri);
+                Intent intent=new Intent(DashboardScreen.this, FdAndSavings.class);
                 startActivity(intent);
             }
         });

@@ -22,16 +22,13 @@ public final class ActivityLoginScreenBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView aboutback;
+  public final ImageView dashlogo;
 
   @NonNull
-  public final ImageView backgroundImg;
+  public final TextView dashmsg;
 
   @NonNull
-  public final ConstraintLayout constraintLayout;
-
-  @NonNull
-  public final AppCompatEditText nameEt;
+  public final ImageView loginback;
 
   @NonNull
   public final AppCompatEditText nicEt;
@@ -45,25 +42,18 @@ public final class ActivityLoginScreenBinding implements ViewBinding {
   @NonNull
   public final TextView signinTv;
 
-  @NonNull
-  public final ImageView welcomeTv;
-
   private ActivityLoginScreenBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView aboutback, @NonNull ImageView backgroundImg,
-      @NonNull ConstraintLayout constraintLayout, @NonNull AppCompatEditText nameEt,
+      @NonNull ImageView dashlogo, @NonNull TextView dashmsg, @NonNull ImageView loginback,
       @NonNull AppCompatEditText nicEt, @NonNull AppCompatEditText phoneEt,
-      @NonNull AppCompatButton requestOtpBtn, @NonNull TextView signinTv,
-      @NonNull ImageView welcomeTv) {
+      @NonNull AppCompatButton requestOtpBtn, @NonNull TextView signinTv) {
     this.rootView = rootView;
-    this.aboutback = aboutback;
-    this.backgroundImg = backgroundImg;
-    this.constraintLayout = constraintLayout;
-    this.nameEt = nameEt;
+    this.dashlogo = dashlogo;
+    this.dashmsg = dashmsg;
+    this.loginback = loginback;
     this.nicEt = nicEt;
     this.phoneEt = phoneEt;
     this.requestOtpBtn = requestOtpBtn;
     this.signinTv = signinTv;
-    this.welcomeTv = welcomeTv;
   }
 
   @Override
@@ -93,27 +83,21 @@ public final class ActivityLoginScreenBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.aboutback;
-      ImageView aboutback = rootView.findViewById(id);
-      if (aboutback == null) {
+      id = R.id.dashlogo;
+      ImageView dashlogo = rootView.findViewById(id);
+      if (dashlogo == null) {
         break missingId;
       }
 
-      id = R.id.backgroundImg;
-      ImageView backgroundImg = rootView.findViewById(id);
-      if (backgroundImg == null) {
+      id = R.id.dashmsg;
+      TextView dashmsg = rootView.findViewById(id);
+      if (dashmsg == null) {
         break missingId;
       }
 
-      id = R.id.constraint_layout;
-      ConstraintLayout constraintLayout = rootView.findViewById(id);
-      if (constraintLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.name_et;
-      AppCompatEditText nameEt = rootView.findViewById(id);
-      if (nameEt == null) {
+      id = R.id.loginback;
+      ImageView loginback = rootView.findViewById(id);
+      if (loginback == null) {
         break missingId;
       }
 
@@ -141,14 +125,8 @@ public final class ActivityLoginScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.welcome_tv;
-      ImageView welcomeTv = rootView.findViewById(id);
-      if (welcomeTv == null) {
-        break missingId;
-      }
-
-      return new ActivityLoginScreenBinding((ConstraintLayout) rootView, aboutback, backgroundImg,
-          constraintLayout, nameEt, nicEt, phoneEt, requestOtpBtn, signinTv, welcomeTv);
+      return new ActivityLoginScreenBinding((ConstraintLayout) rootView, dashlogo, dashmsg,
+          loginback, nicEt, phoneEt, requestOtpBtn, signinTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

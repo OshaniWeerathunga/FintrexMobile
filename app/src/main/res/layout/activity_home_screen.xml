@@ -12,198 +12,206 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/purple1"
-        app:itemTextColor="@color/white"
+        android:background="@color/white"
+        app:itemTextColor="@color/purpletop"
         app:headerLayout="@layout/header"
         app:menu="@menu/main_menu" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/homebg">
 
-        <RelativeLayout
-            android:id="@+id/toolbarmain"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            app:layout_constraintHeight_percent=".20"
-            app:layout_constraintVertical_bias="0"
+            android:background="@color/purpletop"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.055"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:orientation="vertical"
-            android:background="@color/purple1">
-
-            <com.smarteist.autoimageslider.SliderView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/slider"
-                app:sliderScrollTimeInSec="10"
-                app:sliderStartAutoCycle="true"
-                app:sliderAutoCycleDirection="back_and_forth"
-                app:sliderIndicatorPadding="4dp"
-                app:sliderIndicatorRadius="1.5dp"
-                app:sliderIndicatorSelectedColor="#636363"
-                app:sliderIndicatorUnselectedColor="#ffffff"
-                app:sliderAnimationDuration="1000"
-                app:sliderIndicatorOrientation="horizontal"
-                app:sliderIndicatorGravity="center_horizontal|bottom"/>
-
-        </RelativeLayout>
-
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            app:layout_constraintHeight_percent=".05"
-            app:layout_constraintVertical_bias="0"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/toolbarmain"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:background="@color/purple">
+            app:layout_constraintVertical_bias="0">
 
             <ImageView
-                android:id="@+id/menu"
-                android:layout_width="30dp"
-                android:layout_height="match_parent"
-                android:src="@drawable/menu_icon"
-                android:layout_gravity="center_vertical"/>
-
-            <TextView
-                android:id="@+id/logouttv"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:text="Logout"
-                android:fontFamily="@font/roboto_reg"
-                android:textColor="@color/white"
-                android:gravity="center"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"/>
-
-            <ImageView
-                android:id="@+id/mail"
-                android:layout_width="50dp"
-                android:layout_height="match_parent"
-                android:src="@drawable/home_mail"
-                android:layout_marginRight="20dp"
-                android:layout_gravity="right"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"/>
-
-        </com.google.android.material.appbar.MaterialToolbar>
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/home_bg"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/toolbar"
-            app:layout_constraintVertical_bias="0" />
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="10dp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar"
-            app:layout_constraintVertical_bias="1.0"
-            tools:layout_editor_absoluteX="0dp">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/constraint_layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingBottom="10dp"
+                android:src="@drawable/logowhite"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/toolbar"
-                app:layout_constraintVertical_bias="0">
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.07"
+            app:layout_constraintHorizontal_bias="0.8"/>
+
+        <ImageView
+            android:id="@+id/mail"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/home_mail"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.07"
+            app:layout_constraintHorizontal_bias="0.96"/>
+
+        <TextView
+            android:id="@+id/homeUserName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/regular"
+            android:text="Username"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.08"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.085"
+            app:layout_constraintWidth_percent="0.6" />
+
+        <TextView
+            android:id="@+id/homeUserLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:text="Last Login"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.183"
+            app:layout_constraintWidth_percent="0.4" />
+
+        <TextView
+            android:id="@+id/topicmyaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Account"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:fontFamily="@font/regular"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.17"/>
+
+        <TextView
+            android:id="@+id/homelogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/logout"
+            android:fontFamily="@font/regular"
+            android:text="sign out  "
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintHeight_percent="0.6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_weight="1">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    app:cardBackgroundColor="@color/whitetrans"
-                    app:cardCornerRadius="30dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHeight_percent=".18"
-                    app:layout_constraintHorizontal_bias=".5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/home_card">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_margin="2dp"
-                        android:background="@color/whitetrans"
-                        android:orientation="horizontal"
+                        android:orientation="vertical"
+                        android:background="@color/white"
                         android:weightSum="2">
 
+                        <ImageView
+                            android:id="@+id/leaseImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/lease_icon" />
+
                         <LinearLayout
-                            android:layout_width="0dp"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:orientation="horizontal"
-                            android:padding="10dp">
-
-                            <ImageView
-                                android:id="@+id/leaseImage"
-                                android:layout_width="80dp"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_marginRight="5dp"
-                                android:src="@drawable/lease_icon" />
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="5dp"
+                            android:weightSum="2"
+                            android:background="@drawable/homecard_bg">
 
                             <TextView
                                 android:id="@+id/leasing_topic"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_marginLeft="10dp"
-                                android:fontFamily="@font/roboto_reg"
-                                android:gravity="center_vertical"
                                 android:text="Leasing Amount"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textColor="@color/purple"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:orientation="horizontal"
-                            android:padding="5dp">
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_marginRight="5dp"
-                                android:src="@drawable/arrow" />
+                                android:textStyle="bold"
+                                android:layout_weight="1"/>
 
                             <TextView
                                 android:id="@+id/lease_amount"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:fontFamily="@font/roboto_reg"
-                                android:gravity="right|center"
-                                android:paddingRight="10dp"
                                 android:text="LKR 0.00"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textColor="@color/purple"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                android:drawableRight="@drawable/dropdown"
+                                android:layout_weight="1"/>
 
                         </LinearLayout>
 
@@ -214,77 +222,61 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView2"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    app:cardBackgroundColor="@color/whitetrans"
-                    app:cardCornerRadius="30dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHeight_percent=".18"
-                    app:layout_constraintHorizontal_bias=".5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cardView">
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/home_card">
 
                     <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:layout_margin="2dp"
-                        android:background="@color/whitetrans"
-                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
                         android:weightSum="2">
 
+                        <ImageView
+                            android:id="@+id/fdImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/fixed_icons" />
+
                         <LinearLayout
-                            android:layout_width="0dp"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:orientation="horizontal"
-                            android:padding="10dp">
-
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="match_parent"
-                                android:layout_marginRight="5dp"
-                                android:src="@drawable/fixed_icons" />
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="5dp"
+                            android:weightSum="2"
+                            android:background="@drawable/homecard_bg">
 
                             <TextView
                                 android:id="@+id/fixed_topic"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_marginLeft="10dp"
-                                android:fontFamily="@font/roboto_reg"
-                                android:gravity="center_vertical"
                                 android:text="Fixed Amount"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textColor="@color/purple"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:orientation="horizontal"
-                            android:padding="5dp">
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_marginRight="5dp"
-                                android:src="@drawable/arrow" />
+                                android:textStyle="bold"
+                                android:layout_weight="1"/>
 
                             <TextView
                                 android:id="@+id/fixed_amount"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:fontFamily="@font/roboto_reg"
-                                android:gravity="right|center"
-                                android:paddingRight="10dp"
                                 android:text="LKR 0.00"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textColor="@color/purple"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                android:drawableRight="@drawable/dropdown"
+                                android:layout_weight="1"/>
 
                         </LinearLayout>
 
@@ -292,80 +284,73 @@
 
                 </androidx.cardview.widget.CardView>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView3"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    app:cardBackgroundColor="@color/whitetrans"
-                    app:cardCornerRadius="30dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHeight_percent=".18"
-                    app:layout_constraintHorizontal_bias=".5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cardView2">
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/home_card">
 
                     <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:layout_margin="2dp"
-                        android:background="@color/whitetrans"
-                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
                         android:weightSum="2">
 
+                        <ImageView
+                            android:id="@+id/loanImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/loan_icon" />
+
                         <LinearLayout
-                            android:layout_width="0dp"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:orientation="horizontal"
-                            android:padding="10dp">
-
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="match_parent"
-                                android:layout_marginRight="5dp"
-                                android:src="@drawable/loan_icon" />
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="5dp"
+                            android:weightSum="2"
+                            android:background="@drawable/homecard_bg">
 
                             <TextView
                                 android:id="@+id/loans_topic"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_marginLeft="10dp"
-                                android:fontFamily="@font/roboto_reg"
-                                android:gravity="center_vertical"
                                 android:text="Loans Amount"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textColor="@color/purple"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:orientation="horizontal"
-                            android:padding="5dp">
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_marginRight="5dp"
-                                android:src="@drawable/arrow" />
+                                android:textStyle="bold"
+                                android:layout_weight="1"/>
 
                             <TextView
                                 android:id="@+id/loans_amount"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:fontFamily="@font/roboto_reg"
-                                android:gravity="right|center"
-                                android:paddingRight="10dp"
                                 android:text="LKR 0.00"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textColor="@color/purple"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                android:drawableRight="@drawable/dropdown"
+                                android:layout_weight="1"/>
 
                         </LinearLayout>
 
@@ -376,77 +361,61 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView4"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    app:cardBackgroundColor="@color/whitetrans"
-                    app:cardCornerRadius="30dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHeight_percent=".18"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cardView3">
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/home_card">
 
                     <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:layout_margin="2dp"
-                        android:background="@color/whitetrans"
-                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="vertical"
                         android:weightSum="2">
 
+                        <ImageView
+                            android:id="@+id/savingImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/saving_icon" />
+
                         <LinearLayout
-                            android:layout_width="0dp"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:orientation="horizontal"
-                            android:padding="10dp">
-
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="match_parent"
-                                android:layout_marginRight="5dp"
-                                android:src="@drawable/saving_icon" />
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="5dp"
+                            android:weightSum="2"
+                            android:background="@drawable/homecard_bg">
 
                             <TextView
                                 android:id="@+id/saving_topic"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_marginLeft="10dp"
-                                android:fontFamily="@font/roboto_reg"
-                                android:gravity="center_vertical"
                                 android:text="Saving Amount"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textColor="@color/purple"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:orientation="horizontal"
-                            android:padding="5dp">
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_marginRight="5dp"
-                                android:src="@drawable/arrow" />
+                                android:textStyle="bold"
+                                android:layout_weight="1"/>
 
                             <TextView
                                 android:id="@+id/saving_amount"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:fontFamily="@font/roboto_reg"
-                                android:gravity="right|center"
-                                android:paddingRight="10dp"
                                 android:text="LKR 0.00"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                                 android:textColor="@color/purple"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                android:drawableRight="@drawable/dropdown"
+                                android:layout_weight="1"/>
 
                         </LinearLayout>
 
@@ -454,58 +423,130 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_marginTop="20dp"
-                    android:orientation="horizontal"
-                    android:paddingBottom="10dp"
-                    android:weightSum="4"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHeight_percent=".18"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cardView4"
-                    app:layout_constraintVertical_bias="1.0">
+            </LinearLayout>
 
-                    <ImageView
-                        android:id="@+id/cargills"
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView5"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/home_card">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:src="@drawable/cargills" />
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:weightSum="2">
 
-                    <ImageView
-                        android:id="@+id/cdm"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:src="@drawable/cdm" />
+                        <ImageView
+                            android:id="@+id/goldloanImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/gold_icon" />
 
-                    <ImageView
-                        android:id="@+id/ezcash"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:src="@drawable/dialog" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="5dp"
+                            android:weightSum="2"
+                            android:background="@drawable/homecard_bg">
 
-                    <ImageView
-                        android:id="@+id/online"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:src="@drawable/online" />
+                            <TextView
+                                android:id="@+id/goldloans_topic"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Gold Loans Amount"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                                android:textColor="@color/purple"
+                                android:textStyle="bold"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/goldloans_amount"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="-"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                                android:textColor="@color/purple"
+                                android:textStyle="bold"
+                                android:drawableRight="@drawable/dropdown"
+                                android:layout_weight="1"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:weightSum="4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1"
+            android:background="@drawable/gradient_bg">
+
+            <ImageView
+                android:id="@+id/cargills"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/cargills" />
+
+            <ImageView
+                android:id="@+id/cdm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/hnbicon" />
+
+            <ImageView
+                android:id="@+id/ezcash"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/dialog" />
+
+            <ImageView
+                android:id="@+id/online"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/peoplesicon" />
 
 
-                </LinearLayout>
-
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-        </ScrollView>
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </androidx.drawerlayout.widget.DrawerLayout>

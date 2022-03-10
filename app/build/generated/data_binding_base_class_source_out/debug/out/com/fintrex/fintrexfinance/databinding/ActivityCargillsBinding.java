@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,32 +20,20 @@ public final class ActivityCargillsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView address;
-
-  @NonNull
   public final ImageView cargillsback;
 
   @NonNull
   public final MaterialToolbar cargillstoolbar;
 
   @NonNull
-  public final TextView general;
-
-  @NonNull
-  public final ConstraintLayout linearLayout;
-
-  @NonNull
   public final ImageView menu;
 
-  private ActivityCargillsBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView address,
+  private ActivityCargillsBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView cargillsback, @NonNull MaterialToolbar cargillstoolbar,
-      @NonNull TextView general, @NonNull ConstraintLayout linearLayout, @NonNull ImageView menu) {
+      @NonNull ImageView menu) {
     this.rootView = rootView;
-    this.address = address;
     this.cargillsback = cargillsback;
     this.cargillstoolbar = cargillstoolbar;
-    this.general = general;
-    this.linearLayout = linearLayout;
     this.menu = menu;
   }
 
@@ -77,12 +64,6 @@ public final class ActivityCargillsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.address;
-      ImageView address = rootView.findViewById(id);
-      if (address == null) {
-        break missingId;
-      }
-
       id = R.id.cargillsback;
       ImageView cargillsback = rootView.findViewById(id);
       if (cargillsback == null) {
@@ -95,26 +76,14 @@ public final class ActivityCargillsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.general;
-      TextView general = rootView.findViewById(id);
-      if (general == null) {
-        break missingId;
-      }
-
-      id = R.id.linearLayout;
-      ConstraintLayout linearLayout = rootView.findViewById(id);
-      if (linearLayout == null) {
-        break missingId;
-      }
-
       id = R.id.menu;
       ImageView menu = rootView.findViewById(id);
       if (menu == null) {
         break missingId;
       }
 
-      return new ActivityCargillsBinding((ConstraintLayout) rootView, address, cargillsback,
-          cargillstoolbar, general, linearLayout, menu);
+      return new ActivityCargillsBinding((ConstraintLayout) rootView, cargillsback, cargillstoolbar,
+          menu);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

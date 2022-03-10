@@ -42,6 +42,9 @@ public final class LeasingListBinding implements ViewBinding {
   public final LinearLayout linear13;
 
   @NonNull
+  public final LinearLayout linear14;
+
+  @NonNull
   public final LinearLayout linear2;
 
   @NonNull
@@ -55,6 +58,9 @@ public final class LeasingListBinding implements ViewBinding {
 
   @NonNull
   public final TextView topicLeaseInsurance;
+
+  @NonNull
+  public final TextView topicLeaseInsuranceCompany;
 
   @NonNull
   public final TextView topicLeaseLastPay;
@@ -84,6 +90,9 @@ public final class LeasingListBinding implements ViewBinding {
   public final TextView valueLeaseInsurance;
 
   @NonNull
+  public final TextView valueLeaseInsuranceCompany;
+
+  @NonNull
   public final TextView valueLeaseLastPay;
 
   @NonNull
@@ -110,13 +119,15 @@ public final class LeasingListBinding implements ViewBinding {
   private LeasingListBinding(@NonNull LinearLayout rootView,
       @NonNull ConstraintLayout expandableLayout, @NonNull RelativeLayout leasemore,
       @NonNull LinearLayout linear1, @NonNull LinearLayout linear10, @NonNull LinearLayout linear11,
-      @NonNull LinearLayout linear12, @NonNull LinearLayout linear13, @NonNull LinearLayout linear2,
-      @NonNull LinearLayout linear5, @NonNull LinearLayout linear7, @NonNull LinearLayout linear8,
-      @NonNull TextView topicLeaseInsurance, @NonNull TextView topicLeaseLastPay,
-      @NonNull TextView topicLeaseLastPayDate, @NonNull TextView topicLeaseMaturity,
-      @NonNull TextView topicLeaseNo, @NonNull TextView topicLeaseOutstanding,
-      @NonNull TextView topicLeaseRentalAmt, @NonNull TextView topicLeaseVehicle,
-      @NonNull TextView topicNextPay, @NonNull TextView valueLeaseInsurance,
+      @NonNull LinearLayout linear12, @NonNull LinearLayout linear13,
+      @NonNull LinearLayout linear14, @NonNull LinearLayout linear2, @NonNull LinearLayout linear5,
+      @NonNull LinearLayout linear7, @NonNull LinearLayout linear8,
+      @NonNull TextView topicLeaseInsurance, @NonNull TextView topicLeaseInsuranceCompany,
+      @NonNull TextView topicLeaseLastPay, @NonNull TextView topicLeaseLastPayDate,
+      @NonNull TextView topicLeaseMaturity, @NonNull TextView topicLeaseNo,
+      @NonNull TextView topicLeaseOutstanding, @NonNull TextView topicLeaseRentalAmt,
+      @NonNull TextView topicLeaseVehicle, @NonNull TextView topicNextPay,
+      @NonNull TextView valueLeaseInsurance, @NonNull TextView valueLeaseInsuranceCompany,
       @NonNull TextView valueLeaseLastPay, @NonNull TextView valueLeaseLastPayDate,
       @NonNull TextView valueLeaseMaturity, @NonNull TextView valueLeaseNo,
       @NonNull TextView valueLeaseOutstanding, @NonNull TextView valueLeaseRentalAmt,
@@ -129,11 +140,13 @@ public final class LeasingListBinding implements ViewBinding {
     this.linear11 = linear11;
     this.linear12 = linear12;
     this.linear13 = linear13;
+    this.linear14 = linear14;
     this.linear2 = linear2;
     this.linear5 = linear5;
     this.linear7 = linear7;
     this.linear8 = linear8;
     this.topicLeaseInsurance = topicLeaseInsurance;
+    this.topicLeaseInsuranceCompany = topicLeaseInsuranceCompany;
     this.topicLeaseLastPay = topicLeaseLastPay;
     this.topicLeaseLastPayDate = topicLeaseLastPayDate;
     this.topicLeaseMaturity = topicLeaseMaturity;
@@ -143,6 +156,7 @@ public final class LeasingListBinding implements ViewBinding {
     this.topicLeaseVehicle = topicLeaseVehicle;
     this.topicNextPay = topicNextPay;
     this.valueLeaseInsurance = valueLeaseInsurance;
+    this.valueLeaseInsuranceCompany = valueLeaseInsuranceCompany;
     this.valueLeaseLastPay = valueLeaseLastPay;
     this.valueLeaseLastPayDate = valueLeaseLastPayDate;
     this.valueLeaseMaturity = valueLeaseMaturity;
@@ -222,6 +236,12 @@ public final class LeasingListBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linear14;
+      LinearLayout linear14 = rootView.findViewById(id);
+      if (linear14 == null) {
+        break missingId;
+      }
+
       id = R.id.linear2;
       LinearLayout linear2 = rootView.findViewById(id);
       if (linear2 == null) {
@@ -249,6 +269,12 @@ public final class LeasingListBinding implements ViewBinding {
       id = R.id.topicLeaseInsurance;
       TextView topicLeaseInsurance = rootView.findViewById(id);
       if (topicLeaseInsurance == null) {
+        break missingId;
+      }
+
+      id = R.id.topicLeaseInsuranceCompany;
+      TextView topicLeaseInsuranceCompany = rootView.findViewById(id);
+      if (topicLeaseInsuranceCompany == null) {
         break missingId;
       }
 
@@ -306,6 +332,12 @@ public final class LeasingListBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.valueLeaseInsuranceCompany;
+      TextView valueLeaseInsuranceCompany = rootView.findViewById(id);
+      if (valueLeaseInsuranceCompany == null) {
+        break missingId;
+      }
+
       id = R.id.valueLeaseLastPay;
       TextView valueLeaseLastPay = rootView.findViewById(id);
       if (valueLeaseLastPay == null) {
@@ -355,12 +387,12 @@ public final class LeasingListBinding implements ViewBinding {
       }
 
       return new LeasingListBinding((LinearLayout) rootView, expandableLayout, leasemore, linear1,
-          linear10, linear11, linear12, linear13, linear2, linear5, linear7, linear8,
-          topicLeaseInsurance, topicLeaseLastPay, topicLeaseLastPayDate, topicLeaseMaturity,
-          topicLeaseNo, topicLeaseOutstanding, topicLeaseRentalAmt, topicLeaseVehicle, topicNextPay,
-          valueLeaseInsurance, valueLeaseLastPay, valueLeaseLastPayDate, valueLeaseMaturity,
-          valueLeaseNo, valueLeaseOutstanding, valueLeaseRentalAmt, valueLeaseVehicle,
-          valueNextPay);
+          linear10, linear11, linear12, linear13, linear14, linear2, linear5, linear7, linear8,
+          topicLeaseInsurance, topicLeaseInsuranceCompany, topicLeaseLastPay, topicLeaseLastPayDate,
+          topicLeaseMaturity, topicLeaseNo, topicLeaseOutstanding, topicLeaseRentalAmt,
+          topicLeaseVehicle, topicNextPay, valueLeaseInsurance, valueLeaseInsuranceCompany,
+          valueLeaseLastPay, valueLeaseLastPayDate, valueLeaseMaturity, valueLeaseNo,
+          valueLeaseOutstanding, valueLeaseRentalAmt, valueLeaseVehicle, valueNextPay);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

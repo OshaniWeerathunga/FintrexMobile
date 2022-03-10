@@ -28,7 +28,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.fintrex.fintrexfinance.Details.HomeScreen;
@@ -38,15 +37,12 @@ import com.fintrex.fintrexfinance.R;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -79,8 +75,8 @@ public class Profile extends AppCompatActivity {
     String finalResult ;
     HashMap<String,String> hashMap = new HashMap<>();
     URL url;
-    String ServerLoginURL = "http://202.124.175.29/Fintrex_Mobile/customerControl/updateCustomerDetails?";
-    String ServerProImageSave = "http://202.124.175.29/Fintrex_Mobile/customerControl/uploadProfilePhoto?";
+    String ServerLoginURL = "http:///online.fintrexfinance.com/customerControl/updateCustomerDetails?";
+    String ServerProImageSave = "http:///online.fintrexfinance.com/customerControl/uploadProfilePhoto?";
 
 
     @Override

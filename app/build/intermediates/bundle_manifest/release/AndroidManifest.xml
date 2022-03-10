@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fintrexfinance"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.fintrex.fintrexfinance"
+    android:versionCode="9"
+    android:versionName="1.8" >
 
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="30" />
 
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -31,7 +30,7 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <application
-        android:name="com.example.fintrexfinance.MyApp"
+        android:name="com.fintrex.fintrexfinance.MyApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:icon="@mipmap/ic_launcher"
@@ -40,31 +39,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FintrexFinance"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.example.fintrexfinance.QuickLinks.TermsConditions" />
-        <activity android:name="com.example.fintrexfinance.QuickLinks.Contacts" />
-        <activity android:name="com.example.fintrexfinance.QuickLinks.About" />
-        <activity android:name="com.example.fintrexfinance.Details.MailScreen" />
-        <activity android:name="com.example.fintrexfinance.Details.NewMailSend" />
+        <activity android:name="com.fintrex.fintrexfinance.Navigation.Promotion" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Rates" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.NewSavingCreate" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.NewFdCreate" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.FdAndSavings" />
+        <activity android:name="com.fintrex.fintrexfinance.Payments.Ezcash" />
+        <activity android:name="com.fintrex.fintrexfinance.Payments.Online" />
+        <activity android:name="com.fintrex.fintrexfinance.Payments.Cdm" />
+        <activity android:name="com.fintrex.fintrexfinance.Payments.Cargills" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.TermsConditions" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Contacts" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.About" />
+        <activity android:name="com.fintrex.fintrexfinance.Details.MailScreen" />
+        <activity android:name="com.fintrex.fintrexfinance.Details.NewMailSend" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_map_key" />
 
-        <activity android:name="com.example.fintrexfinance.QuickLinks.Branches" />
-        <activity android:name="com.example.fintrexfinance.QuickLinks.ExternalRequest" />
-        <activity android:name="com.example.fintrexfinance.Navigation.Profile" />
-        <activity android:name="com.example.fintrexfinance.Navigation.TermsCondition" />
-        <activity android:name="com.example.fintrexfinance.Otp" />
-        <activity android:name="com.example.fintrexfinance.Details.LcScreen" />
-        <activity android:name="com.example.fintrexfinance.Details.LoanScreen" />
-        <activity android:name="com.example.fintrexfinance.Details.SavingScreen" />
-        <activity android:name="com.example.fintrexfinance.Details.FixedScreen" />
-        <activity android:name="com.example.fintrexfinance.Details.LeasingScreen" />
-        <activity android:name="com.example.fintrexfinance.Details.HomeScreen" />
-        <activity android:name="com.example.fintrexfinance.Common.DashboardScreen" />
-        <activity android:name="com.example.fintrexfinance.Common.LoginScreen" />
-        <activity android:name="com.example.fintrexfinance.Common.WelcomScreen" />
-        <activity android:name="com.example.fintrexfinance.MainActivity" >
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Branches" />
+        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.ExternalRequest" />
+        <activity android:name="com.fintrex.fintrexfinance.Navigation.Profile" />
+        <activity android:name="com.fintrex.fintrexfinance.Otp" />
+        <activity android:name="com.fintrex.fintrexfinance.Details.LoanScreen" />
+        <activity android:name="com.fintrex.fintrexfinance.Details.SavingScreen" />
+        <activity android:name="com.fintrex.fintrexfinance.Details.FixedScreen" />
+        <activity android:name="com.fintrex.fintrexfinance.Details.LeasingScreen" />
+        <activity android:name="com.fintrex.fintrexfinance.Details.HomeScreen" />
+        <activity android:name="com.fintrex.fintrexfinance.Common.DashboardScreen" />
+        <activity android:name="com.fintrex.fintrexfinance.Common.LoginScreen" />
+        <activity android:name="com.fintrex.fintrexfinance.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -138,7 +143,7 @@
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.fintrexfinance.com.squareup.picasso"
+            android:authorities="com.fintrex.fintrexfinance.com.squareup.picasso"
             android:exported="false" />
 
         <activity
@@ -148,7 +153,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.fintrexfinance.firebaseinitprovider"
+            android:authorities="com.fintrex.fintrexfinance.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />

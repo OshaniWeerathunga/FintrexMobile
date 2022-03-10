@@ -35,7 +35,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="FD Account No : "
-                    android:fontFamily="@font/roboto_reg"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000"
                     android:textStyle="bold" />
@@ -48,7 +47,6 @@
                     android:gravity="end"
                     android:padding="10dp"
                     android:text="L001"
-                    android:fontFamily="@font/roboto_reg"
                     android:textAlignment="viewEnd"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000" />
@@ -70,7 +68,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="Deposit Value : "
-                    android:fontFamily="@font/roboto_reg"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000"
                     android:textStyle="bold" />
@@ -83,7 +80,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="3800000"
-                    android:fontFamily="@font/roboto_reg"
                     android:textAlignment="viewEnd"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000" />
@@ -116,7 +112,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Rate : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -129,7 +124,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="78000"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />
@@ -153,7 +147,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Maturity Date : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -166,7 +159,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="60"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />
@@ -190,7 +182,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Renewal Indicator : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -203,7 +194,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="60"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />

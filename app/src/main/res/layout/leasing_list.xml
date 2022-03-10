@@ -35,7 +35,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="Lease No : "
-                    android:fontFamily="@font/roboto_reg"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000"
                     android:textStyle="bold" />
@@ -48,7 +47,6 @@
                     android:gravity="end"
                     android:padding="10dp"
                     android:text="L001"
-                    android:fontFamily="@font/roboto_reg"
                     android:textAlignment="viewEnd"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000" />
@@ -70,7 +68,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="Total Outstanding : "
-                    android:fontFamily="@font/roboto_reg"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000"
                     android:textStyle="bold" />
@@ -83,7 +80,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="3800000"
-                    android:fontFamily="@font/roboto_reg"
                     android:textAlignment="viewEnd"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000" />
@@ -117,7 +113,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Due Date : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -130,7 +125,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="31"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />
@@ -154,7 +148,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Maturity Date : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -167,7 +160,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="Honda Civic 2015"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />
@@ -191,7 +183,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Rental Amount : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -204,7 +195,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="Honda Civic 2015"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />
@@ -228,7 +218,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Last Payment Amount: "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -241,7 +230,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="12000"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />
@@ -265,7 +253,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Last Payment Date : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -278,7 +265,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="300"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />
@@ -302,7 +288,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Vehicle Number : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -315,7 +300,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="300"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />
@@ -339,7 +323,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Insurance Company : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -352,7 +335,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="300"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />
@@ -376,7 +358,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Insurance Expire On : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -389,7 +370,6 @@
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="300"
-                        android:fontFamily="@font/roboto_reg"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000" />

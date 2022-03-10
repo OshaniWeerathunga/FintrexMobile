@@ -1,18 +1,15 @@
 package com.fintrex.fintrexfinance.QuickLinks;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.fintrex.fintrexfinance.Common.DashboardScreen;
-import com.fintrex.fintrexfinance.Common.LoginScreen;
-import com.fintrex.fintrexfinance.Navigation.TermsCondition;
+import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
 import com.fintrex.fintrexfinance.R;
 
-public class TermsConditions extends AppCompatActivity {
+public class TermsConditions extends BaseActivity {
 
     ImageView termsback;
 

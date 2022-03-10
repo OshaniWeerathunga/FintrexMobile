@@ -1,27 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nic.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\nic.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ezcashdata.jpg.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\ezcashdata.jpg"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_location.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_location.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_rate.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\rate.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nic.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\nic.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_messages.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_messages.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_success.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\success.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mobile.png.flat",
@@ -30,6 +26,10 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_homecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\homecard.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash_contact.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\dash_contact.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_back.xml.flat",
@@ -48,10 +48,6 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_contacts.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_aboutcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\aboutcard.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loan_icon.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\loan_icon.png"
     },
@@ -60,12 +56,28 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_id.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_contact.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\contact.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_nav_promotion.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\nav_promotion.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_nav_contact.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\nav_contact.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.jpg.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\background.jpg"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_servicecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\servicecard.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_close.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\close.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fixed_screen.xml.flat",
@@ -76,20 +88,32 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_dropdown_purple.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\dropdown_purple.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_nav_rates.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\nav_rates.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_edit.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_edit.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_backpurple.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\backpurple.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dropdown_purple.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\dropdown_purple.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_contactcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\contactcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_nav_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\nav_logout.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_aboutcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\aboutcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nav_promotion.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\nav_promotion.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dropdown_purple.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\dropdown_purple.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_name.png.flat",
@@ -100,16 +124,20 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\edit_bg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_timer.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_timer.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_arrow.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\arrow.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_fd_create.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_new_fd_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_nav_about.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\nav_about.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_location.png.flat",
@@ -120,16 +148,16 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\customize_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_next_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\next_icon.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_branches.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\bottom_sheet_branches.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_terms.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\terms.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_nav_promotion.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\nav_promotion.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_terms.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\terms.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dropdown.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\dropdown.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -144,12 +172,8 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\arrow.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_arrow.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\arrow.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_date_picker.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\date_picker.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_termsbanner.jpg.flat",
@@ -176,16 +200,8 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\servicecard.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate_backward.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\anim\\rotate_backward.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_next_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\next_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_findcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\findcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_dropdown.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\dropdown.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_phone.png.flat",
@@ -200,60 +216,72 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_cargills.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_next_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\next_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\menu_contact_nav.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\menu\\contact_nav.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_more.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\more.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sinhala.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\sinhala.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_profile.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_profile.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_contact_location.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\contact_location.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_findcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\findcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_nav_about.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\nav_about.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_home_mail.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\home_mail.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_nav_rates.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\nav_rates.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_homecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\homecard.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_nav_promotion.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\nav_promotion.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_nic.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\nic.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_aboutcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\aboutcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cont_bg.jpg.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\cont_bg.jpg"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_nav_about.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\nav_about.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_nav_branch.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\nav_branch.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nav_contact.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\nav_contact.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_attachment.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\attachment.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_saving_list.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\saving_list.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_bg.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\spinner_bg.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_homebg.jpg.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\homebg.jpg"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_bg.jpg.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\home_bg.jpg"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_bg.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\spinner_bg.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mobile.png.flat",
@@ -264,6 +292,10 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_location.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_nav_home.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\nav_home.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_edit.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_edit.png"
     },
@@ -272,20 +304,8 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_home_icon.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\home_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dasbrd_bg.jpg.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\dasbrd_bg.jpg"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_digital_logo_white.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\digital_logo_white.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_rate.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\rate.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_date_picker.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\date_picker.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_more.png.flat",
@@ -294,10 +314,6 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_homecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\homecard.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_success.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\success.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_servicecard.xml.flat",
@@ -320,52 +336,52 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_online.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_contact_location.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\contact_location.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nav_home.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\nav_home.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_contactcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\contactcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_close.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\close.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_name.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_name.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_findcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\findcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash_newaccount.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\dash_newaccount.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_date_picker.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\date_picker.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lease_icon.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\lease_icon.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_findcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\findcard.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_screen_bg.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\main_screen_bg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bghome.jpg.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\bghome.jpg"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_newlayout.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\newlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dropdown_purple.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\dropdown_purple.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\header.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fixed_icons.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\fixed_icons.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_next_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\next_icon.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\header.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mobile.png.flat",
@@ -376,16 +392,12 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\customize_spinner_dropdown.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_arrow.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\arrow.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_send.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\send.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_findcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\findcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nav_rates.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\nav_rates.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_menu_icon.xml.flat",
@@ -396,16 +408,20 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\app_logo.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_timer.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_timer.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_send.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\send.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_contact.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\contact.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_attachment.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\attachment.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_timer.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_timer.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_peoplesicon.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\peoplesicon.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_homecard.png.flat",
@@ -414,6 +430,14 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_progress_layout.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\progress_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_attachment.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\attachment.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_date_picker.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\date_picker.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_view.xml.flat",
@@ -428,20 +452,16 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\promotioncard.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_success.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\success.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_nav_rates.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\nav_rates.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_terms.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\terms.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_nav_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\nav_logout.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_home_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\home_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_arrow.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\arrow.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_fd.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\new_fd.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
@@ -452,40 +472,32 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_loan_screen.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_contactcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\contactcard.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_contact.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\contact.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_aboutcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\aboutcard.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_contactcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\contactcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_nav_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\nav_logout.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_messagecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\messagecard.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cdm.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\cdm.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rates.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_rates.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_alert_newaccont_create.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\alert_newaccont_create.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mail_screen.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_mail_screen.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_contact.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\contact.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_attachment.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\attachment.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_terms.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\terms.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_nav_rates.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\nav_rates.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_saving_icon.png.flat",
@@ -500,12 +512,20 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\menu_icon.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_name.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_name.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v21_backpurple.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi-v21\\backpurple.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\font_dash_letter.otf.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\font\\dash_letter.otf"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_nav_branch.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\nav_branch.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_save.png.flat",
@@ -532,6 +552,10 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_alert_blacklist.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\alert_blacklist.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_servicecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\servicecard.png"
     },
@@ -544,12 +568,28 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\more.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_terms.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\terms.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\font_btn_letter.otf.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\font\\btn_letter.otf"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_homecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\homecard.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nav_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\nav_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_colorbg.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\spinner_colorbg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_bg.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\gradient_bg.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_send.png.flat",
@@ -564,10 +604,6 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\fragment_inbox.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate_forward.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\anim\\rotate_forward.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fb.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\fb.png"
     },
@@ -580,16 +616,8 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_slider1.jpg.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\image_slider1.jpg"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_edit.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_edit.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_contact_location.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\contact_location.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -600,22 +628,6 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\nic.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_rate.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\rate.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_success.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\success.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_contact_location.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\contact_location.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_aboutcard.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\aboutcard.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_phone.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_phone.png"
     },
@@ -624,8 +636,8 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_mail.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_digital_logo_1.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\digital_logo_1.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash_request.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\dash_request.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_saving_screen.xml.flat",
@@ -684,12 +696,16 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\inbox_list.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\logout.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_contact_location.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\contact_location.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_promotion.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_promotion.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_send.png.flat",
@@ -704,12 +720,20 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\nic.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rate.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\rate.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dropdown.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\dropdown.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_nav_home.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\nav_home.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_id.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_id.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_nav_contact.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\nav_contact.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mobile.png.flat",
@@ -720,10 +744,6 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\menu_icon.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_action.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\menu\\menu_action.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_profile.png"
     },
@@ -732,8 +752,28 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_id.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slide3.jpg.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\slide3.jpg"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_nav_about.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\nav_about.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_close.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\close.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\font_regular.otf.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\font\\regular.otf"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_nav_branch.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\nav_branch.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_attachment.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\attachment.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_phone.png.flat",
@@ -744,8 +784,8 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_profile.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_home_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\home_icon.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\logout.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_alert_layout.xml.flat",
@@ -764,16 +804,24 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\loan_list.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_contact.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\contact.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dropdown.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\dropdown.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_contactcard.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\contactcard.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hnbicon.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\hnbicon.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_home_mail.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\home_mail.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_dropdown.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\dropdown.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_nav_rates.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\nav_rates.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_terms_accept_alert.xml.flat",
@@ -782,6 +830,10 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_servicecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\servicecard.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash_promotion.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\dash_promotion.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_phone.png.flat",
@@ -796,6 +848,10 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_branches2.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fd_and_savings.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_fd_and_savings.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_insta.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\insta.png"
     },
@@ -804,12 +860,40 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\linkdin.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_nav_home.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\nav_home.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_homecard_bg.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\homecard_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fastest_growing_banner.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\fastest_growing_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_nav_contact.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\nav_contact.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_nav_contact.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\nav_contact.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_location.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_location.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_nav_home.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\nav_home.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_send.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\send.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_nav_promotion.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\nav_promotion.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_homecard.xml.flat",
@@ -824,10 +908,6 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\cargills.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_digital_logo_2.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\digital_logo_2.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_messagecard.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\messagecard.xml"
     },
@@ -840,8 +920,16 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\messagecard.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_greate_place_banner.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\greate_place_banner.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_edit.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_close.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\close.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_save.png.flat",
@@ -860,8 +948,8 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_name.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slide1.jpg.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\slide1.jpg"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_nav_branch.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\nav_branch.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_leasing_list.xml.flat",
@@ -872,10 +960,6 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_home_screen.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_contact_location.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\contact_location.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_back.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\back.png"
     },
@@ -884,16 +968,24 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\nic.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_attachment.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\attachment.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_leasing_screen.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_leasing_screen.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_phone.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_phone.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dropdown.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\dropdown.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_aboutcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\aboutcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_phone.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_phone.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_more.png.flat",
@@ -924,16 +1016,16 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\send.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_contactcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\contactcard.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_about.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mobile.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\mobile.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dropdown.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\dropdown.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_icon.png.flat",
@@ -944,16 +1036,24 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_dashboard_screen.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_aboutcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\aboutcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_date_picker.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\date_picker.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_success.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\success.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_nav_about.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\nav_about.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_next_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\next_icon.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_nav_promotion.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\nav_promotion.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dropdown_purple.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\dropdown_purple.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_dropdown_purple.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\dropdown_purple.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_terms_conditions.xml.flat",
@@ -968,36 +1068,44 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\fragment_outbox.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_contact.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\contact.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_nav_branch.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\nav_branch.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_nav_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\nav_logout.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_outbox_list.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\outbox_list.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_success.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\success.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_homecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\homecard.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_promotions.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_promotions.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cardbg.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\cardbg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_findcard.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\findcard.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_nav_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\nav_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_nav_contact.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\nav_contact.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\logout.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_id.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_id.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_rate.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\rate.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logout.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\logout.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home_mail.png.flat",
@@ -1008,12 +1116,20 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\menu_icon.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nav_branch.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\nav_branch.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\home_icon.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cargillsdata.jpg.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\cargillsdata.jpg"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_logout.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\logout.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -1024,16 +1140,8 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\promotioncard.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_terms.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\terms.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_terms.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\terms.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_digital_logo_purple.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\digital_logo_purple.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -1048,8 +1156,16 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_id.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash_branch.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\dash_branch.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_save.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_youtube.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\youtube.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_name.png.flat",
@@ -1060,12 +1176,8 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_edit.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_youtube.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\youtube.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_next_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\next_icon.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile.png.flat",
@@ -1084,36 +1196,36 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\home_mail.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_sheet_branches.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\bottom_sheet_branches.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_timer.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_timer.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_terms_condition.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_terms_condition.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_arrow.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\arrow.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\arrow.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_save.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_save.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_nav_home.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\nav_home.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_date_picker.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\date_picker.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_messagecard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\messagecard.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_usernames.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\usernames.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_nav_branch.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\nav_branch.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_contact.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\contact.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_usernames.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\usernames.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_messagecard.png.flat",
@@ -1132,8 +1244,12 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\new_msg_btn.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_findcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\findcard.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_nav_promotion.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\nav_promotion.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hnb.jpg.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\hnb.jpg"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_messagecard.png.flat",
@@ -1152,24 +1268,24 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\servicecard.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_phone.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_phone.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_date_picker.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\date_picker.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_reg.ttf.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\font\\roboto_reg.ttf"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash_fd.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\dash_fd.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_phone.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_phone.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_promotioncard.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\promotioncard.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_home_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\home_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_contact_location.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\contact_location.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nav_about.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\nav_about.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_name.png.flat",
@@ -1184,16 +1300,20 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\back.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_peoples.jpg.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\peoples.jpg"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_location.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_location.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logowhite.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\logowhite.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rate.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\rate.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_location.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_location.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_more.png.flat",
@@ -1216,40 +1336,72 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_timer.png"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_saving_create.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_new_saving_create.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alert_bg.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\alert_bg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rate.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\rate.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_nav_rates.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\nav_rates.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\font_arial.ttf.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\font\\arial.ttf"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_nav_logout.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\nav_logout.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\button_bg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slide2.jpg.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\slide2.jpg"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_close.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\close.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_nav_about.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\nav_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_attachment.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\attachment.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_card.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\home_card.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_home_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\home_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_contactcard.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\contactcard.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_home_icon.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\home_icon.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_promotioncard.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\promotioncard.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_close.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\close.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_saving.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\new_saving.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_myfintrexlogo.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\myfintrexlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_nav_contact.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\nav_contact.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_close.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\close.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash_about.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\drawable\\dash_about.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_save.png.flat",
@@ -1264,12 +1416,12 @@
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_timer.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_next_icon.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\next_icon.xml"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_attachment.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\attachment.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_success.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\success.png"
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dropdown_purple.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\dropdown_purple.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_icon.png.flat",
@@ -1278,5 +1430,9 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mobile.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\mobile.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_nav_home.png.flat",
+        "source": "C:\\Users\\User\\Desktop\\FintrexFinance1\\FintrexFinance\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\nav_home.png"
     }
 ]

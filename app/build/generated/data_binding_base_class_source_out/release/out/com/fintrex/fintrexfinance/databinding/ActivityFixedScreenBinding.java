@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
@@ -19,6 +20,9 @@ import java.lang.String;
 public final class ActivityFixedScreenBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final CardView fdNoDataCard;
 
   @NonNull
   public final ImageView fdback;
@@ -35,10 +39,12 @@ public final class ActivityFixedScreenBinding implements ViewBinding {
   @NonNull
   public final MaterialToolbar toolbar;
 
-  private ActivityFixedScreenBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView fdback,
-      @NonNull ImageView imageView2, @NonNull ImageView menu, @NonNull RecyclerView recyclerview,
+  private ActivityFixedScreenBinding(@NonNull ConstraintLayout rootView,
+      @NonNull CardView fdNoDataCard, @NonNull ImageView fdback, @NonNull ImageView imageView2,
+      @NonNull ImageView menu, @NonNull RecyclerView recyclerview,
       @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
+    this.fdNoDataCard = fdNoDataCard;
     this.fdback = fdback;
     this.imageView2 = imageView2;
     this.menu = menu;
@@ -73,6 +79,12 @@ public final class ActivityFixedScreenBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.fdNoDataCard;
+      CardView fdNoDataCard = rootView.findViewById(id);
+      if (fdNoDataCard == null) {
+        break missingId;
+      }
+
       id = R.id.fdback;
       ImageView fdback = rootView.findViewById(id);
       if (fdback == null) {
@@ -103,8 +115,8 @@ public final class ActivityFixedScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityFixedScreenBinding((ConstraintLayout) rootView, fdback, imageView2, menu,
-          recyclerview, toolbar);
+      return new ActivityFixedScreenBinding((ConstraintLayout) rootView, fdNoDataCard, fdback,
+          imageView2, menu, recyclerview, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

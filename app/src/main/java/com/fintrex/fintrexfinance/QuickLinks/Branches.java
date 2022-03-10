@@ -1,34 +1,20 @@
 package com.fintrex.fintrexfinance.QuickLinks;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.view.GravityCompat;
 import androidx.fragment.app.FragmentManager;
 
-import android.Manifest;
-import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.DialogInterface;
-import android.content.pm.PackageManager;
-import android.location.Location;
-import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
-import android.widget.Toast;
+import android.widget.TextView;
 
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.fintrex.fintrexfinance.MainActivity;
+import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
 import com.fintrex.fintrexfinance.R;
 import com.google.android.gms.location.FusedLocationProviderClient;
-import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMapOptions;
@@ -36,27 +22,12 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
-import javax.net.ssl.HttpsURLConnection;
-
-public class Branches extends AppCompatActivity implements OnMapReadyCallback {
+public class Branches extends BaseActivity implements OnMapReadyCallback {
 
     //Initialize variable
     Spinner spType;
@@ -78,6 +49,7 @@ public class Branches extends AppCompatActivity implements OnMapReadyCallback {
     LatLng Kurunagala = new LatLng(7.444136657900243, 80.34141063068995);
     LatLng HeadOffice = new LatLng(6.9454207128439505, 79.87815171779091);
     LatLng Kiribathgoda = new LatLng(6.977586881283544, 79.93022487035732);
+    LatLng Matara = new LatLng(5.946329065546015, 80.52706769248744);
 
     //array for location
     ArrayList<LatLng>arrayList = new ArrayList<LatLng>();
@@ -87,16 +59,21 @@ public class Branches extends AppCompatActivity implements OnMapReadyCallback {
 
     Dialog dialog;
 
+    LinearLayout bottomdetails;
+    TextView branchname,branchaddress;
+    ImageView bottomClose;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_branches2);
 
         branchback=findViewById(R.id.branchback);
+        bottomdetails=findViewById(R.id.bottomSheetBranches);
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         CameraPosition cameraPosition = new CameraPosition.Builder()
-                .target(new LatLng(9,90))
+                .target(new LatLng(7,79))
                 .zoom(7)
                 .build();
 
@@ -120,6 +97,7 @@ public class Branches extends AppCompatActivity implements OnMapReadyCallback {
         arrayList.add(Kurunagala);
         arrayList.add(HeadOffice);
         arrayList.add(Kiribathgoda);
+        arrayList.add(Matara);
 
         title.add("Gampaha");
         title.add("Kalutara");
@@ -132,6 +110,7 @@ public class Branches extends AppCompatActivity implements OnMapReadyCallback {
         title.add("Kurunegala");
         title.add("HeadOffice");
         title.add("Kiribathgoda");
+        title.add("Matara");
 
         branchback.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -168,12 +147,12 @@ public class Branches extends AppCompatActivity implements OnMapReadyCallback {
                 switch (marker.getTitle()) {
                     case "CityBranch":
                         branch = "City Branch";
-                        address = "101,Darmapala Mawatha,Colombo 07\n+94 115 977 700";
+                        address = "101,Darmapala Mawatha,Colombo 07\n\n+94 117 977 700";
                         alert(branch,address);
                         break;
                     case "Gampaha":
                         branch = "Gampaha Branch";
-                        address = "1st Floor,No.369/1/1,Colombo Road,Gampaha\n+94 337 977 977";
+                        address = "1st Floor,No.369/1/1,Colombo Road,Gampaha\n\n+94 337 977 977";
                         alert(branch,address);
                         break;
                     case "Kalutara":
@@ -183,42 +162,47 @@ public class Branches extends AppCompatActivity implements OnMapReadyCallback {
                         break;
                     case "Negombo":
                         branch = "Negombo Branch";
-                        address = "No.600A 1/1,Chilaw Road,Kattuwa,Negombo\n+94 317 977 977";
+                        address = "No.600A 1/1,Chilaw Road,Kattuwa,Negombo\n\n+94 317 977 977";
                         alert(branch,address);
                         break;
                     case "Kegalle":
                         branch = "Kegalle Branch";
-                        address = "No.440B,Kandy Road,Meepitiya,Kegalle\n+94 357 977 977";
+                        address = "No.440B,Kandy Road,Meepitiya,Kegalle\n\n+94 357 977 982";
                         alert(branch,address);
                         break;
                     case "Kandy":
                         branch = "Kandy Branch";
-                        address = "No.206,Katugastota Road,Kandy\n+94 815 200 100";
+                        address = "No.206,Katugastota Road,Kandy\n\n+94 817 977 977";
                         alert(branch,address);
                         break;
                     case "Dambulla":
                         branch = "Dambulla Branch";
-                        address = "No.318,Sangeetha Building,Kandy Road,Dambulla\n+94 667 977 977";
+                        address = "No.318,Sangeetha Building,Kandy Road,Dambulla\n\n+94 667 977 977";
                         alert(branch,address);
                         break;
                     case "Kuliyapitiya":
                         branch = "Kuliyapitiya Branch";
-                        address = "1st Floor,No.369/1/1,Colombo Road,Gampaha\n+94 377 977 966";
+                        address = "1st Floor,No.369/1/1,Colombo Road,Gampaha\n\n+94 377 977 968";
                         alert(branch,address);
                         break;
                     case "Kurunegala":
                         branch = "Kurunegala Branch";
-                        address = "No.1st Floor,No.252,Negombo Road,Kurunegala\n+94 377 977 977";
+                        address = "No.1st Floor,No.252,Negombo Road,Kurunegala\n\n+94 377 977 977";
                         alert(branch,address);
                         break;
                     case "HeadOffice":
                         branch = "Head Office";
-                        address = "No.851,Dr.Danister De Silva Mawatha,Colombo 14\n+94 117 977 977";
+                        address = "No.851,Dr.Danister De Silva Mawatha,Colombo 14\n\n+94 117 977 977";
                         alert(branch,address);
                         break;
                     case "Kiribathgoda":
                         branch = "Kiribathgoda Branch";
-                        address = "No.63/3/B,Kandy Road,Kiribathgoda\n+94 117 977 400";
+                        address = "No.63/3/B,Kandy Road,Kiribathgoda\n\n+94 117 977 400";
+                        alert(branch,address);
+                        break;
+                    case "Matara":
+                        branch = "Matara Branch";
+                        address = "No.469A,Angarika Dharmapala Mawatha,Pamburana,Matara\n\n+94 417 977 977";
                         alert(branch,address);
                         break;
                 }
@@ -228,10 +212,50 @@ public class Branches extends AppCompatActivity implements OnMapReadyCallback {
     }
 
     private void alert(String branch,String address){
+        bottomdetails.setVisibility(View.VISIBLE);
+
+        branchname = findViewById(R.id.branchName);
+        branchaddress = findViewById(R.id.branchAddress);
+        bottomClose = findViewById(R.id.close);
+
+        branchname.setText(branch);
+        branchaddress.setText(address);
+
+        bottomClose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bottomdetails.setVisibility(View.INVISIBLE);
+            }
+        });
+    }
+    /*
+    private void alert(String branch,String address){
         AlertDialog dlg = new AlertDialog.Builder(Branches.this,AlertDialog.THEME_TRADITIONAL)
                 .setTitle(branch)
                 .setMessage(address)
                 .create();
         dlg.show();
     }
+
+    private void alert(String branch,String address){
+        final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(Branches.this,R.style.BottomSheetDialogSheetTheme);
+        TextView branchname,branchaddress;
+
+        branchname = findViewById(R.id.branchName);
+        branchaddress = findViewById(R.id.branchAddress);
+
+        View bottomSheetView = LayoutInflater.from(getApplicationContext())
+                .inflate(
+                        R.layout.bottom_sheet_branches,
+                        (LinearLayout)findViewById(R.id.bottomSheetBranches)
+                );
+
+        branchname.setText(branch);
+        branchaddress.setText(address);
+
+        bottomSheetDialog.setContentView(bottomSheetView);
+        bottomSheetDialog.show();
+    }
+
+     */
 }

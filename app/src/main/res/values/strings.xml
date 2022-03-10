@@ -1,30 +1,30 @@
 <resources>
     <string name="app_name">Fintrex Finance</string>
 
-    <string name="navigation_drawer_open">Open Navigation Drawer</string>
-    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="navigation_drawer_open" translatable="false">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close Navigation Drawer</string>
 
-    <string name="headOffice"><b>Head Office</b>\n+94 117 977 977</string>
-    <string name="cityBranch"><b>City Branch</b>\n+94 115 977 700</string>
-    <string name="kurunagala"><b>Kurunagala Branch</b>\n+94 377 977 977</string>
-    <string name="kandy"><b>Kandy Branch</b>\n+94 815 200 100</string>
-    <string name="kiribathgoda"><b>Kiribathgoda Branch</b>\n+94 117 977 400</string>
-    <string name="negombo"><b>Negombo Branch</b>\n+94 317 977 977</string>
-    <string name="kalutara"><b>Kalutara Branch</b>\n+94 347 977 977</string>
-    <string name="kegalle"><b>Kegalle Branch</b>\n+94 357 977 977</string>
-    <string name="kuliyapitiya"><b>Kuliyapitiya Branch</b>\n+94 377 977 966</string>
-    <string name="gampaha"><b>Gampaha Branch</b>\n+94 337 977 977</string>
-    <string name="dambulla"><b>Dambulla Branch</b>\n+94 667 977 977</string>
-    <string name="matara"><b>Matara Branch</b>\n+94 417 977 977</string>
+    <string name="headOffice" translatable="false"><b>Head Office</b>\n+94 117 977 977</string>
+    <string name="cityBranch" translatable="false"><b>City Branch</b>\n+94 117 977 700</string>
+    <string name="kurunagala" translatable="false"><b>Kurunagala Branch</b>\n+94 377 977 977</string>
+    <string name="kandy" translatable="false"><b>Kandy Branch</b>\n+94 817 977 977</string>
+    <string name="kiribathgoda" translatable="false"><b>Kiribathgoda Branch</b>\n+94 117 977 400</string>
+    <string name="negombo" translatable="false"><b>Negombo Branch</b>\n+94 317 977 977</string>
+    <string name="kalutara" translatable="false"><b>Kalutara Branch</b>\n+94 347 977 977</string>
+    <string name="kegalle" translatable="false"><b>Kegalle Branch</b>\n+94 357 977 982</string>
+    <string name="kuliyapitiya" translatable="false"><b>Kuliyapitiya Branch</b>\n+94 377 977 968</string>
+    <string name="gampaha" translatable="false"><b>Gampaha Branch</b>\n+94 337 977 977</string>
+    <string name="dambulla" translatable="false"><b>Dambulla Branch</b>\n+94 667 977 977</string>
+    <string name="matara" translatable="false"><b>Matara Branch</b>\n+94 417 977 977</string>
 
-    <string name="aboutus"><b>Fintrex Finance Limited</b> is owned by Bluestone 1 (Pvt) Limited, backed by a consortium of world class investors including global insurance giant Fairfax Holdings who holds 70% along with MAS and Hirdaramani Group who together holds 24%.\nThe investors are represented on the Board by Mr. Ajit Gunewardene Chairman, Mr. Ronnie Peiris, and Mr. Shantanu Nagpal, who possess well-established track records.\n\n
+    <string name="aboutus" translatable="false"><b>Fintrex Finance Limited</b> is owned by Bluestone 1 (Pvt) Limited, backed by a consortium of world class investors including global insurance giant Fairfax Holdings who holds 70% along with MAS and Hirdaramani Group who together holds 24%.\nThe investors are represented on the Board by Mr. Ajit Gunewardene Chairman, Mr. Ronnie Peiris, and Mr. Shantanu Nagpal, who possess well-established track records.\n\n
         Fintrex was formerly known as Melsta Regal Finance Ltd and was a fully owned subsidiary of Melstacorp PLC. The ownership moved from a trusted Sri Lankan conglomerate to another trusted multinational giving Fintrex the continued strength to forge ahead and pursue its corporate goals.\n\n
         The name Fintrex is coined from the words ‘financial entrepreneurs’ and ‘experts’. It speaks to the powerful combination that sets the company apart from the rest. The new brand identity reflects the team’s potential to maximize efforts and unlock value for customers. It signals a clear bias for action, speed and agility.\n\n
         The company leadership focuses on ensuring that the company adopts best trade practices and encourages its employees to be the best in what they do. To this end, much emphasis is given to training and developing talent to be equipped with the required technical knowledge and skill to compete in a dynamic and competitive environment.\n\n
         The future road map for Fintrex is to embrace technology in order to improve efficiencies and cater to the emerging business transaction trends and expectations of modern clients. Through digitalization, Fintrex also aims to minimize its impact on depleting natural resources and ensure that the operations are environmentally sustainable.
     </string>
 
-    <string name="terms"><b><u>The use of Fintrex Finance Digital App is subject to the following terms and conditions.</u></b>\n\n\n
+    <string name="terms" translatable="false"><b><u>The use of Fintrex Finance Digital App is subject to the following terms and conditions.</u></b>\n\n\n
         •	Account holder logged for the App shall be the registered owner of the NIC and Mobile number and shall have all the legal rights to use the said mobile number which is registered with company.\n\n
         •	It is the responsibility of the user to obtain and maintain a mobile device with required features which may be necessary for using the App in proper working conditions with adequate safeguards against malicious threats.\n\n
         •	It is the responsibility of the user to deactivate the App, when the ownership of device is losing and/or mobile number is changed / discontinued.\n\n
@@ -33,7 +33,7 @@
         •	If you noticed any discrepancies in the figures/balances shown under your NIC, you are require informing relevant branch manager immediately.
     </string>
 
-    <string name="loginterms">
+    <string name="loginterms" translatable="false">
         <b><u>TERMS AND CONDITIONS THE USE OF FINTREXFINANACE DIGITAL APP SERVICE</u></b>\n\n
         By clicking the "Accept" button below, you accept and confirm that you have read, understood and agree to be bound by these terms and conditions below. \n\n
         •	It is the responsibility of the user to obtain and maintain a mobile device with required features which may be necessary for using the App in proper working conditions with adequate safeguards against malicious threats.\n
@@ -44,28 +44,28 @@
         •	I agree to use the Fintrex Finance Digital App only for lawful and legitimate purposes and for permitted transactions as defined in these Terms and Conditions.
     </string>
 
-    <string name="phone_number">Phone Number</string>
-    <string name="generate_otp">Generate OTP</string>
-    <string name="enter_otp">Enter OTP</string>
-    <string name="verify_sign_in">Verify and Sign In</string>
-    <string name="sign_out">sign out</string>
-    <string name="sign_msg"><b>Welcome ! </b></string>
-    <string name="address"><b>Address (Head Office) :</b>\nNo 851,Dr.Danister De Silva Mawatha (Baseline Road),Colombo 14</string>
-    <string name="generalcall"><b>General : </b>\n0117 977 977</string>
-    <string name="callcenter"><b>Call Center : </b>\n0117 200 100</string>
-    <string name="wtsap">+94 115 200 111</string>
-    <string name="mail"><b>Mail : </b>\ninfo@fintrexfinance.com</string>
-    <string name="open"><b>Business Hours : </b>\nMonday to Friday 8.30 AM - 5.00 PM (Closed on Saturday/Sunday and Mercantile Holidays</string>
-    <string name="google_map_key">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="phone_number" translatable="false">Phone Number</string>
+    <string name="generate_otp" translatable="false">Generate OTP</string>
+    <string name="enter_otp" translatable="false">Enter OTP</string>
+    <string name="verify_sign_in" translatable="false">Verify and Sign In</string>
+    <string name="sign_out" translatable="false">sign out</string>
+    <string name="sign_msg" translatable="false">Sign in with your <b>NIC and Mobile number</b></string>
+    <string name="address" translatable="false"><b>Address (Head Office) :</b>\nNo 851,Dr.Danister De Silva Mawatha (Baseline Road),Colombo 14</string>
+    <string name="generalcall" translatable="false"><b>General : </b>\n0117 977 977</string>
+    <string name="callcenter" translatable="false"><b>Call Center : </b>\n0117 200 100</string>
+    <string name="wtsap" translatable="false">+94 115 200 111</string>
+    <string name="mail" translatable="false"><b>Mail : </b>\ninfo@fintrexfinance.com</string>
+    <string name="open" translatable="false"><b>Business Hours : </b>\nMonday to Friday 8.30 AM - 5.00 PM (Closed on Saturday/Sunday and Mercantile Holidays)</string>
+    <string name="google_map_key" translatable="false">AIzaSyB7x70oMr_LGLdh96PC6mW5mzbOewp6qeY</string>
 
 
-    <string name="cdm_payment"><b><b><u>Payment making method through CDM :</u></b></b>\n\n\n\n\n
+    <string name="cdm_payment" translatable="false"><b><b><u>Payment making method through CDM :</u></b></b>\n\n\n\n\n
         •   HNB A/C NUMBER – 003010507501\n\n\n
         •   PEOPLES A/C NUMBER – 204100180010798\n\n\n
-        •   If the payment was deposited to a Bank, it is mandatory to send the payment receipt through <font color = '#ff0000'>WhatsApp</font> on <font color = '#ff0000'>0766 200 100</font> with mentioning the <font color = '#ff0000'>Facility Number</font>
+        •   If the payment was deposited to a Bank, it is mandatory to send the payment receipt through <font color='#ff0000'>WhatsApp</font> on <font color='#ff0000'>0766 200 100</font> with mentioning the <font color='#ff0000'>Facility Number</font>
     </string>
-    
-    <string name="online_payments"><b><b><u>Payment making method from online payment gates :</u></b></b>\n\n\n\n
+
+    <string name="online_payments" translatable="false"><b><b><u>Payment making method from online payment gates :</u></b></b>\n\n\n\n
         •	PEOPLES BANK A/C NUMBER – 204100180010798 \n\n
         •	BRANCH NAME – HEAD QUARTERS BRANCH \n\n
         •	BRANCH CODE - 204 \n\n
@@ -76,10 +76,10 @@
         •	BRANCH CODE - 003 \n\n
         •	REFERENCE NUMBER – FACILITY NUMBER \n\n\n
 
-        •   If the payment was transferred to a Bank, it is mandatory to send the payment screenshot through <font color = '#ff0000'>WhatsApp</font> on <font color = '#ff0000'>0766 200 100</font>
+        •   If the payment was transferred to a Bank, it is mandatory to send the payment screenshot through <font color='#ff0000'>WhatsApp</font> on <font color='#ff0000'>0766 200 100</font>
     </string>
 
-    <string name="cargills_payment"><b><b><u>Payment making method through Cargills :</u></b></b>\n\n\n\n
+    <string name="cargills_payment" translatable="false"><b><b><u>Payment making method through Cargills :</u></b></b>\n\n\n\n
         •	CARGILLS ACCOUNT NUMBER - 001952000012 \n\n
         •	ACCOUNT NAME – FINTREX FINANCE LIMITED \n\n
         •	BRANCH  - CORPORATE BRANCH \n\n
@@ -87,17 +87,17 @@
         •	NIC NUMBER - ########V \n\n
         •	CONTACT NUMBER - ######## \n\n\n
 
-        •   If the payment was transferred to a Bank, it is mandatory to send the payment receipt  <font color = '#ff0000'>WhatsApp</font> on <font color = '#ff0000'>0766 200 100</font>
+        •   If the payment was transferred to a Bank, it is mandatory to send the payment receipt  <font color='#ff0000'>WhatsApp</font> on <font color='#ff0000'>0766 200 100</font>
     </string>
 
-    <string name="ezcash_payment"><b><b><u>Transaction steps in eZ Cash :</u></b></b>\n\n\n
+    <string name="ezcash_payment" translatable="false"><b><b><u>Transaction steps in eZ Cash :</u></b></b>\n\n\n
         <b>•	Dial #111# and select the option</b> \n\n
         \t\t    1.	Customer Account Recharge \n
         \t\t    2.	Cash Withdrawal \n
         \t\t    3.	Dialog payment \n
         \t\t    4.	Utility Payment \n
         \t\t    5.	Receive Payment \n
-        \t\t    6.	<font color = '#ff0000'>Institute Payment</font> (Short code -<font color = '#ff0000'> #111*6#</font>) \n
+        \t\t    6.	<font color='#ff0000'>Institute Payment</font> (Short code -<font color='#ff0000'> #111*6#</font>) \n
         \t\t    7.	Frequently Used Numbers \n
         \t\t    8.	Balance Check \n
         \t\t    9.	Mini Statement \n
@@ -110,7 +110,7 @@
         \t\t    Step 3: Enter Institute code \n
         \t\t    Step 4: Enter the account no. (leasing ref no) \n
         \t\t    Step 5: Enter the amount and confirm \n\n
-        \t\t<font color = '#0000ff'>    Pay [institute code] Rs [amount] to [Account number] Mobile No: [mobile no] (Service charge is applicable)</font>\n\n
+        \t\t<font color='#0000ff'>    Pay [institute code] Rs [amount] to [Account number] Mobile No: [mobile no] (Service charge is applicable)</font>\n\n
         \t\t    Step 6: You will receive a confirmation SMS \n
 
     </string>
@@ -118,8 +118,33 @@
     <string-array name="messageType">
         <item>---Choose Message Type---</item>
     </string-array>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="newFdInterest">
+        <item>Maturity</item>
+        <item>Annually</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="newFdTerm">
+        <item>01 Month</item>
+        <item>03 Months</item>
+        <item>06 Months</item>
+        <item>12 Months</item>
+        <item>18 Months</item>
+        <item>24 Months</item>
+        <item>36 Months</item>
+        <item>48 Months</item>
+        <item>60 Months</item>
+    </string-array>
+
+    <string-array name="newSacaccountType">
+        <item>Savings Normal</item>
+        <item>Senior Citizen</item>
+        <item>Kids Savings</item>
+        <item>Business Savings</item>
+    </string-array>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 
 
 </resources>

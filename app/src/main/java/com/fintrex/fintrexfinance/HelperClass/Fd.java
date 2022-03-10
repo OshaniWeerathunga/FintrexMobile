@@ -62,4 +62,6 @@ public class Fd {
     public void setFdRate(String fdRate) {
         this.fdRate = fdRate;
     }
+
 }
+

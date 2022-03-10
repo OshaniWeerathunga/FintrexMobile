@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QuickLinks.TermsConditions"
-    android:background="@color/purple1">
+    android:background="@color/light_purple">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/termstoolbar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent=".07"
+        app:layout_constraintHeight_percent=".075"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@color/purple">
+        android:background="@color/purpletop">
 
         <ImageView
             android:id="@+id/externalTermsback"
@@ -28,13 +28,14 @@
             android:layout_gravity="center_vertical"/>
 
         <TextView
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
             android:textStyle="bold"
             android:text="Terms and Conditions"
-            android:fontFamily="@font/roboto_reg"
+            android:fontFamily="@font/regular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"/>
 
         <ImageView
@@ -43,7 +44,7 @@
             android:layout_height="match_parent"
             android:paddingRight="10dp"
             android:layout_gravity="right"
-            android:src="@drawable/digital_logo_white" />
+            android:src="@drawable/logowhite" />
 
 
     </com.google.android.material.appbar.MaterialToolbar>
@@ -86,8 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/home_card"
-                android:fontFamily="@font/roboto_reg"
+                android:background="@drawable/cardbg"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
                 android:text="@string/terms"

@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,15 +20,6 @@ public final class ActivityOnlineBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView address;
-
-  @NonNull
-  public final TextView general;
-
-  @NonNull
-  public final ConstraintLayout linearLayout;
-
-  @NonNull
   public final ImageView menu;
 
   @NonNull
@@ -38,13 +28,9 @@ public final class ActivityOnlineBinding implements ViewBinding {
   @NonNull
   public final MaterialToolbar onlinetoolbar;
 
-  private ActivityOnlineBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView address,
-      @NonNull TextView general, @NonNull ConstraintLayout linearLayout, @NonNull ImageView menu,
+  private ActivityOnlineBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView menu,
       @NonNull ImageView onlineback, @NonNull MaterialToolbar onlinetoolbar) {
     this.rootView = rootView;
-    this.address = address;
-    this.general = general;
-    this.linearLayout = linearLayout;
     this.menu = menu;
     this.onlineback = onlineback;
     this.onlinetoolbar = onlinetoolbar;
@@ -77,24 +63,6 @@ public final class ActivityOnlineBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.address;
-      ImageView address = rootView.findViewById(id);
-      if (address == null) {
-        break missingId;
-      }
-
-      id = R.id.general;
-      TextView general = rootView.findViewById(id);
-      if (general == null) {
-        break missingId;
-      }
-
-      id = R.id.linearLayout;
-      ConstraintLayout linearLayout = rootView.findViewById(id);
-      if (linearLayout == null) {
-        break missingId;
-      }
-
       id = R.id.menu;
       ImageView menu = rootView.findViewById(id);
       if (menu == null) {
@@ -113,8 +81,8 @@ public final class ActivityOnlineBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityOnlineBinding((ConstraintLayout) rootView, address, general, linearLayout,
-          menu, onlineback, onlinetoolbar);
+      return new ActivityOnlineBinding((ConstraintLayout) rootView, menu, onlineback,
+          onlinetoolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

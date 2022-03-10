@@ -9,7 +9,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.fintrex.fintrexfinance.Common.DashboardScreen;
-import com.fintrex.fintrexfinance.Details.HomeScreen;
 import com.fintrex.fintrexfinance.MyApp;
 
 import java.net.MalformedURLException;
@@ -17,9 +16,10 @@ import java.net.URL;
 
 public class BaseActivity extends AppCompatActivity implements LogoutListner {
 
-    String LogoutURL = "http://202.124.175.29/Fintrex_Mobile/logout";
+    String LogoutURL = "https://online.fintrexfinance.com/logout";
     URL url;
     String finalResult ;
+    public static final int LENGTH_LONG = 2;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -42,6 +42,7 @@ public class BaseActivity extends AppCompatActivity implements LogoutListner {
         Logout();
     }
 
+
     public void Logout(){
         class LogoutFunctionClass extends AsyncTask<String,Void,String> {
 
@@ -56,11 +57,11 @@ public class BaseActivity extends AppCompatActivity implements LogoutListner {
 
                 super.onPostExecute(httpResponseMsg);
 
-                if(httpResponseMsg=="auth_fail"){
-                    Toast.makeText(BaseActivity.this, "Your Session has expired.Please login again", Toast.LENGTH_LONG).show();
+                if(httpResponseMsg.equals("ok") || (httpResponseMsg.equals("auth_fail"))){
                     Intent intent = new Intent(getApplicationContext(), DashboardScreen.class);
                     startActivity(intent);
                     finish();
+                    Toast.makeText(BaseActivity.this, "Your Session has expired.", Toast.LENGTH_LONG).show();
 
                 }else {
                     Toast.makeText(BaseActivity.this, httpResponseMsg, Toast.LENGTH_LONG).show();
@@ -88,4 +89,5 @@ public class BaseActivity extends AppCompatActivity implements LogoutListner {
         logoutFunctionClass.execute();
 
     }
+
 }

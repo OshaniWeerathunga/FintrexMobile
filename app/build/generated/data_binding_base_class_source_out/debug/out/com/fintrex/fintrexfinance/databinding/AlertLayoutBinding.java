@@ -4,7 +4,6 @@ package com.fintrex.fintrexfinance.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,16 +23,12 @@ public final class AlertLayoutBinding implements ViewBinding {
   public final AppCompatButton okbtn;
 
   @NonNull
-  public final ImageView successimg;
-
-  @NonNull
   public final TextView tv1;
 
   private AlertLayoutBinding(@NonNull ConstraintLayout rootView, @NonNull AppCompatButton okbtn,
-      @NonNull ImageView successimg, @NonNull TextView tv1) {
+      @NonNull TextView tv1) {
     this.rootView = rootView;
     this.okbtn = okbtn;
-    this.successimg = successimg;
     this.tv1 = tv1;
   }
 
@@ -70,19 +65,13 @@ public final class AlertLayoutBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.successimg;
-      ImageView successimg = rootView.findViewById(id);
-      if (successimg == null) {
-        break missingId;
-      }
-
       id = R.id.tv1;
       TextView tv1 = rootView.findViewById(id);
       if (tv1 == null) {
         break missingId;
       }
 
-      return new AlertLayoutBinding((ConstraintLayout) rootView, okbtn, successimg, tv1);
+      return new AlertLayoutBinding((ConstraintLayout) rootView, okbtn, tv1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

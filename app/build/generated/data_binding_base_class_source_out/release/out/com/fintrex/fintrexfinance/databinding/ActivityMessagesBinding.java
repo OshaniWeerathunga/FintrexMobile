@@ -23,9 +23,6 @@ public final class ActivityMessagesBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageView2;
-
-  @NonNull
   public final LinearLayout linear1;
 
   @NonNull
@@ -58,14 +55,13 @@ public final class ActivityMessagesBinding implements ViewBinding {
   @NonNull
   public final MaterialToolbar toolbar;
 
-  private ActivityMessagesBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
-      @NonNull LinearLayout linear1, @NonNull LinearLayout linear2, @NonNull LinearLayout linear3,
+  private ActivityMessagesBinding(@NonNull ConstraintLayout rootView, @NonNull LinearLayout linear1,
+      @NonNull LinearLayout linear2, @NonNull LinearLayout linear3,
       @NonNull ConstraintLayout linearLayout, @NonNull ImageView menu,
       @NonNull ImageView messageback, @NonNull AppCompatEditText msg,
       @NonNull AppCompatButton sendButton, @NonNull AppCompatEditText senderMobile,
       @NonNull AppCompatEditText senderName, @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
-    this.imageView2 = imageView2;
     this.linear1 = linear1;
     this.linear2 = linear2;
     this.linear3 = linear3;
@@ -106,12 +102,6 @@ public final class ActivityMessagesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView2;
-      ImageView imageView2 = rootView.findViewById(id);
-      if (imageView2 == null) {
-        break missingId;
-      }
-
       id = R.id.linear1;
       LinearLayout linear1 = rootView.findViewById(id);
       if (linear1 == null) {
@@ -178,9 +168,8 @@ public final class ActivityMessagesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMessagesBinding((ConstraintLayout) rootView, imageView2, linear1, linear2,
-          linear3, linearLayout, menu, messageback, msg, sendButton, senderMobile, senderName,
-          toolbar);
+      return new ActivityMessagesBinding((ConstraintLayout) rootView, linear1, linear2, linear3,
+          linearLayout, menu, messageback, msg, sendButton, senderMobile, senderName, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

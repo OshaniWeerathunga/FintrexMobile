@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.fintrex.fintrexfinance.R;
 import java.lang.NullPointerException;
@@ -17,6 +18,9 @@ import java.lang.String;
 public final class InboxListBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
+
+  @NonNull
+  public final RecyclerView attachmentImageRecy;
 
   @NonNull
   public final LinearLayout expandmsg;
@@ -30,10 +34,12 @@ public final class InboxListBinding implements ViewBinding {
   @NonNull
   public final LinearLayout msglinear;
 
-  private InboxListBinding(@NonNull LinearLayout rootView, @NonNull LinearLayout expandmsg,
+  private InboxListBinding(@NonNull LinearLayout rootView,
+      @NonNull RecyclerView attachmentImageRecy, @NonNull LinearLayout expandmsg,
       @NonNull TextView inboxmail, @NonNull TextView inboxmailDate,
       @NonNull LinearLayout msglinear) {
     this.rootView = rootView;
+    this.attachmentImageRecy = attachmentImageRecy;
     this.expandmsg = expandmsg;
     this.inboxmail = inboxmail;
     this.inboxmailDate = inboxmailDate;
@@ -67,6 +73,12 @@ public final class InboxListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.attachmentImageRecy;
+      RecyclerView attachmentImageRecy = rootView.findViewById(id);
+      if (attachmentImageRecy == null) {
+        break missingId;
+      }
+
       id = R.id.expandmsg;
       LinearLayout expandmsg = rootView.findViewById(id);
       if (expandmsg == null) {
@@ -91,8 +103,8 @@ public final class InboxListBinding implements ViewBinding {
         break missingId;
       }
 
-      return new InboxListBinding((LinearLayout) rootView, expandmsg, inboxmail, inboxmailDate,
-          msglinear);
+      return new InboxListBinding((LinearLayout) rootView, attachmentImageRecy, expandmsg,
+          inboxmail, inboxmailDate, msglinear);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

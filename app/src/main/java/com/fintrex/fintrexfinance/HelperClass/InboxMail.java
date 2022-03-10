@@ -1,8 +1,11 @@
 package com.fintrex.fintrexfinance.HelperClass;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class InboxMail {
 
-    String inboxMessage, InboxMessageDate;
+    String inboxMessage, inboxMessageDate, inboxMessageId;
 
     private boolean expanded;
 
@@ -14,14 +17,12 @@ public class InboxMail {
         this.expanded = expanded;
     }
 
-    public InboxMail() {
-    }
 
-    public InboxMail(String inboxMessage, String inboxMessageDate) {
+    public InboxMail(String inboxMessage, String inboxMessageDate, String inboxMessageId) {
         this.inboxMessage = inboxMessage;
-        this.InboxMessageDate = inboxMessageDate;
+        this.inboxMessageDate = inboxMessageDate;
+        this.inboxMessageId = inboxMessageId;
     }
-
 
     public String getInboxMessage() {
         return inboxMessage;
@@ -32,10 +33,18 @@ public class InboxMail {
     }
 
     public String getInboxMessageDate() {
-        return InboxMessageDate;
+        return inboxMessageDate;
     }
 
     public void setInboxMessageDate(String inboxMessageDate) {
-        InboxMessageDate = inboxMessageDate;
+        inboxMessageDate = inboxMessageDate;
+    }
+
+    public String getInboxMessageId() {
+        return inboxMessageId;
+    }
+
+    public void setInboxMessageId(String inboxMessageId) {
+        this.inboxMessageId = inboxMessageId;
     }
 }

@@ -46,9 +46,6 @@ public final class ActivityContactsBinding implements ViewBinding {
   public final TextView general;
 
   @NonNull
-  public final ImageView imageView2;
-
-  @NonNull
   public final ImageView instalink;
 
   @NonNull
@@ -102,16 +99,20 @@ public final class ActivityContactsBinding implements ViewBinding {
   @NonNull
   public final LinearLayout wtsap;
 
+  @NonNull
+  public final ImageView youtubelink;
+
   private ActivityContactsBinding(@NonNull ConstraintLayout rootView, @NonNull TextView address,
       @NonNull TextView callcenter, @NonNull ImageView cback, @NonNull TextView city,
       @NonNull TextView dambulla, @NonNull ImageView fblink, @NonNull TextView gampaha,
-      @NonNull TextView general, @NonNull ImageView imageView2, @NonNull ImageView instalink,
-      @NonNull TextView kaluatara, @NonNull TextView kandy, @NonNull TextView kegalle,
-      @NonNull TextView kiribathgoda, @NonNull TextView kuliyapitiya, @NonNull TextView kurunegala,
+      @NonNull TextView general, @NonNull ImageView instalink, @NonNull TextView kaluatara,
+      @NonNull TextView kandy, @NonNull TextView kegalle, @NonNull TextView kiribathgoda,
+      @NonNull TextView kuliyapitiya, @NonNull TextView kurunegala,
       @NonNull ConstraintLayout linearLayout, @NonNull ImageView linkdinlink,
       @NonNull TextView mail, @NonNull TextView matara, @NonNull ImageView menu,
       @NonNull TextView negombo, @NonNull LinearLayout social, @NonNull MaterialToolbar toolbar,
-      @NonNull ImageView tweeterlink, @NonNull TextView working, @NonNull LinearLayout wtsap) {
+      @NonNull ImageView tweeterlink, @NonNull TextView working, @NonNull LinearLayout wtsap,
+      @NonNull ImageView youtubelink) {
     this.rootView = rootView;
     this.address = address;
     this.callcenter = callcenter;
@@ -121,7 +122,6 @@ public final class ActivityContactsBinding implements ViewBinding {
     this.fblink = fblink;
     this.gampaha = gampaha;
     this.general = general;
-    this.imageView2 = imageView2;
     this.instalink = instalink;
     this.kaluatara = kaluatara;
     this.kandy = kandy;
@@ -140,6 +140,7 @@ public final class ActivityContactsBinding implements ViewBinding {
     this.tweeterlink = tweeterlink;
     this.working = working;
     this.wtsap = wtsap;
+    this.youtubelink = youtubelink;
   }
 
   @Override
@@ -214,12 +215,6 @@ public final class ActivityContactsBinding implements ViewBinding {
       id = R.id.general;
       TextView general = rootView.findViewById(id);
       if (general == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView2;
-      ImageView imageView2 = rootView.findViewById(id);
-      if (imageView2 == null) {
         break missingId;
       }
 
@@ -331,10 +326,16 @@ public final class ActivityContactsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.youtubelink;
+      ImageView youtubelink = rootView.findViewById(id);
+      if (youtubelink == null) {
+        break missingId;
+      }
+
       return new ActivityContactsBinding((ConstraintLayout) rootView, address, callcenter, cback,
-          city, dambulla, fblink, gampaha, general, imageView2, instalink, kaluatara, kandy,
-          kegalle, kiribathgoda, kuliyapitiya, kurunegala, linearLayout, linkdinlink, mail, matara,
-          menu, negombo, social, toolbar, tweeterlink, working, wtsap);
+          city, dambulla, fblink, gampaha, general, instalink, kaluatara, kandy, kegalle,
+          kiribathgoda, kuliyapitiya, kurunegala, linearLayout, linkdinlink, mail, matara, menu,
+          negombo, social, toolbar, tweeterlink, working, wtsap, youtubelink);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

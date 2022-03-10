@@ -1,6 +1,5 @@
 package com.fintrex.fintrexfinance.Fragment;
 
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 
@@ -8,14 +7,12 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.fintrex.fintrexfinance.Common.DashboardScreen;
-import com.fintrex.fintrexfinance.HelperClass.InboxMail;
-import com.fintrex.fintrexfinance.HelperClass.InboxMailAdapter;
 import com.fintrex.fintrexfinance.HelperClass.OutboxMail;
 import com.fintrex.fintrexfinance.HelperClass.OutboxMailAdapter;
 import com.fintrex.fintrexfinance.HelperClass.PostRequest;
@@ -25,6 +22,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -40,10 +38,11 @@ public class OutboxFragment extends Fragment {
     private List<OutboxMail> list = new ArrayList<>();
     private RecyclerView recyclerView;
 
-    String ServerOutboxURL = "http://202.124.175.29/Fintrex_Mobile/indexControl/getCustomerMsgData?";
+    String ServerOutboxURL = "https://online.fintrexfinance.com/indexControl/getCustomerMsgData?";
     URL url;
     String finalResult ;
 
+    String decodetype,decodemsg,decodedate;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -77,6 +76,7 @@ public class OutboxFragment extends Fragment {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
                     JSONArray array = jsonObject.getJSONArray("result");
 
+
                     for(int i=0; i<array.length();i++){
                         JSONObject lcObject = array.getJSONObject(i);
 
@@ -84,7 +84,18 @@ public class OutboxFragment extends Fragment {
                         String msg = lcObject.getString("message");
                         String msgdate = lcObject.getString("sent_on");
 
-                        OutboxMail outboxMail = new OutboxMail(msgType,msg,msgdate);
+                        //decode inbox msg
+                        try {
+                            byte[] bytetype = Base64.decode(msgType, Base64.DEFAULT);
+                            byte[] bytemsg = Base64.decode(msg, Base64.DEFAULT);
+                            decodetype = new String(bytetype, "UTF-8");
+                            decodemsg = new String(bytemsg, "UTF-8");
+                        }
+                        catch (UnsupportedEncodingException e) {
+                            e.printStackTrace();
+                        }
+
+                        OutboxMail outboxMail = new OutboxMail(decodetype,decodemsg,msgdate);
                         list.add(outboxMail);
                     }
 

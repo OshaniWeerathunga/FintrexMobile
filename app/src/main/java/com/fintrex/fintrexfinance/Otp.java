@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,6 +18,7 @@ import com.chaos.view.PinView;
 import com.fintrex.fintrexfinance.Common.DashboardScreen;
 import com.fintrex.fintrexfinance.Common.LoginScreen;
 import com.fintrex.fintrexfinance.Details.HomeScreen;
+import com.fintrex.fintrexfinance.HelperClass.BaseActivity;
 import com.fintrex.fintrexfinance.HelperClass.PostRequest;
 
 import org.json.JSONException;
@@ -39,7 +41,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.net.ssl.HttpsURLConnection;
 
-public class Otp extends AppCompatActivity {
+public class Otp extends BaseActivity {
 
     ProgressDialog progressDialog;
     TextView timer;
@@ -52,7 +54,7 @@ public class Otp extends AppCompatActivity {
     PinView pinView;
 
     String OtpHolder="default";
-    String userLeasing, userFixed, userLoans, userSaving, userLc ;
+    String userLeasing, userFixed, userLoans, userSaving, username, userlastlogin ;
 
     String NameHolder,NicHolder,PhoneHolder;
 
@@ -60,8 +62,8 @@ public class Otp extends AppCompatActivity {
     String finalResult ;
     HashMap<String,String> hashMap = new HashMap<>();
     URL url;
-    String ServerLoginURL = "http://202.124.175.29/Fintrex_Mobile/loginControl/check_otp?";
-    String HomeURL = "http://202.124.175.29/Fintrex_Mobile/indexControl/getCustomerData?";
+    String ServerLoginURL = "https://online.fintrexfinance.com/loginControl/check_otp?";
+    String HomeURL = "https://online.fintrexfinance.com/indexControl/getCustomerData?";
     String FinalHttpData = "";
     BufferedWriter bufferedWriter ;
     BufferedReader bufferedReader ;
@@ -75,12 +77,18 @@ public class Otp extends AppCompatActivity {
     public final static String Loans ="loans";
     public final static String Fixed ="fixed";
     public final static String Saving ="save";
+    public final static String User ="username";
+    public final static String Login ="login";
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otp);
+
+        //screenshots not allowed
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,WindowManager.LayoutParams.FLAG_SECURE);
+
 
         // initializing variables for button and Edittext.
         userpin = findViewById(R.id.pin);
@@ -147,7 +155,7 @@ public class Otp extends AppCompatActivity {
 
     public void OtpFunction(final String userOTP){
 
-        class LoginFunctionClass extends AsyncTask<String,Void,String> {
+        class OtpFunctionClass extends AsyncTask<String,Void,String> {
 
             @Override
             protected void onPreExecute() {
@@ -211,8 +219,8 @@ public class Otp extends AppCompatActivity {
             }
         }
 
-        LoginFunctionClass loginFunctionClass = new LoginFunctionClass();
-        loginFunctionClass.execute(userOTP);
+        OtpFunctionClass otpFunctionClass = new OtpFunctionClass();
+        otpFunctionClass.execute(userOTP);
     }
 
     public void GetDataFunction(){
@@ -223,12 +231,20 @@ public class Otp extends AppCompatActivity {
             protected void onPreExecute() {
                 super.onPreExecute();
 
+                progressDialog = new ProgressDialog(Otp.this);
+                progressDialog.show();
+                progressDialog.setContentView(R.layout.progress_layout);
+                progressDialog.getWindow().setBackgroundDrawableResource(
+                        android.R.color.transparent
+                );
                 }
 
             @Override
             protected void onPostExecute(String httpResponseMsg) {
 
                 super.onPostExecute(httpResponseMsg);
+
+                progressDialog.dismiss();
 
                 try {
                     JSONObject jsonObject = new JSONObject(httpResponseMsg);
@@ -237,12 +253,13 @@ public class Otp extends AppCompatActivity {
                         userFixed = jsonObject.getString("Fixed_Amount");
                         userLoans = jsonObject.getString("Loan_Amount");
                         userSaving = jsonObject.getString("Saving_Amount");
+                        username = jsonObject.getString("user");
+                        userlastlogin = jsonObject.getString("Last_login");
 
                         showJSON();
                     }
                     else{
                         Toast.makeText(Otp.this,"Cannot Load Data.Please Check your connection", Toast.LENGTH_LONG).show();
-
                     }
 
 
@@ -278,8 +295,10 @@ public class Otp extends AppCompatActivity {
         intent.putExtra(Fixed,userFixed);
         intent.putExtra(Loans,userLoans);
         intent.putExtra(Saving,userSaving);
+        intent.putExtra(User,username);
         intent.putExtra(Nic,NicHolder);
         intent.putExtra(Name,NameHolder);
+        intent.putExtra(Login,userlastlogin);
         startActivity(intent);
         finish();
 

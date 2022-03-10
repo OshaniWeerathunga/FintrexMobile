@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
@@ -24,6 +25,9 @@ public final class ActivityLeasingScreenBinding implements ViewBinding {
   public final ImageView imageView2;
 
   @NonNull
+  public final CardView leaseNoDataCard;
+
+  @NonNull
   public final ImageView leaseback;
 
   @NonNull
@@ -36,10 +40,12 @@ public final class ActivityLeasingScreenBinding implements ViewBinding {
   public final MaterialToolbar toolbar;
 
   private ActivityLeasingScreenBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView2, @NonNull ImageView leaseback, @NonNull ImageView menu,
-      @NonNull RecyclerView recyclerview, @NonNull MaterialToolbar toolbar) {
+      @NonNull ImageView imageView2, @NonNull CardView leaseNoDataCard,
+      @NonNull ImageView leaseback, @NonNull ImageView menu, @NonNull RecyclerView recyclerview,
+      @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
     this.imageView2 = imageView2;
+    this.leaseNoDataCard = leaseNoDataCard;
     this.leaseback = leaseback;
     this.menu = menu;
     this.recyclerview = recyclerview;
@@ -79,6 +85,12 @@ public final class ActivityLeasingScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.leaseNoDataCard;
+      CardView leaseNoDataCard = rootView.findViewById(id);
+      if (leaseNoDataCard == null) {
+        break missingId;
+      }
+
       id = R.id.leaseback;
       ImageView leaseback = rootView.findViewById(id);
       if (leaseback == null) {
@@ -103,8 +115,8 @@ public final class ActivityLeasingScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLeasingScreenBinding((ConstraintLayout) rootView, imageView2, leaseback,
-          menu, recyclerview, toolbar);
+      return new ActivityLeasingScreenBinding((ConstraintLayout) rootView, imageView2,
+          leaseNoDataCard, leaseback, menu, recyclerview, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

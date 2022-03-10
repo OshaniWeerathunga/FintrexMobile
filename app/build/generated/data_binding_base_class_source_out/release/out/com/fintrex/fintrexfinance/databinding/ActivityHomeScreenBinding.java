@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,9 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import com.fintrex.fintrexfinance.R;
-import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.navigation.NavigationView;
-import com.smarteist.autoimageslider.SliderView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -38,6 +35,9 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
   public final CardView cardView4;
 
   @NonNull
+  public final CardView cardView5;
+
+  @NonNull
   public final ImageView cargills;
 
   @NonNull
@@ -53,13 +53,31 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
   public final ImageView ezcash;
 
   @NonNull
+  public final ImageView fdImage;
+
+  @NonNull
   public final TextView fixedAmount;
 
   @NonNull
   public final TextView fixedTopic;
 
   @NonNull
-  public final ImageView imageView2;
+  public final ImageView goldloanImage;
+
+  @NonNull
+  public final TextView goldloansAmount;
+
+  @NonNull
+  public final TextView goldloansTopic;
+
+  @NonNull
+  public final TextView homeUserLogin;
+
+  @NonNull
+  public final TextView homeUserName;
+
+  @NonNull
+  public final TextView homelogout;
 
   @NonNull
   public final TextView leaseAmount;
@@ -71,13 +89,13 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
   public final TextView leasingTopic;
 
   @NonNull
+  public final ImageView loanImage;
+
+  @NonNull
   public final TextView loansAmount;
 
   @NonNull
   public final TextView loansTopic;
-
-  @NonNull
-  public final TextView logouttv;
 
   @NonNull
   public final ImageView mail;
@@ -95,56 +113,61 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
   public final TextView savingAmount;
 
   @NonNull
+  public final ImageView savingImage;
+
+  @NonNull
   public final TextView savingTopic;
 
   @NonNull
-  public final SliderView slider;
-
-  @NonNull
-  public final MaterialToolbar toolbar;
-
-  @NonNull
-  public final RelativeLayout toolbarmain;
+  public final TextView topicmyaccount;
 
   private ActivityHomeScreenBinding(@NonNull DrawerLayout rootView, @NonNull CardView cardView,
       @NonNull CardView cardView2, @NonNull CardView cardView3, @NonNull CardView cardView4,
-      @NonNull ImageView cargills, @NonNull ImageView cdm,
+      @NonNull CardView cardView5, @NonNull ImageView cargills, @NonNull ImageView cdm,
       @NonNull ConstraintLayout constraintLayout, @NonNull DrawerLayout drawerLayout,
-      @NonNull ImageView ezcash, @NonNull TextView fixedAmount, @NonNull TextView fixedTopic,
-      @NonNull ImageView imageView2, @NonNull TextView leaseAmount, @NonNull ImageView leaseImage,
-      @NonNull TextView leasingTopic, @NonNull TextView loansAmount, @NonNull TextView loansTopic,
-      @NonNull TextView logouttv, @NonNull ImageView mail, @NonNull ImageView menu,
-      @NonNull NavigationView navigationView, @NonNull ImageView online,
-      @NonNull TextView savingAmount, @NonNull TextView savingTopic, @NonNull SliderView slider,
-      @NonNull MaterialToolbar toolbar, @NonNull RelativeLayout toolbarmain) {
+      @NonNull ImageView ezcash, @NonNull ImageView fdImage, @NonNull TextView fixedAmount,
+      @NonNull TextView fixedTopic, @NonNull ImageView goldloanImage,
+      @NonNull TextView goldloansAmount, @NonNull TextView goldloansTopic,
+      @NonNull TextView homeUserLogin, @NonNull TextView homeUserName, @NonNull TextView homelogout,
+      @NonNull TextView leaseAmount, @NonNull ImageView leaseImage, @NonNull TextView leasingTopic,
+      @NonNull ImageView loanImage, @NonNull TextView loansAmount, @NonNull TextView loansTopic,
+      @NonNull ImageView mail, @NonNull ImageView menu, @NonNull NavigationView navigationView,
+      @NonNull ImageView online, @NonNull TextView savingAmount, @NonNull ImageView savingImage,
+      @NonNull TextView savingTopic, @NonNull TextView topicmyaccount) {
     this.rootView = rootView;
     this.cardView = cardView;
     this.cardView2 = cardView2;
     this.cardView3 = cardView3;
     this.cardView4 = cardView4;
+    this.cardView5 = cardView5;
     this.cargills = cargills;
     this.cdm = cdm;
     this.constraintLayout = constraintLayout;
     this.drawerLayout = drawerLayout;
     this.ezcash = ezcash;
+    this.fdImage = fdImage;
     this.fixedAmount = fixedAmount;
     this.fixedTopic = fixedTopic;
-    this.imageView2 = imageView2;
+    this.goldloanImage = goldloanImage;
+    this.goldloansAmount = goldloansAmount;
+    this.goldloansTopic = goldloansTopic;
+    this.homeUserLogin = homeUserLogin;
+    this.homeUserName = homeUserName;
+    this.homelogout = homelogout;
     this.leaseAmount = leaseAmount;
     this.leaseImage = leaseImage;
     this.leasingTopic = leasingTopic;
+    this.loanImage = loanImage;
     this.loansAmount = loansAmount;
     this.loansTopic = loansTopic;
-    this.logouttv = logouttv;
     this.mail = mail;
     this.menu = menu;
     this.navigationView = navigationView;
     this.online = online;
     this.savingAmount = savingAmount;
+    this.savingImage = savingImage;
     this.savingTopic = savingTopic;
-    this.slider = slider;
-    this.toolbar = toolbar;
-    this.toolbarmain = toolbarmain;
+    this.topicmyaccount = topicmyaccount;
   }
 
   @Override
@@ -198,6 +221,12 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cardView5;
+      CardView cardView5 = rootView.findViewById(id);
+      if (cardView5 == null) {
+        break missingId;
+      }
+
       id = R.id.cargills;
       ImageView cargills = rootView.findViewById(id);
       if (cargills == null) {
@@ -210,7 +239,7 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.constraint_layout;
+      id = R.id.constraintLayout;
       ConstraintLayout constraintLayout = rootView.findViewById(id);
       if (constraintLayout == null) {
         break missingId;
@@ -221,6 +250,12 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
       id = R.id.ezcash;
       ImageView ezcash = rootView.findViewById(id);
       if (ezcash == null) {
+        break missingId;
+      }
+
+      id = R.id.fdImage;
+      ImageView fdImage = rootView.findViewById(id);
+      if (fdImage == null) {
         break missingId;
       }
 
@@ -236,9 +271,39 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView2;
-      ImageView imageView2 = rootView.findViewById(id);
-      if (imageView2 == null) {
+      id = R.id.goldloanImage;
+      ImageView goldloanImage = rootView.findViewById(id);
+      if (goldloanImage == null) {
+        break missingId;
+      }
+
+      id = R.id.goldloans_amount;
+      TextView goldloansAmount = rootView.findViewById(id);
+      if (goldloansAmount == null) {
+        break missingId;
+      }
+
+      id = R.id.goldloans_topic;
+      TextView goldloansTopic = rootView.findViewById(id);
+      if (goldloansTopic == null) {
+        break missingId;
+      }
+
+      id = R.id.homeUserLogin;
+      TextView homeUserLogin = rootView.findViewById(id);
+      if (homeUserLogin == null) {
+        break missingId;
+      }
+
+      id = R.id.homeUserName;
+      TextView homeUserName = rootView.findViewById(id);
+      if (homeUserName == null) {
+        break missingId;
+      }
+
+      id = R.id.homelogout;
+      TextView homelogout = rootView.findViewById(id);
+      if (homelogout == null) {
         break missingId;
       }
 
@@ -260,6 +325,12 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loanImage;
+      ImageView loanImage = rootView.findViewById(id);
+      if (loanImage == null) {
+        break missingId;
+      }
+
       id = R.id.loans_amount;
       TextView loansAmount = rootView.findViewById(id);
       if (loansAmount == null) {
@@ -269,12 +340,6 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
       id = R.id.loans_topic;
       TextView loansTopic = rootView.findViewById(id);
       if (loansTopic == null) {
-        break missingId;
-      }
-
-      id = R.id.logouttv;
-      TextView logouttv = rootView.findViewById(id);
-      if (logouttv == null) {
         break missingId;
       }
 
@@ -308,35 +373,30 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.savingImage;
+      ImageView savingImage = rootView.findViewById(id);
+      if (savingImage == null) {
+        break missingId;
+      }
+
       id = R.id.saving_topic;
       TextView savingTopic = rootView.findViewById(id);
       if (savingTopic == null) {
         break missingId;
       }
 
-      id = R.id.slider;
-      SliderView slider = rootView.findViewById(id);
-      if (slider == null) {
-        break missingId;
-      }
-
-      id = R.id.toolbar;
-      MaterialToolbar toolbar = rootView.findViewById(id);
-      if (toolbar == null) {
-        break missingId;
-      }
-
-      id = R.id.toolbarmain;
-      RelativeLayout toolbarmain = rootView.findViewById(id);
-      if (toolbarmain == null) {
+      id = R.id.topicmyaccount;
+      TextView topicmyaccount = rootView.findViewById(id);
+      if (topicmyaccount == null) {
         break missingId;
       }
 
       return new ActivityHomeScreenBinding((DrawerLayout) rootView, cardView, cardView2, cardView3,
-          cardView4, cargills, cdm, constraintLayout, drawerLayout, ezcash, fixedAmount, fixedTopic,
-          imageView2, leaseAmount, leaseImage, leasingTopic, loansAmount, loansTopic, logouttv,
-          mail, menu, navigationView, online, savingAmount, savingTopic, slider, toolbar,
-          toolbarmain);
+          cardView4, cardView5, cargills, cdm, constraintLayout, drawerLayout, ezcash, fdImage,
+          fixedAmount, fixedTopic, goldloanImage, goldloansAmount, goldloansTopic, homeUserLogin,
+          homeUserName, homelogout, leaseAmount, leaseImage, leasingTopic, loanImage, loansAmount,
+          loansTopic, mail, menu, navigationView, online, savingAmount, savingImage, savingTopic,
+          topicmyaccount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

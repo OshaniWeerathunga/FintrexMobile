@@ -35,7 +35,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="Account No : "
-                    android:fontFamily="@font/roboto_reg"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000"
                     android:textStyle="bold" />
@@ -44,7 +43,6 @@
                     android:id="@+id/valueSavNo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_reg"
                     android:layout_weight="1"
                     android:gravity="end"
                     android:padding="10dp"
@@ -70,7 +68,6 @@
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:text="Amount : "
-                    android:fontFamily="@font/roboto_reg"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="#000000"
                     android:textStyle="bold" />
@@ -79,7 +76,6 @@
                     android:id="@+id/valueSavBalance"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_reg"
                     android:layout_gravity="end"
                     android:layout_weight="1"
                     android:padding="10dp"
@@ -116,7 +112,6 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:text="Type of Account : "
-                        android:fontFamily="@font/roboto_reg"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                         android:textColor="#000000"
                         android:textStyle="bold" />
@@ -126,7 +121,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/roboto_reg"
                         android:gravity="end"
                         android:padding="10dp"
                         android:text="78000"

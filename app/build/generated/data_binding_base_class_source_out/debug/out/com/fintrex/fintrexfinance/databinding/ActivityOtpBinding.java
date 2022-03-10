@@ -22,10 +22,7 @@ public final class ActivityOtpBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView backgroundImg;
-
-  @NonNull
-  public final ConstraintLayout constraintLayout;
+  public final ImageView dashlogo;
 
   @NonNull
   public final AppCompatButton idBtnVerify;
@@ -39,21 +36,15 @@ public final class ActivityOtpBinding implements ViewBinding {
   @NonNull
   public final TextView timer;
 
-  @NonNull
-  public final ImageView welcomeTv;
-
-  private ActivityOtpBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView backgroundImg,
-      @NonNull ConstraintLayout constraintLayout, @NonNull AppCompatButton idBtnVerify,
-      @NonNull TextView otpTv, @NonNull PinView pin, @NonNull TextView timer,
-      @NonNull ImageView welcomeTv) {
+  private ActivityOtpBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView dashlogo,
+      @NonNull AppCompatButton idBtnVerify, @NonNull TextView otpTv, @NonNull PinView pin,
+      @NonNull TextView timer) {
     this.rootView = rootView;
-    this.backgroundImg = backgroundImg;
-    this.constraintLayout = constraintLayout;
+    this.dashlogo = dashlogo;
     this.idBtnVerify = idBtnVerify;
     this.otpTv = otpTv;
     this.pin = pin;
     this.timer = timer;
-    this.welcomeTv = welcomeTv;
   }
 
   @Override
@@ -83,15 +74,9 @@ public final class ActivityOtpBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.backgroundImg;
-      ImageView backgroundImg = rootView.findViewById(id);
-      if (backgroundImg == null) {
-        break missingId;
-      }
-
-      id = R.id.constraint_layout;
-      ConstraintLayout constraintLayout = rootView.findViewById(id);
-      if (constraintLayout == null) {
+      id = R.id.dashlogo;
+      ImageView dashlogo = rootView.findViewById(id);
+      if (dashlogo == null) {
         break missingId;
       }
 
@@ -119,14 +104,8 @@ public final class ActivityOtpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.welcome_tv;
-      ImageView welcomeTv = rootView.findViewById(id);
-      if (welcomeTv == null) {
-        break missingId;
-      }
-
-      return new ActivityOtpBinding((ConstraintLayout) rootView, backgroundImg, constraintLayout,
-          idBtnVerify, otpTv, pin, timer, welcomeTv);
+      return new ActivityOtpBinding((ConstraintLayout) rootView, dashlogo, idBtnVerify, otpTv, pin,
+          timer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

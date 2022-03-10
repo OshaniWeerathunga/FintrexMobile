@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,32 +20,19 @@ public final class ActivityEzcashBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView address;
-
-  @NonNull
   public final ImageView ezback;
 
   @NonNull
   public final MaterialToolbar eztoolbar;
 
   @NonNull
-  public final TextView general;
-
-  @NonNull
-  public final ConstraintLayout linearLayout;
-
-  @NonNull
   public final ImageView menu;
 
-  private ActivityEzcashBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView address,
-      @NonNull ImageView ezback, @NonNull MaterialToolbar eztoolbar, @NonNull TextView general,
-      @NonNull ConstraintLayout linearLayout, @NonNull ImageView menu) {
+  private ActivityEzcashBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView ezback,
+      @NonNull MaterialToolbar eztoolbar, @NonNull ImageView menu) {
     this.rootView = rootView;
-    this.address = address;
     this.ezback = ezback;
     this.eztoolbar = eztoolbar;
-    this.general = general;
-    this.linearLayout = linearLayout;
     this.menu = menu;
   }
 
@@ -77,12 +63,6 @@ public final class ActivityEzcashBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.address;
-      ImageView address = rootView.findViewById(id);
-      if (address == null) {
-        break missingId;
-      }
-
       id = R.id.ezback;
       ImageView ezback = rootView.findViewById(id);
       if (ezback == null) {
@@ -95,26 +75,13 @@ public final class ActivityEzcashBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.general;
-      TextView general = rootView.findViewById(id);
-      if (general == null) {
-        break missingId;
-      }
-
-      id = R.id.linearLayout;
-      ConstraintLayout linearLayout = rootView.findViewById(id);
-      if (linearLayout == null) {
-        break missingId;
-      }
-
       id = R.id.menu;
       ImageView menu = rootView.findViewById(id);
       if (menu == null) {
         break missingId;
       }
 
-      return new ActivityEzcashBinding((ConstraintLayout) rootView, address, ezback, eztoolbar,
-          general, linearLayout, menu);
+      return new ActivityEzcashBinding((ConstraintLayout) rootView, ezback, eztoolbar, menu);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

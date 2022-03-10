@@ -11,9 +11,6 @@ import android.widget.ImageView;
 
 import com.fintrex.fintrexfinance.Common.DashboardScreen;
 import com.fintrex.fintrexfinance.Details.NewMailSend;
-import com.fintrex.fintrexfinance.Payments.Cargills;
-import com.fintrex.fintrexfinance.Payments.Cdm;
-import com.fintrex.fintrexfinance.Payments.Online;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         //set Animation on elements
         logo.setAnimation(topAnimation);
 
+
         //set time to automatically redirect to the Dashboard
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -44,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         },SPLASH_TIMER);
+
+
     }
+
 
 }
