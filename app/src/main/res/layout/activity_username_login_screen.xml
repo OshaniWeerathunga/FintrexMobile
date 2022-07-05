@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.UsernameLoginScreen"
+    android:background="@color/light_purple">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/purpletop">
+
+        <ImageView
+            android:id="@+id/loginback"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/dashlogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/myfintrexlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <TextView
+        android:id="@+id/dashmsg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/btn_letter"
+        android:gravity="center_horizontal"
+        android:text="F i n a n c i n g  m a d e  S i m p l e"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/purple"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <TextView
+        android:id="@+id/signin_tv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="left"
+        android:text="Sign in with your Username and Password"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/purple"
+        android:fontFamily="@font/regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/username_et"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/edit_bg"
+        android:drawableLeft="@drawable/nic"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:fontFamily="@font/btn_letter"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias="0.6"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password_et"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/edit_bg"
+        android:drawableLeft="@drawable/pwd"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:fontFamily="@font/btn_letter"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias="0.7"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/usernameLogin_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/edit_bg"
+        android:text="Sign In"
+        android:fontFamily="@font/btn_letter"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias="0.85"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

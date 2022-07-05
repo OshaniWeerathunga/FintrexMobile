@@ -37,13 +37,19 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
   public final TextView dashmsg;
 
   @NonNull
+  public final TextView kyc;
+
+  @NonNull
   public final LinearLayout linear1dash;
 
   @NonNull
   public final LinearLayout linear2dash;
 
   @NonNull
-  public final AppCompatButton loginbutton;
+  public final AppCompatButton loginOtp;
+
+  @NonNull
+  public final AppCompatButton loginUsername;
 
   @NonNull
   public final ImageView promotionlink;
@@ -55,26 +61,33 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
   public final ImageView requestlink;
 
   @NonNull
+  public final TextView signIn;
+
+  @NonNull
   public final TextView terms;
 
   private ActivityDashboardScreenBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView aboutlink, @NonNull ImageView branchlink, @NonNull ImageView contactlink,
-      @NonNull ImageView dashlogo, @NonNull TextView dashmsg, @NonNull LinearLayout linear1dash,
-      @NonNull LinearLayout linear2dash, @NonNull AppCompatButton loginbutton,
+      @NonNull ImageView dashlogo, @NonNull TextView dashmsg, @NonNull TextView kyc,
+      @NonNull LinearLayout linear1dash, @NonNull LinearLayout linear2dash,
+      @NonNull AppCompatButton loginOtp, @NonNull AppCompatButton loginUsername,
       @NonNull ImageView promotionlink, @NonNull ImageView rateslink,
-      @NonNull ImageView requestlink, @NonNull TextView terms) {
+      @NonNull ImageView requestlink, @NonNull TextView signIn, @NonNull TextView terms) {
     this.rootView = rootView;
     this.aboutlink = aboutlink;
     this.branchlink = branchlink;
     this.contactlink = contactlink;
     this.dashlogo = dashlogo;
     this.dashmsg = dashmsg;
+    this.kyc = kyc;
     this.linear1dash = linear1dash;
     this.linear2dash = linear2dash;
-    this.loginbutton = loginbutton;
+    this.loginOtp = loginOtp;
+    this.loginUsername = loginUsername;
     this.promotionlink = promotionlink;
     this.rateslink = rateslink;
     this.requestlink = requestlink;
+    this.signIn = signIn;
     this.terms = terms;
   }
 
@@ -135,6 +148,12 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.kyc;
+      TextView kyc = rootView.findViewById(id);
+      if (kyc == null) {
+        break missingId;
+      }
+
       id = R.id.linear1dash;
       LinearLayout linear1dash = rootView.findViewById(id);
       if (linear1dash == null) {
@@ -147,9 +166,15 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.loginbutton;
-      AppCompatButton loginbutton = rootView.findViewById(id);
-      if (loginbutton == null) {
+      id = R.id.loginOtp;
+      AppCompatButton loginOtp = rootView.findViewById(id);
+      if (loginOtp == null) {
+        break missingId;
+      }
+
+      id = R.id.loginUsername;
+      AppCompatButton loginUsername = rootView.findViewById(id);
+      if (loginUsername == null) {
         break missingId;
       }
 
@@ -171,6 +196,12 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.signIn;
+      TextView signIn = rootView.findViewById(id);
+      if (signIn == null) {
+        break missingId;
+      }
+
       id = R.id.terms;
       TextView terms = rootView.findViewById(id);
       if (terms == null) {
@@ -178,8 +209,8 @@ public final class ActivityDashboardScreenBinding implements ViewBinding {
       }
 
       return new ActivityDashboardScreenBinding((ConstraintLayout) rootView, aboutlink, branchlink,
-          contactlink, dashlogo, dashmsg, linear1dash, linear2dash, loginbutton, promotionlink,
-          rateslink, requestlink, terms);
+          contactlink, dashlogo, dashmsg, kyc, linear1dash, linear2dash, loginOtp, loginUsername,
+          promotionlink, rateslink, requestlink, signIn, terms);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

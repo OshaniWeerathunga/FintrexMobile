@@ -2126,6 +2126,7 @@ drawable peoplesicon
 drawable placeholder
 drawable promotioncard
 drawable pv_invisible_image
+drawable pwd
 drawable saving_icon
 drawable send
 drawable servicecard
@@ -2470,6 +2471,7 @@ id kegalle
 id kiribathgoda
 id kuliyapitiya
 id kurunegala
+id kyc
 id labeled
 id layout
 id leaseImage
@@ -2525,8 +2527,9 @@ id loans_amount
 id loans_topic
 id loantoolbar
 id location
+id loginOtp
+id loginUsername
 id loginback
-id loginbutton
 id logo_img
 id lottie_layer_name
 id mail
@@ -2658,6 +2661,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password_et
 id password_toggle
 id path
 id pathRelative
@@ -2754,6 +2758,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signIn
 id signin_tv
 id sin
 id skipCollapsed
@@ -2914,6 +2919,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usernameLogin_btn
+id username_et
 id v_circle
 id valueFdMaturity
 id valueFdNo
@@ -3058,6 +3065,7 @@ layout activity_promotion
 layout activity_rates
 layout activity_saving_screen
 layout activity_terms_conditions
+layout activity_username_login_screen
 layout alert_blacklist
 layout alert_layout
 layout alert_newaccont_create

@@ -14,7 +14,7 @@
         tools:ignore="ScopedStorage" />
 
     <application
-        android:name="com.fintrex.fintrexfinance.MyApp"
+        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,38 +22,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FintrexFinance"
         android:usesCleartextTraffic="true">
-
-        <activity android:name="com.fintrex.fintrexfinance.Navigation.Promotion"></activity>
-        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Rates" />
-        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.NewSavingCreate" />
-        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.NewFdCreate" />
-        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.FdAndSavings" />
-        <activity android:name="com.fintrex.fintrexfinance.Payments.Ezcash" />
-        <activity android:name="com.fintrex.fintrexfinance.Payments.Online" />
-        <activity android:name="com.fintrex.fintrexfinance.Payments.Cdm" />
-        <activity android:name="com.fintrex.fintrexfinance.Payments.Cargills" />
-        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.TermsConditions" />
-        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Contacts" />
-        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.About" />
-        <activity android:name="com.fintrex.fintrexfinance.Details.MailScreen" />
-        <activity android:name="com.fintrex.fintrexfinance.Details.NewMailSend" />
+        <activity
+            android:name=".Common.UsernameLoginScreen"
+            android:exported="true" />
+        <activity android:name=".Navigation.Promotion" />
+        <activity android:name=".QuickLinks.Rates" />
+        <activity android:name=".QuickLinks.NewSavingCreate" />
+        <activity android:name=".QuickLinks.NewFdCreate" />
+        <activity android:name=".QuickLinks.FdAndSavings" />
+        <activity android:name=".Payments.Ezcash" />
+        <activity android:name=".Payments.Online" />
+        <activity android:name=".Payments.Cdm" />
+        <activity android:name=".Payments.Cargills" />
+        <activity android:name=".QuickLinks.TermsConditions" />
+        <activity android:name=".QuickLinks.Contacts" />
+        <activity android:name=".QuickLinks.About" />
+        <activity android:name=".Details.MailScreen" />
+        <activity android:name=".Details.NewMailSend" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_map_key" />
 
-        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Branches" />
-        <activity android:name="com.fintrex.fintrexfinance.QuickLinks.ExternalRequest" />
-        <activity android:name="com.fintrex.fintrexfinance.Navigation.Profile" />
-        <activity android:name="com.fintrex.fintrexfinance.Otp" />
-        <activity android:name="com.fintrex.fintrexfinance.Details.LoanScreen" />
-        <activity android:name="com.fintrex.fintrexfinance.Details.SavingScreen" />
-        <activity android:name="com.fintrex.fintrexfinance.Details.FixedScreen" />
-        <activity android:name="com.fintrex.fintrexfinance.Details.LeasingScreen" />
-        <activity android:name="com.fintrex.fintrexfinance.Details.HomeScreen" />
-        <activity android:name="com.fintrex.fintrexfinance.Common.DashboardScreen" />
-        <activity android:name="com.fintrex.fintrexfinance.Common.LoginScreen" />
-        <activity android:name="com.fintrex.fintrexfinance.MainActivity">
+        <activity android:name=".QuickLinks.Branches" />
+        <activity android:name=".QuickLinks.ExternalRequest" />
+        <activity android:name=".Navigation.Profile" />
+        <activity android:name=".Otp" />
+        <activity android:name=".Details.LoanScreen" />
+        <activity android:name=".Details.SavingScreen" />
+        <activity android:name=".Details.FixedScreen" />
+        <activity android:name=".Details.LeasingScreen" />
+        <activity android:name=".Details.HomeScreen" />
+        <activity android:name=".Common.DashboardScreen" />
+        <activity android:name=".Common.LoginScreen" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

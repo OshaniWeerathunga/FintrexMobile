@@ -242,6 +242,10 @@ com/fintrex/fintrexfinance/Details/LoanScreen.java
  com.fintrex.fintrexfinance.Details.LoanScreen$1LoanFunctionClass
 com/fintrex/fintrexfinance/databinding/ActivityPromotionBinding.java
  com.fintrex.fintrexfinance.databinding.ActivityPromotionBinding
+com/fintrex/fintrexfinance/databinding/ActivityUsernameLoginScreenBinding.java
+ com.fintrex.fintrexfinance.databinding.ActivityUsernameLoginScreenBinding
+com/fintrex/fintrexfinance/Common/UsernameLoginScreen.java
+ com.fintrex.fintrexfinance.Common.UsernameLoginScreen
 com/fintrex/fintrexfinance/QuickLinks/Branches.java
  com.fintrex.fintrexfinance.QuickLinks.Branches
  com.fintrex.fintrexfinance.QuickLinks.Branches$1
@@ -288,6 +292,7 @@ com/fintrex/fintrexfinance/DataBindingTriggerClass.java
 com/fintrex/fintrexfinance/Common/DashboardScreen.java
  com.fintrex.fintrexfinance.Common.DashboardScreen
  com.fintrex.fintrexfinance.Common.DashboardScreen$1
+ com.fintrex.fintrexfinance.Common.DashboardScreen$10
  com.fintrex.fintrexfinance.Common.DashboardScreen$2
  com.fintrex.fintrexfinance.Common.DashboardScreen$3
  com.fintrex.fintrexfinance.Common.DashboardScreen$4
@@ -295,6 +300,7 @@ com/fintrex/fintrexfinance/Common/DashboardScreen.java
  com.fintrex.fintrexfinance.Common.DashboardScreen$6
  com.fintrex.fintrexfinance.Common.DashboardScreen$7
  com.fintrex.fintrexfinance.Common.DashboardScreen$8
+ com.fintrex.fintrexfinance.Common.DashboardScreen$9
 com/fintrex/fintrexfinance/databinding/ItemSliderBinding.java
  com.fintrex.fintrexfinance.databinding.ItemSliderBinding
 com/fintrex/fintrexfinance/Fragment/InboxFragment.java
