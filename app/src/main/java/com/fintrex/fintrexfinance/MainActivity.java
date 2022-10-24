@@ -10,6 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.fintrex.fintrexfinance.Common.DashboardScreen;
+import com.fintrex.fintrexfinance.Details.HomeScreen;
 import com.fintrex.fintrexfinance.Details.NewMailSend;
 
 public class MainActivity extends AppCompatActivity {

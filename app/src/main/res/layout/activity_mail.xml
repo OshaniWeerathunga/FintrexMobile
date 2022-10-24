@@ -197,6 +197,7 @@
                     android:fontFamily="@font/btn_letter"
                     android:padding="10dp"
                     android:text="Attachment  "
+                    android:visibility="invisible"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/white"
                     android:textStyle="bold"/>
@@ -209,6 +210,7 @@
                     android:layout_marginBottom="10dp"
                     android:padding="10dp"
                     android:gravity="top"
+                    android:visibility="invisible"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/cardbg"/>
 

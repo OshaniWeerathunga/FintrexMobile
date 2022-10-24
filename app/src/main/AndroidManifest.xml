@@ -22,9 +22,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FintrexFinance"
         android:usesCleartextTraffic="true">
-        <activity
-            android:name=".Common.UsernameLoginScreen"
-            android:exported="true" />
         <activity android:name=".Navigation.Promotion" />
         <activity android:name=".QuickLinks.Rates" />
         <activity android:name=".QuickLinks.NewSavingCreate" />

@@ -78,7 +78,7 @@ public class HomeScreen extends BaseActivity implements NavigationView.OnNavigat
         setContentView(R.layout.activity_home_screen);
 
         //screenshots not allowed
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,WindowManager.LayoutParams.FLAG_SECURE);
+        //getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,WindowManager.LayoutParams.FLAG_SECURE);
 
 
         //init variable and assign id
@@ -115,6 +115,7 @@ public class HomeScreen extends BaseActivity implements NavigationView.OnNavigat
         cardView4=findViewById(R.id.cardView4);
         cardView5=findViewById(R.id.cardView5);
 
+
         //get values from OTP class
         Intent intent = getIntent();
         nic=intent.getStringExtra(Otp.Nic);
@@ -134,6 +135,8 @@ public class HomeScreen extends BaseActivity implements NavigationView.OnNavigat
         headerusername.setText(name);
         homeusername.setText("Welcome\n\n"+name);
         homeuserlogin.setText("Last Login\n\n"+lastlogin);
+
+
 
         //call navigation
         navigationDrawer();

@@ -40,9 +40,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FintrexFinance"
         android:usesCleartextTraffic="true" >
-        <activity
-            android:name="com.fintrex.fintrexfinance.Common.UsernameLoginScreen"
-            android:exported="true" />
         <activity android:name="com.fintrex.fintrexfinance.Navigation.Promotion" />
         <activity android:name="com.fintrex.fintrexfinance.QuickLinks.Rates" />
         <activity android:name="com.fintrex.fintrexfinance.QuickLinks.NewSavingCreate" />

@@ -24,8 +24,8 @@ public class DashboardScreen extends AppCompatActivity {
 
     private BottomSheetBehavior bottomSheetBehavior;
     boolean expandbottom=false;
-    Button login;
-    TextView terms;
+    Button loginOtpBtn;
+    TextView terms,kyc;
     ImageView branch,about,contact,rates,request,openaccount;
 
     @Override
@@ -42,21 +42,23 @@ public class DashboardScreen extends AppCompatActivity {
         terms=findViewById(R.id.terms);
         rates=findViewById(R.id.rateslink);
 
-        //init login btn
-        login=findViewById(R.id.loginbutton);
+        //init login btns
+        loginOtpBtn=findViewById(R.id.loginbutton);
+
 
         //assign url for promotion and rates
         Uri promoUri = Uri.parse("https://fintrexfinance.com/promo");
         Uri ratesUri = Uri.parse("https://fintrexfinance.com/deposit-rates");
 
-        //direct to the login page
-        login.setOnClickListener(new View.OnClickListener() {
+        //direct to the otp login page
+        loginOtpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(DashboardScreen.this, LoginScreen.class);
                 startActivity(intent);
             }
         });
+        
 
         //direct to the website rate page
         rates.setOnClickListener(new View.OnClickListener() {
@@ -118,6 +120,16 @@ public class DashboardScreen extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(DashboardScreen.this, FdAndSavings.class);
                 startActivity(intent);
+            }
+        });
+
+        //open kyc website
+        kyc = findViewById(R.id.kyc);
+        kyc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserKyc = new Intent(Intent.ACTION_VIEW, Uri.parse("http://ekyc.fintrexfinance.com/#/"));
+                startActivity(browserKyc);
             }
         });
 

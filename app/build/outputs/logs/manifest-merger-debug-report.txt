@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-67:12
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d1999b9fa91ff403d0b28ad2424b994c\databinding-adapters-4.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf8bcde40b059539e951e7d59abf6096\databinding-runtime-4.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\eec870e7a879d52aad89bd338666481d\jetified-viewbinding-4.1.1\AndroidManifest.xml:17:1-22:12
@@ -13,7 +13,7 @@ MERGED from [com.google.android.material:material:1.4.0] C:\Users\Administrator\
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6386a883ee2818b3ffa1b829366c04ea\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.chaos.view:pinview:1.4.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f3e6e50c3f6b166d86eb6baeb0525807\jetified-pinview-1.4.4\AndroidManifest.xml:17:1-24:12
 MERGED from [com.airbnb.android:lottie:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\709fb3ce15388fdb55434ef795361774\jetified-lottie-3.5.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.etebarian:meow-bottom-navigation-java:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dc80acd2da7939c88236f42e262569ea\jetified-meow-bottom-navigation-java-1.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.etebarian:meow-bottom-navigation-java:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b009943c5a07aa56a6175f0312e2bea3\jetified-meow-bottom-navigation-java-1.2.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b5ce063fe7734c378614a956d54db69e\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-analytics:19.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f1714ce12e492083c25dc1e5a1d7977d\jetified-firebase-analytics-19.0.2\AndroidManifest.xml:2:1-9:12
@@ -21,13 +21,13 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gr
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\854844da726f91f1bb54dae6df894449\jetified-play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\298a6c36fb1a5d96b61053b804efb092\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f374c22c252ce7d56c1a8ffabd87fdf\jetified-circleimageview-2.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\be1e01df445bc16c90669c77a927f77d\jetified-circleimageview-2.2.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37e5a476fe59ebf21716fd229e15cdff\jetified-autoimageslider-1.4.0\AndroidManifest.xml:2:1-17:12
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\419979cc7831f9da9498d5a35e851976\jetified-glide-4.7.1\AndroidManifest.xml:2:1-13:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cb4103fef851af377045f77cb37998e\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
-MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e7070e103a90ea76609ffe820a9771ce\jetified-readmoretextview-2.1.0\AndroidManifest.xml:2:1-12:12
-MERGED from [com.zolad:zoominimageview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\56dffcc0282299e782ffde06aea9b75f\jetified-zoominimageview-1.0.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\01d9e839b8be62eec3b7c5b09705faaf\jetified-subsampling-scale-image-view-3.10.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb06fbaed383059ab70ed11cce62d013\jetified-glide-4.7.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4042e0cffd76b8d9bc258a56b1865d84\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\20960c4cd755b85d48046315babf4afa\jetified-readmoretextview-2.1.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.zolad:zoominimageview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb16b66b3bd3a1cb658c393de2eb4fc0\jetified-zoominimageview-1.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\680bbc303463276d32d05c8452c4025d\jetified-subsampling-scale-image-view-3.10.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7e380442aa008f02ce976f99cab9e58a\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c469f8778db9d7a8acc051b21b3c3ca4\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb3efe1c93dad9ff04b281495cf52648\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
@@ -77,7 +77,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Administrato
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5fbb0f54a3a9a3d78ad9f050770dbb69\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8c32280e7ca510cc26504f44ad41608f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\845d62add933c387378168c3915c73c0\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c39a11aa6fd6d0e2217a6faefc86dd37\jetified-gifdecoder-4.7.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e0f2414d1fb16c05afaa9fdd0d8fca2c\jetified-gifdecoder-4.7.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\823b36ae6cca62ef975a40e53250674d\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\18ea51404843894a6b33202520cfa6b9\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09c937fb5e765d2a084554799da228a8\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -88,22 +88,22 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.g
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4655d48b53629a14d75e5254bfd5c4f8\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1e3dec554e122611f1853e4214e27b1f\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\57b5ae7b4c1e8222c5e1793edd39aefa\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:4:5-41
 		INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-67:12
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-67:12
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:2:11-69
@@ -166,7 +166,7 @@ ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\
 	android:name
 		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:13:9-65
 application
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:16:5-65:19
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:16:5-62:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dc70ed0b2716f9eb04b9a61159acfd79\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dc70ed0b2716f9eb04b9a61159acfd79\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6386a883ee2818b3ffa1b829366c04ea\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
@@ -181,14 +181,14 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administ
 MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\854844da726f91f1bb54dae6df894449\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\854844da726f91f1bb54dae6df894449\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f374c22c252ce7d56c1a8ffabd87fdf\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f374c22c252ce7d56c1a8ffabd87fdf\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\be1e01df445bc16c90669c77a927f77d\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\be1e01df445bc16c90669c77a927f77d\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
 MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37e5a476fe59ebf21716fd229e15cdff\jetified-autoimageslider-1.4.0\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37e5a476fe59ebf21716fd229e15cdff\jetified-autoimageslider-1.4.0\AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\419979cc7831f9da9498d5a35e851976\jetified-glide-4.7.1\AndroidManifest.xml:11:5-20
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\419979cc7831f9da9498d5a35e851976\jetified-glide-4.7.1\AndroidManifest.xml:11:5-20
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cb4103fef851af377045f77cb37998e\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cb4103fef851af377045f77cb37998e\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb06fbaed383059ab70ed11cce62d013\jetified-glide-4.7.1\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb06fbaed383059ab70ed11cce62d013\jetified-glide-4.7.1\AndroidManifest.xml:11:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4042e0cffd76b8d9bc258a56b1865d84\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4042e0cffd76b8d9bc258a56b1865d84\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb3efe1c93dad9ff04b281495cf52648\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bb3efe1c93dad9ff04b281495cf52648\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
@@ -223,8 +223,8 @@ MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\Admi
 MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a221e90de6ba4253bf4b8e89bf4c5ef4\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c0a28789b3c563a6f198ce365d70ea1e\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c0a28789b3c563a6f198ce365d70ea1e\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c39a11aa6fd6d0e2217a6faefc86dd37\jetified-gifdecoder-4.7.1\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c39a11aa6fd6d0e2217a6faefc86dd37\jetified-gifdecoder-4.7.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e0f2414d1fb16c05afaa9fdd0d8fca2c\jetified-gifdecoder-4.7.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e0f2414d1fb16c05afaa9fdd0d8fca2c\jetified-gifdecoder-4.7.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\40b51a1133b74b4f75e13c40a77f0714\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\40b51a1133b74b4f75e13c40a77f0714\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
@@ -245,132 +245,126 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ad
 		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:17:9-30
-activity#com.fintrex.fintrexfinance.Common.UsernameLoginScreen
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:25:9-27:39
-	android:exported
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:27:13-36
-	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:26:13-55
 activity#com.fintrex.fintrexfinance.Navigation.Promotion
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:28:9-58
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:25:9-58
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:28:19-55
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:25:19-55
 activity#com.fintrex.fintrexfinance.QuickLinks.Rates
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:29:9-54
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:26:9-54
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:29:19-51
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:26:19-51
 activity#com.fintrex.fintrexfinance.QuickLinks.NewSavingCreate
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:30:9-64
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:27:9-64
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:30:19-61
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:27:19-61
 activity#com.fintrex.fintrexfinance.QuickLinks.NewFdCreate
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:31:9-60
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:28:9-60
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:31:19-57
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:28:19-57
 activity#com.fintrex.fintrexfinance.QuickLinks.FdAndSavings
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:32:9-61
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:29:9-61
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:32:19-58
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:29:19-58
 activity#com.fintrex.fintrexfinance.Payments.Ezcash
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:33:9-53
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:30:9-53
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:33:19-50
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:30:19-50
 activity#com.fintrex.fintrexfinance.Payments.Online
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:34:9-53
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:31:9-53
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:34:19-50
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:31:19-50
 activity#com.fintrex.fintrexfinance.Payments.Cdm
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:35:9-50
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:32:9-50
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:35:19-47
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:32:19-47
 activity#com.fintrex.fintrexfinance.Payments.Cargills
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:36:9-55
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:33:9-55
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:36:19-52
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:33:19-52
 activity#com.fintrex.fintrexfinance.QuickLinks.TermsConditions
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:37:9-64
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:34:9-64
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:37:19-61
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:34:19-61
 activity#com.fintrex.fintrexfinance.QuickLinks.Contacts
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:35:9-57
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:35:19-54
+activity#com.fintrex.fintrexfinance.QuickLinks.About
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:36:9-54
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:36:19-51
+activity#com.fintrex.fintrexfinance.Details.MailScreen
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:37:9-56
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:37:19-53
+activity#com.fintrex.fintrexfinance.Details.NewMailSend
 ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:38:9-57
 	android:name
 		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:38:19-54
-activity#com.fintrex.fintrexfinance.QuickLinks.About
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:39:9-54
-	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:39:19-51
-activity#com.fintrex.fintrexfinance.Details.MailScreen
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:40:9-56
-	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:40:19-53
-activity#com.fintrex.fintrexfinance.Details.NewMailSend
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:41:9-57
-	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:41:19-54
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:43:9-45:54
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:40:9-42:54
 	android:value
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:45:13-51
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:42:13-51
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:44:13-58
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:41:13-58
 activity#com.fintrex.fintrexfinance.QuickLinks.Branches
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:47:9-57
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:44:9-57
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:47:19-54
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:44:19-54
 activity#com.fintrex.fintrexfinance.QuickLinks.ExternalRequest
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:48:9-64
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:45:9-64
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:48:19-61
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:45:19-61
 activity#com.fintrex.fintrexfinance.Navigation.Profile
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:49:9-56
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:46:9-56
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:49:19-53
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:46:19-53
 activity#com.fintrex.fintrexfinance.Otp
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:50:9-41
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:47:9-41
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:50:19-38
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:47:19-38
 activity#com.fintrex.fintrexfinance.Details.LoanScreen
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:51:9-56
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:48:9-56
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:51:19-53
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:48:19-53
 activity#com.fintrex.fintrexfinance.Details.SavingScreen
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:52:9-58
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:49:9-58
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:52:19-55
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:49:19-55
 activity#com.fintrex.fintrexfinance.Details.FixedScreen
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:53:9-57
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:50:9-57
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:53:19-54
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:50:19-54
 activity#com.fintrex.fintrexfinance.Details.LeasingScreen
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:54:9-59
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:51:9-59
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:54:19-56
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:51:19-56
 activity#com.fintrex.fintrexfinance.Details.HomeScreen
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:55:9-56
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:52:9-56
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:55:19-53
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:52:19-53
 activity#com.fintrex.fintrexfinance.Common.DashboardScreen
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:56:9-60
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:53:9-60
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:56:19-57
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:53:19-57
 activity#com.fintrex.fintrexfinance.Common.LoginScreen
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:57:9-56
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:54:9-56
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:57:19-53
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:54:19-53
 activity#com.fintrex.fintrexfinance.MainActivity
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:58:9-64:20
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:55:9-61:20
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:58:19-47
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:55:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:59:13-63:29
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:56:13-60:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:60:17-69
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:57:17-69
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:60:25-66
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:57:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:62:17-77
+ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:59:17-77
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:62:27-74
+		ADDED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml:59:27-74
 uses-sdk
 INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Administrator\Desktop\2022-03-10-MyFintrex'\FintrexFinance1\FintrexFinance\app\src\main\AndroidManifest.xml
@@ -393,8 +387,8 @@ MERGED from [com.chaos.view:pinview:1.4.4] C:\Users\Administrator\.gradle\caches
 MERGED from [com.chaos.view:pinview:1.4.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f3e6e50c3f6b166d86eb6baeb0525807\jetified-pinview-1.4.4\AndroidManifest.xml:20:5-22:41
 MERGED from [com.airbnb.android:lottie:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\709fb3ce15388fdb55434ef795361774\jetified-lottie-3.5.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\709fb3ce15388fdb55434ef795361774\jetified-lottie-3.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.etebarian:meow-bottom-navigation-java:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dc80acd2da7939c88236f42e262569ea\jetified-meow-bottom-navigation-java-1.2.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.etebarian:meow-bottom-navigation-java:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dc80acd2da7939c88236f42e262569ea\jetified-meow-bottom-navigation-java-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.etebarian:meow-bottom-navigation-java:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b009943c5a07aa56a6175f0312e2bea3\jetified-meow-bottom-navigation-java-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.etebarian:meow-bottom-navigation-java:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b009943c5a07aa56a6175f0312e2bea3\jetified-meow-bottom-navigation-java-1.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b5ce063fe7734c378614a956d54db69e\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b5ce063fe7734c378614a956d54db69e\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\738b285632279e8b7c1fcc71ace50add\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
@@ -409,20 +403,20 @@ MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Admi
 MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\854844da726f91f1bb54dae6df894449\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\298a6c36fb1a5d96b61053b804efb092\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\298a6c36fb1a5d96b61053b804efb092\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f374c22c252ce7d56c1a8ffabd87fdf\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f374c22c252ce7d56c1a8ffabd87fdf\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\be1e01df445bc16c90669c77a927f77d\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\be1e01df445bc16c90669c77a927f77d\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37e5a476fe59ebf21716fd229e15cdff\jetified-autoimageslider-1.4.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37e5a476fe59ebf21716fd229e15cdff\jetified-autoimageslider-1.4.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\419979cc7831f9da9498d5a35e851976\jetified-glide-4.7.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\419979cc7831f9da9498d5a35e851976\jetified-glide-4.7.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cb4103fef851af377045f77cb37998e\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cb4103fef851af377045f77cb37998e\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e7070e103a90ea76609ffe820a9771ce\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e7070e103a90ea76609ffe820a9771ce\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.zolad:zoominimageview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\56dffcc0282299e782ffde06aea9b75f\jetified-zoominimageview-1.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.zolad:zoominimageview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\56dffcc0282299e782ffde06aea9b75f\jetified-zoominimageview-1.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\01d9e839b8be62eec3b7c5b09705faaf\jetified-subsampling-scale-image-view-3.10.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\01d9e839b8be62eec3b7c5b09705faaf\jetified-subsampling-scale-image-view-3.10.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb06fbaed383059ab70ed11cce62d013\jetified-glide-4.7.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb06fbaed383059ab70ed11cce62d013\jetified-glide-4.7.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4042e0cffd76b8d9bc258a56b1865d84\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4042e0cffd76b8d9bc258a56b1865d84\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\20960c4cd755b85d48046315babf4afa\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\20960c4cd755b85d48046315babf4afa\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.zolad:zoominimageview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb16b66b3bd3a1cb658c393de2eb4fc0\jetified-zoominimageview-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zolad:zoominimageview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb16b66b3bd3a1cb658c393de2eb4fc0\jetified-zoominimageview-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\680bbc303463276d32d05c8452c4025d\jetified-subsampling-scale-image-view-3.10.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\680bbc303463276d32d05c8452c4025d\jetified-subsampling-scale-image-view-3.10.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7e380442aa008f02ce976f99cab9e58a\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7e380442aa008f02ce976f99cab9e58a\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c469f8778db9d7a8acc051b21b3c3ca4\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
@@ -521,8 +515,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8c32280e7ca510cc26504f44ad41608f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\845d62add933c387378168c3915c73c0\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\845d62add933c387378168c3915c73c0\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c39a11aa6fd6d0e2217a6faefc86dd37\jetified-gifdecoder-4.7.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c39a11aa6fd6d0e2217a6faefc86dd37\jetified-gifdecoder-4.7.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e0f2414d1fb16c05afaa9fdd0d8fca2c\jetified-gifdecoder-4.7.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e0f2414d1fb16c05afaa9fdd0d8fca2c\jetified-gifdecoder-4.7.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\823b36ae6cca62ef975a40e53250674d\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\823b36ae6cca62ef975a40e53250674d\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\18ea51404843894a6b33202520cfa6b9\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
@@ -656,13 +650,13 @@ ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administr
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\61638e611a107d3e949ba570151581c7\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cb4103fef851af377045f77cb37998e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4042e0cffd76b8d9bc258a56b1865d84\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cb4103fef851af377045f77cb37998e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4042e0cffd76b8d9bc258a56b1865d84\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cb4103fef851af377045f77cb37998e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4042e0cffd76b8d9bc258a56b1865d84\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0cb4103fef851af377045f77cb37998e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4042e0cffd76b8d9bc258a56b1865d84\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
 	android:exported

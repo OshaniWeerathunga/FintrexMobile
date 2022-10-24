@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\list_view.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\alert_newaccont_create.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\alert_newaccont_create.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_messages.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\alert_newaccont_create.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\alert_newaccont_create.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_otp.xml",
@@ -122,6 +122,10 @@
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fixed_screen.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_fixed_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_test.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\layout\\activity_test.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_username_login_screen.xml",

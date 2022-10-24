@@ -47,7 +47,7 @@
 
         <TextView
         android:id="@+id/dashmsg"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:fontFamily="@font/btn_letter"
         android:gravity="center_horizontal"

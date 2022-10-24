@@ -3,9 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/drawable/edit_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/drawable/menu_icon.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_about.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_dashboard_screen.xml" value="0.22" />
-        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_login_screen.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_home_screen.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_login_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_mail.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_messages.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_otp.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_rates.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_terms_conditions.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_test.xml" value="0.18" />
         <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/activity_username_login_screen.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/leasing_list.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/layout/terms_accept_alert.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/2022-03-10-MyFintrex'/FintrexFinance1/FintrexFinance/app/src/main/res/menu/main_menu.xml" value="0.1814814814814815" />
       </map>
     </option>
   </component>

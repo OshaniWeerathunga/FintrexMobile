@@ -2527,9 +2527,8 @@ id loans_amount
 id loans_topic
 id loantoolbar
 id location
-id loginOtp
-id loginUsername
 id loginback
+id loginbutton
 id logo_img
 id lottie_layer_name
 id mail
@@ -2665,6 +2664,7 @@ id password_et
 id password_toggle
 id path
 id pathRelative
+id payments
 id pback
 id peekHeight
 id percent
@@ -2758,7 +2758,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signIn
 id signin_tv
 id sin
 id skipCollapsed

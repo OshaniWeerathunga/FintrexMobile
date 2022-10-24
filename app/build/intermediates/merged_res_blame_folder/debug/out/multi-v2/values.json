@@ -188,6 +188,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\be1e01df445bc16c90669c77a927f77d\\jetified-circleimageview-2.2.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "313",
+                        "endOffsets": "364"
+                    },
+                    "to": {
+                        "startLines": "6564",
+                        "startColumns": "4",
+                        "startOffsets": "421357",
+                        "endColumns": "313",
+                        "endOffsets": "421666"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\b8ee54378c52650838ddb3b0567cade3\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -260,42 +277,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\e7070e103a90ea76609ffe820a9771ce\\jetified-readmoretextview-2.1.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,9,10,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,680,728,194",
-                        "endLines": "2,9,10,8",
-                        "endColumns": "40,47,47,35",
-                        "endOffsets": "91,723,771,675"
-                    },
-                    "to": {
-                        "startLines": "510,1468,1469,8954",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "24015,96654,96702,537368",
-                        "endLines": "510,1468,1469,8957",
-                        "endColumns": "40,47,47,35",
-                        "endOffsets": "24051,96697,96745,537849"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\01d9e839b8be62eec3b7c5b09705faaf\\jetified-subsampling-scale-image-view-3.10.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "336",
-                        "endOffsets": "387"
-                    },
-                    "to": {
-                        "startLines": "9305",
-                        "startColumns": "4",
-                        "startOffsets": "554783",
-                        "endColumns": "336",
-                        "endOffsets": "555115"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "117,121,127,139,19,52,1,54,81,61,7,16,48,92,15,53,47,58,6,146,12,9,13,10,14,8,35,56,17,4,3,11,67,57,46,51,50,26,49,55",
@@ -312,6 +293,23 @@
                         "endLines": "4,9,20,26,1279,1280,1281,1285,1295,1300,1305,1325,1327,1353,1356,1358,1359,1363,1365,1366,1370,1371,1372,1373,1374,1375,1386,1387,1388,1444,1445,1446,1459,1460,1466,1471,1472,1481,1482,1483",
                         "endColumns": "19,19,19,19,13,151,52,95,13,13,95,97,68,13,95,92,74,103,95,90,97,91,95,105,105,101,13,93,93,96,94,95,13,166,74,104,66,13,82,70",
                         "endOffsets": "250,399,733,941,74808,74960,75013,75628,76233,76721,77163,79673,79886,81242,81652,81827,81902,82339,82534,82625,83089,83181,83277,83383,83489,83591,85057,85151,85245,94632,94727,94823,95529,95696,96573,96903,96970,98356,98439,98510"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\680bbc303463276d32d05c8452c4025d\\jetified-subsampling-scale-image-view-3.10.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "336",
+                        "endOffsets": "387"
+                    },
+                    "to": {
+                        "startLines": "9305",
+                        "startColumns": "4",
+                        "startOffsets": "554783",
+                        "endColumns": "336",
+                        "endOffsets": "555115"
                     }
                 },
                 {
@@ -476,6 +474,44 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\20960c4cd755b85d48046315babf4afa\\jetified-readmoretextview-2.1.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,9,10,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,680,728,194",
+                        "endLines": "2,9,10,8",
+                        "endColumns": "40,47,47,35",
+                        "endOffsets": "91,723,771,675"
+                    },
+                    "to": {
+                        "startLines": "510,1468,1469,8954",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "24015,96654,96702,537368",
+                        "endLines": "510,1468,1469,8957",
+                        "endColumns": "40,47,47,35",
+                        "endOffsets": "24051,96697,96745,537849"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\b009943c5a07aa56a6175f0312e2bea3\\jetified-meow-bottom-navigation-java-1.2.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "113,769",
+                        "endLines": "13,24",
+                        "endColumns": "24,24",
+                        "endOffsets": "764,1363"
+                    },
+                    "to": {
+                        "startLines": "6414,8573",
+                        "startColumns": "4,4",
+                        "startOffsets": "414093,518491",
+                        "endLines": "6424,8583",
+                        "endColumns": "24,24",
+                        "endOffsets": "414744,519085"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Administrator\\Desktop\\2022-03-10-MyFintrex'\\FintrexFinance1\\FintrexFinance\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "33,37,29,25,2,20",
@@ -548,23 +584,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\9f374c22c252ce7d56c1a8ffabd87fdf\\jetified-circleimageview-2.2.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "313",
-                        "endOffsets": "364"
-                    },
-                    "to": {
-                        "startLines": "6564",
-                        "startColumns": "4",
-                        "startOffsets": "421357",
-                        "endColumns": "313",
-                        "endOffsets": "421666"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\709fb3ce15388fdb55434ef795361774\\jetified-lottie-3.5.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -600,25 +619,6 @@
                         "endLines": "10002",
                         "endColumns": "24",
                         "endOffsets": "592750"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\dc80acd2da7939c88236f42e262569ea\\jetified-meow-bottom-navigation-java-1.2.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "113,769",
-                        "endLines": "13,24",
-                        "endColumns": "24,24",
-                        "endOffsets": "764,1363"
-                    },
-                    "to": {
-                        "startLines": "6414,8573",
-                        "startColumns": "4,4",
-                        "startOffsets": "414093,518491",
-                        "endLines": "6424,8583",
-                        "endColumns": "24,24",
-                        "endOffsets": "414744,519085"
                     }
                 }
             ]

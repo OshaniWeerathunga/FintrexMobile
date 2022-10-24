@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -110,6 +111,9 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
   public final ImageView online;
 
   @NonNull
+  public final LinearLayout payments;
+
+  @NonNull
   public final TextView savingAmount;
 
   @NonNull
@@ -132,8 +136,9 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
       @NonNull TextView leaseAmount, @NonNull ImageView leaseImage, @NonNull TextView leasingTopic,
       @NonNull ImageView loanImage, @NonNull TextView loansAmount, @NonNull TextView loansTopic,
       @NonNull ImageView mail, @NonNull ImageView menu, @NonNull NavigationView navigationView,
-      @NonNull ImageView online, @NonNull TextView savingAmount, @NonNull ImageView savingImage,
-      @NonNull TextView savingTopic, @NonNull TextView topicmyaccount) {
+      @NonNull ImageView online, @NonNull LinearLayout payments, @NonNull TextView savingAmount,
+      @NonNull ImageView savingImage, @NonNull TextView savingTopic,
+      @NonNull TextView topicmyaccount) {
     this.rootView = rootView;
     this.cardView = cardView;
     this.cardView2 = cardView2;
@@ -164,6 +169,7 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
     this.menu = menu;
     this.navigationView = navigationView;
     this.online = online;
+    this.payments = payments;
     this.savingAmount = savingAmount;
     this.savingImage = savingImage;
     this.savingTopic = savingTopic;
@@ -367,6 +373,12 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.payments;
+      LinearLayout payments = rootView.findViewById(id);
+      if (payments == null) {
+        break missingId;
+      }
+
       id = R.id.saving_amount;
       TextView savingAmount = rootView.findViewById(id);
       if (savingAmount == null) {
@@ -395,8 +407,8 @@ public final class ActivityHomeScreenBinding implements ViewBinding {
           cardView4, cardView5, cargills, cdm, constraintLayout, drawerLayout, ezcash, fdImage,
           fixedAmount, fixedTopic, goldloanImage, goldloansAmount, goldloansTopic, homeUserLogin,
           homeUserName, homelogout, leaseAmount, leaseImage, leasingTopic, loanImage, loansAmount,
-          loansTopic, mail, menu, navigationView, online, savingAmount, savingImage, savingTopic,
-          topicmyaccount);
+          loansTopic, mail, menu, navigationView, online, payments, savingAmount, savingImage,
+          savingTopic, topicmyaccount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

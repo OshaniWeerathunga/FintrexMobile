@@ -153,7 +153,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/sendButton"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:background="@drawable/edit_bg"
             android:drawableRight="@drawable/send"
